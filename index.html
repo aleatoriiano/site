@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AlehFut — Futebol & Artilheiros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a0f0d;
+      --bg-card: #121a16;
+      --accent: #22c55e;
+      --text: #ecfdf5;
+      --text-muted: #94a3b8;
+      --border: rgba(34, 197, 94, 0.25);
+      --radius: 14px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Outfit", system-ui, sans-serif;
+      background: radial-gradient(ellipse 120% 80% at 50% -20%, #14532d 0%, transparent 55%),
+        var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 3rem;
+    }
+
+    header.site-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+
+    header.site-header h1 {
+      font-family: "Bebas Neue", sans-serif;
+      font-size: clamp(2.8rem, 8vw, 4.2rem);
+      letter-spacing: 0.06em;
+      color: var(--text);
+      text-shadow: 0 0 40px rgba(34, 197, 94, 0.35);
+    }
+
+    .logo-site {
+      width: clamp(64px, 14vw, 96px);
+      height: clamp(64px, 14vw, 96px);
+      object-fit: cover;
+      border-radius: 18px;
+      border: 2px solid var(--border);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+    }
+
+    .subtitle {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-top: -0.75rem;
+      margin-bottom: 2rem;
+    }
+
+    .grid-main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      align-items: start;
+    }
+
+    @media (max-width: 900px) {
+      .grid-main {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+    }
+
+    .panel-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .rank-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.92rem;
+    }
+
+    .rank-table th {
+      text-align: left;
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 0.5rem 0.35rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .rank-table td {
+      padding: 0.65rem 0.35rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      vertical-align: middle;
+    }
+
+    .rank-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .pos {
+      width: 2.5rem;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .team-cell {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+    }
+
+    .shield-sm {
+      width: 36px;
+      height: 36px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
+
+    .titles-badge {
+      margin-left: auto;
+      background: rgba(34, 197, 94, 0.12);
+      color: var(--accent);
+      padding: 0.2rem 0.55rem;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+
+    .scorer-card {
+      position: relative;
+      width: 100%;
+      max-width: 280px;
+      margin: 0 auto;
+      aspect-ratio: 3 / 4.2;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .scorer-card.featured {
+      max-width: 340px;
+      aspect-ratio: 3 / 4.1;
+    }
+
+    .scorer-card-inner {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 12% 10% 14%;
+      text-align: center;
+    }
+
+    .scorer-card.featured .scorer-card-inner {
+      padding: 11% 9% 13%;
+    }
+
+    .teams-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.35rem;
+      margin-bottom: 0.5rem;
+      min-height: 2rem;
+    }
+
+    .teams-row img {
+      object-fit: contain;
+      border-radius: 4px;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .teams-row.count-1 img {
+      width: 44px;
+      height: 44px;
+    }
+
+    .teams-row.count-2 img {
+      width: 36px;
+      height: 36px;
+    }
+
+    .teams-row.count-3 img,
+    .teams-row.count-4 img {
+      width: 28px;
+      height: 28px;
+    }
+
+    .teams-row.count-5 img,
+    .teams-row.count-more img {
+      width: 22px;
+      height: 22px;
+    }
+
+    .profile-pic {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid rgba(255, 255, 255, 0.85);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+      margin-bottom: 0.5rem;
+    }
+
+    .scorer-card.featured .profile-pic {
+      width: 96px;
+      height: 96px;
+      border-width: 4px;
+    }
+
+    .scorer-name {
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: #fff;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+      line-height: 1.2;
+      margin-bottom: 0.35rem;
+    }
+
+    .scorer-card.featured .scorer-name {
+      font-size: 1.25rem;
+    }
+
+    .scorer-level {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #fef08a;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+      letter-spacing: 0.04em;
+    }
+
+    .scorer-card.featured .scorer-level {
+      font-size: 0.95rem;
+    }
+
+    .section-below {
+      margin-top: 2rem;
+    }
+
+    .section-below .panel-title {
+      margin-bottom: 1rem;
+    }
+
+    .artilheiros-scroll {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1.25rem;
+      justify-items: center;
+    }
+
+    @media (max-width: 600px) {
+      .artilheiros-scroll {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      }
+    }
+
+    .featured-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 200px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="site-header">
+      <h1>AlehFut</h1>
+      <img class="logo-site" src="outros/icone.png" alt="Ícone AlehFut" width="96" height="96" />
+    </header>
+    <div class="grid-main">
+      <div class="panel">
+        <div class="panel-title">Rank dos times</div>
+        <table class="rank-table" id="rankTable">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Time</th>
+              <th style="text-align: right">Títulos</th>
+            </tr>
+          </thead>
+          <tbody id="rankTableBody"></tbody>
+        </table>
+      </div>
+
+      <div class="panel">
+        <div class="panel-title">Maior artilheiro</div>
+        <div class="featured-wrap" id="featuredScorer"></div>
+      </div>
+    </div>
+
+    <div class="section-below panel">
+      <div class="panel-title">Demais artilheiros</div>
+      <div class="artilheiros-scroll" id="otherScorers"></div>
+    </div>
+  </div>
+
+  <script src="times.js"></script>
+  <script src="artilheiros.js"></script>
+  <script>
+    (function () {
+      function esc(s) {
+        return String(s)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/"/g, "&quot;");
+      }
+
+      /** Nível 1–20: um card por nível (cards/1.png … cards/20.png). Valores fora do intervalo viram 1 ou 20. */
+      function cardImageForLevel(level) {
+        var n = Math.floor(Number(level));
+        if (!isFinite(n) || n < 1) n = 1;
+        if (n > 20) n = 20;
+        return "cards/" + n + ".png";
+      }
+
+      function teamsRowClass(count) {
+        if (count <= 1) return "count-1";
+        if (count === 2) return "count-2";
+        if (count <= 4) return "count-" + count;
+        if (count === 5) return "count-5";
+        return "count-more";
+      }
+
+      function buildScorerCard(a, featured) {
+        var foto = a.foto || (typeof FOTO_PERFIL_PADRAO !== "undefined" ? FOTO_PERFIL_PADRAO : "");
+        var cardBg = cardImageForLevel(a.level);
+        var rowClass = teamsRowClass(a.teams.length);
+        var div = document.createElement("div");
+        div.className = "scorer-card" + (featured ? " featured" : "");
+        div.style.backgroundImage = "url('" + esc(cardBg).replace(/'/g, "\\'") + "')";
+        var inner = document.createElement("div");
+        inner.className = "scorer-card-inner";
+        var row = document.createElement("div");
+        row.className = "teams-row " + rowClass;
+        a.teams.forEach(function (t) {
+          var img = document.createElement("img");
+          img.src = "escudos/" + t;
+          img.alt = "";
+          row.appendChild(img);
+        });
+        inner.appendChild(row);
+        var profile = document.createElement("img");
+        profile.className = "profile-pic";
+        profile.src = foto;
+        profile.alt = a.name;
+        inner.appendChild(profile);
+        var nameEl = document.createElement("div");
+        nameEl.className = "scorer-name";
+        nameEl.textContent = a.name;
+        inner.appendChild(nameEl);
+        var lvl = document.createElement("div");
+        lvl.className = "scorer-level";
+        lvl.textContent = "Nível " + a.level;
+        inner.appendChild(lvl);
+        div.appendChild(inner);
+        return div;
+      }
+
+      function render() {
+        var list = TEAMS.slice().sort(function (a, b) {
+          if (b.titles !== a.titles) return b.titles - a.titles;
+          return a.name.localeCompare(b.name, "pt-BR");
+        });
+        var tbody = document.getElementById("rankTableBody");
+        tbody.innerHTML = "";
+        list.forEach(function (t, i) {
+          var tr = document.createElement("tr");
+          tr.innerHTML =
+            '<td class="pos">' +
+            (i + 1) +
+            '</td><td><div class="team-cell"><img class="shield-sm" src="escudos/' +
+            esc(t.shield) +
+            '" alt="" /><span>' +
+            esc(t.name) +
+            "</span></div></td>" +
+            '<td style="text-align:right"><span class="titles-badge">' +
+            esc(t.titles) +
+            "</span></td>";
+          tbody.appendChild(tr);
+        });
+
+        var sorted = ARTILHEIROS.slice().sort(function (a, b) {
+          return b.level - a.level;
+        });
+        if (!sorted.length) return;
+        var top = sorted[0];
+        var rest = sorted.slice(1);
+        document.getElementById("featuredScorer").appendChild(buildScorerCard(top, true));
+        var other = document.getElementById("otherScorers");
+        rest.forEach(function (a) {
+          other.appendChild(buildScorerCard(a, false));
+        });
+      }
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", render);
+      } else {
+        render();
+      }
+    })();
+  </script>
+</body>
+</html>
