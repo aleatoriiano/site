@@ -39,13 +39,35 @@
       padding: 1.5rem 1.25rem 3rem;
     }
 
+    .hero-header {
+      margin-bottom: 2rem;
+    }
+
     header.site-header {
       display: flex;
       align-items: center;
       justify-content: center;
       gap: 1rem;
-      margin-bottom: 2rem;
+      margin-bottom: 0.65rem;
       flex-wrap: wrap;
+    }
+
+    .header-promo {
+      text-align: center;
+      font-size: clamp(0.68rem, 2vw, 0.78rem);
+      font-weight: 500;
+      color: #facc15;
+      letter-spacing: 0.03em;
+      line-height: 1.5;
+      text-shadow: 0 0 14px rgba(250, 204, 21, 0.35);
+      max-width: 28rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .header-promo strong {
+      font-weight: 700;
+      color: #fde047;
     }
 
     header.site-header h1 {
@@ -303,10 +325,16 @@
 </head>
 <body>
   <div class="wrap">
-    <header class="site-header">
-      <h1>AlehFut</h1>
-      <img class="logo-site" src="outros/icone.png" alt="Ícone AlehFut" width="96" height="96" />
-    </header>
+    <div class="hero-header">
+      <header class="site-header">
+        <h1>AlehFut</h1>
+        <img class="logo-site" src="outros/icone.png" alt="Ícone AlehFut" width="96" height="96" />
+      </header>
+      <p class="header-promo">
+        Quer Upar de nivel mais Rapido?<br />
+        <strong>50$ LivePX por Nivel</strong>
+      </p>
+    </div>
     <div class="grid-main">
       <div class="panel">
         <div class="panel-title">Rank dos times</div>
@@ -362,7 +390,7 @@
       }
 
       function buildScorerCard(a, featured) {
-        var foto = a.foto || (typeof FOTO_PERFIL_PADRAO !== "undefined" ? FOTO_PERFIL_PADRAO : "");
+        var foto = a.foto || "";
         var cardBg = cardImageForLevel(a.level);
         var rowClass = teamsRowClass(a.teams.length);
         var div = document.createElement("div");
