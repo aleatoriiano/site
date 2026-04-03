@@ -39,4 +39,10 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/68a06d13b4aab48ea2d23f85ec537151~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=3e177b03&x-expires=1775354400&x-signature=gGTtlDuAvCFjbpHwHif0fCudDbQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=sg1",
     teams: ["corinthians.png"]
   },
+    {
+    name: "🔥Aleh🔥",
+    level: 20,
+    foto: "https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/91ee08999f843f5d8901c92471fb6fa0~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ee796f0d&x-expires=1775365200&x-signature=c5deK9FdJ3KdHzSa7d6LW1VNPKI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=sg1",
+    teams: ["flamengo.png"],
+  },
 ];
