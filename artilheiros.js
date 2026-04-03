@@ -50,4 +50,10 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/e3194f86ffe1571ea54f33e770b4a19b~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=358f76d3&x-expires=1775408400&x-signature=wMiCwB3yMg5hbkygy0emQ64wohY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=sg1",
     teams: ["mirassol.png"],
   },
+    {
+    name: "𝐀𝐒𝐌𝐎𝐃𝐄𝐔𝐒👑🔱",
+    level: 1,
+    foto: "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f3dca907ce723d5c4eeb2487cd1bb9d3~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=c1dbf237&x-expires=1775430000&x-signature=xcP2eDKJCLPvK5cOAqJrGuWseg0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["flamengo.png"],
+  },
 ];
