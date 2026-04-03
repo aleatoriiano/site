@@ -15,7 +15,7 @@ const TEAMS = [
   { name: "Internacional", titles: 1, shield: "internacional.png" },
   { name: "Real Madrid", titles: 1, shield: "real-madrid.png" },
   { name: "Botafogo", titles: 0, shield: "botafogo.png" },
-  { name: "Mirassol", titles: 0, shield: "mirassol.png" },
+  { name: "Mirassol", titles: 1, shield: "mirassol.png" },
   { name: "Atlético Paranaense", titles: 0, shield: "athletico-pr.png" },
   { name: "Cruzeiro", titles: 0, shield: "cruzeiro.png" },
   { name: "Fluminense", titles: 0, shield: "fluminense.png" },
