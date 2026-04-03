@@ -1,6 +1,15 @@
 /**
  * Artilheiros — níveis 1 a 20 (cards/N.png).
  * Cada item obrigatório: name, level, foto (URL TikTok ou caminho local), teams (escudos em escudos/).
+
+   {
+    name: "",
+    level: 0,
+    foto:
+      "",
+    teams: [""],
+  },
+ 
  */
 const ARTILHEIROS = [
   {
@@ -29,11 +38,4 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/68a06d13b4aab48ea2d23f85ec537151~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=3e177b03&x-expires=1775354400&x-signature=gGTtlDuAvCFjbpHwHif0fCudDbQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=sg1",
     teams: ["corinthians.png"],
-   /* {
-    name: "",
-    level: 0,
-    foto:
-      "",
-    teams: [""],
-  }, */
 ];
