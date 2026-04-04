@@ -74,4 +74,10 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/1be6ab5cb8dc2c0515ab75f297b66449~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d08790e8&x-expires=1775516400&x-signature=r%2FvKot%2BjEtzCh8qHveZ5ABlg2Uc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["internacional.png"],
   },
+    {
+    name: "terror do estado 🇾🇪",
+    level: 1,
+    foto: "https://p19-common-sign-useastred.tiktokcdn-eu.com/tos-useast2a-avt-0068-euttp/f02ceb48ea5c6521101c3f28a7996c5d~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=33ed6226&x-expires=1775516400&x-signature=O0SaUCf8WMkjlMSHmmAJGlglUNM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["sao-paulo.png"],
+  },
 ];
