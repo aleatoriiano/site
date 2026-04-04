@@ -56,4 +56,10 @@ const ARTILHEIROS = [
     foto: "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/f3dca907ce723d5c4eeb2487cd1bb9d3~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=c1dbf237&x-expires=1775430000&x-signature=xcP2eDKJCLPvK5cOAqJrGuWseg0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["flamengo.png"],
   },
+   {
+    name: "Vinícius Ferreira",
+    level: 1,
+    foto: "https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/4804864921c87170a976f1ab213d3492~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=4d457a81&x-expires=1775437200&x-signature=7sIQTh7rxtr5JQfjo4eNXEhiA%2Bs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["vasco.png"],
+  },
 ];
