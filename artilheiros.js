@@ -68,4 +68,10 @@ const ARTILHEIROS = [
     foto: "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/c4ea5f099212fefaccff252f6676627b~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=7a6d3ea8&x-expires=1775494800&x-signature=L61Lmh3%2BikWJ98ELmE26R%2BBEspo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["cruzeiro.png"],
   },
+    {
+    name: "🕧roh_cm🕧",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/1be6ab5cb8dc2c0515ab75f297b66449~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d08790e8&x-expires=1775516400&x-signature=r%2FvKot%2BjEtzCh8qHveZ5ABlg2Uc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["internacional.png"],
+  },
 ];
