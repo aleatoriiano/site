@@ -84,12 +84,12 @@ const ARTILHEIROS = [
     name: "🌽 Galin 🦜",
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/556a38baef2a9d1748b024f3714dd2ba~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=9e968152&x-expires=1775516400&x-signature=Bs7rQRxajxVqFcR%2Basal5Dzon8g%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["atletico-mg"],
+    teams: ["atletico-mg.png"],
   },
    {
     name: "Vitinho Figueiredo",
     level: 1,
     foto: "https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/c2beec1968c1e4d6d888d31bf6992adf~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=dee23bb1&x-expires=1775516400&x-signature=hIkYKhVIhuy%2B6Kf8fmcohTlOC08%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["atletico-mg"],
+    teams: ["atletico-mg.png"],
   },
 ];
