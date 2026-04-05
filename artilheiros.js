@@ -92,4 +92,10 @@ const ARTILHEIROS = [
     foto: "https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/c2beec1968c1e4d6d888d31bf6992adf~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=dee23bb1&x-expires=1775516400&x-signature=hIkYKhVIhuy%2B6Kf8fmcohTlOC08%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["atletico-mg.png"],
   },
+   {
+    name: "thzinn.pph7️⃣💤🇵🇹",
+    level: 1,
+    foto: "https://p77-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/ee405d7e14ab67c6ab62e7b8bf21e673~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=5ad7e121&x-expires=1775527200&x-signature=0Qpfv8KVx3PbhTIrEQoG4qwQEIY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["benfica.png"],
+  },
 ];
