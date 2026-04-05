@@ -39,12 +39,6 @@ const ARTILHEIROS = [
     teams: ["corinthians.png"]
   },
     {
-    name: "🔥Aleh🔥",
-    level: 2,
-    foto: "https://p77-sign-va.tiktokcdn.com/tos-maliva-avt-0068/91ee08999f843f5d8901c92471fb6fa0~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ee796f0d&x-expires=1775365200&x-signature=c5deK9FdJ3KdHzSa7d6LW1VNPKI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=sg1",
-    teams: ["flamengo.png"],
-  },
-    {
     name: "jz",
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/e3194f86ffe1571ea54f33e770b4a19b~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=358f76d3&x-expires=1775408400&x-signature=wMiCwB3yMg5hbkygy0emQ64wohY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=sg1",
@@ -94,7 +88,7 @@ const ARTILHEIROS = [
   },
    {
     name: "thzinn.pph7️⃣💤🇵🇹",
-    level: 1,
+    level: 2,
     foto: "https://p77-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/ee405d7e14ab67c6ab62e7b8bf21e673~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=5ad7e121&x-expires=1775527200&x-signature=0Qpfv8KVx3PbhTIrEQoG4qwQEIY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["benfica.png"],
   },
