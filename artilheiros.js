@@ -100,8 +100,8 @@ const ARTILHEIROS = [
   },
    {
     name: "gs.",
-    level: 1,
+    level: 2,
     foto: "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/980502b18134ba090ff8a2cbf36acb70~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=67bd881c&x-expires=1775761200&x-signature=oeqKh128haOSZdlzhLGJLW7vUS8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my3",
-    teams: ["mirassol.png"],
+    teams: ["mirassol.png","botafogo.png"],
   },
 ];
