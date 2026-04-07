@@ -101,7 +101,7 @@ const ARTILHEIROS = [
    {
     name: "gs.",
     level: 2,
-    foto: "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/980502b18134ba090ff8a2cbf36acb70~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=67bd881c&x-expires=1775761200&x-signature=oeqKh128haOSZdlzhLGJLW7vUS8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my3",
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/f3cdf396fddd834244aa13bf4ac2e35e~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=820cf192&x-expires=1775772000&x-signature=2sdEuZ4STL5rsPWE9aFNL9HK2fI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my3",
     teams: ["mirassol.png","botafogo.png"],
   },
 ];
