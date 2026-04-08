@@ -104,4 +104,10 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/f3cdf396fddd834244aa13bf4ac2e35e~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=820cf192&x-expires=1775772000&x-signature=2sdEuZ4STL5rsPWE9aFNL9HK2fI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my3",
     teams: ["mirassol.png","botafogo.png"],
   },
+   {
+    name: "Juan Mota",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/2580aae969234d412caa9cd6aae4dceb~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=7f80949d&x-expires=1775779200&x-signature=A%2BjpSnjWJDLT7cSwxz2hH5%2FhJGk%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my3",
+    teams: ["flamengo.png"],
+  },
 ];
