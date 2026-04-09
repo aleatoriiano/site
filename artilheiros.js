@@ -110,4 +110,10 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/2580aae969234d412caa9cd6aae4dceb~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=7f80949d&x-expires=1775779200&x-signature=A%2BjpSnjWJDLT7cSwxz2hH5%2FhJGk%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my3",
     teams: ["flamengo.png", "mirassol.png"],
   },
+    {
+    name: "Compositor",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/e9cb77175e25d784aa0b6cca43faa480~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=de95d5f7&x-expires=1775923200&x-signature=1Nz7snwDe%2FyuRzubdT%2BvVg2cy0o%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["mirassol.png"],
+  },
 ];
