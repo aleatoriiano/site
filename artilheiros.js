@@ -116,4 +116,10 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/e9cb77175e25d784aa0b6cca43faa480~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=de95d5f7&x-expires=1775923200&x-signature=1Nz7snwDe%2FyuRzubdT%2BvVg2cy0o%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["mirassol.png"],
   },
+   {
+    name: "Linguini011",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/a0bd0e40a36b2a0d1a871366267ff86d~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=6179d014&x-expires=1776013200&x-signature=XFWXcR%2B1A8yhc5Y230RTbHyb3bs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["sao-paulo.png"],
+  },
 ];
