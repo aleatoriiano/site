@@ -102,7 +102,7 @@ const ARTILHEIROS = [
     name: "gs.",
     level: 4,
     foto: "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/93c788de4c2827990721459b5d2a091d~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=14e0d668&x-expires=1776027600&x-signature=%2FMcHqLLflzl9nnhaSr5Lu2K5jaU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["mirassol.png","botafogo.png","fluminense.png"],
+    teams: ["mirassol.png","botafogo.png","fluminense.png", "real-madrid.png"],
   },
    {
     name: "Juan Mota",
