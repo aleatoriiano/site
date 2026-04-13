@@ -87,7 +87,7 @@ const ARTILHEIROS = [
   },
    {
     name: "thzinn.pph7️⃣💤🇵🇹",
-    level: 12,
+    level: 13,
     foto: "https://p77-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/ee405d7e14ab67c6ab62e7b8bf21e673~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=5ad7e121&x-expires=1775527200&x-signature=0Qpfv8KVx3PbhTIrEQoG4qwQEIY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["benfica.png", "flamengo.png", "flamengo.png", "flamengo.png", "psg.png", "flamengo.png", "flamengo.png", "santos.png", "flamengo.png", "santos.png", "santos.png", "flamengo.png"],
   },
