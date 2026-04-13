@@ -135,9 +135,9 @@ const ARTILHEIROS = [
   },
     {
     name: "rhyanpsn18",
-    level: 1,
+    level: 2,
     foto: "",
-    teams: ["cruzeiro.png"],
+    teams: ["cruzeiro.png", "cruzeiro.png"],
   },
     {
     name: "Eduardo.f",
