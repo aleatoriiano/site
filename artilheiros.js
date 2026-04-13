@@ -127,4 +127,10 @@ const ARTILHEIROS = [
     foto: "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/34fa1c2601bc93e7ddb03dab59204c21~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=2be6e040&x-expires=1776038400&x-signature=YH3VI0mxvVOTss0hb2lfYGkDiP8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["corinthians.png"],
   },
+   {
+    name: "herrejota",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/7c590b878ac65c1ee2cbad11b4f32769~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=7d3a2715&x-expires=1776276000&x-signature=MIAh05OQEkG8Cd3p3oAFugZte6M%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["botafogo.png"],
+  },
 ];
