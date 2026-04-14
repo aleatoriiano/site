@@ -145,4 +145,10 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/7c848a1cc82560c6ff3924c14bc11a77~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=9a0e870b&x-expires=1776286800&x-signature=bLrAt0wd%2FCXeB%2BPTPDUcg1j7iEw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["gremio.png"],
   },
+   {
+    name: "Pedro",
+    level: 1,
+    foto: "",
+    teams: ["corinthians.png"],
+  },
 ];
