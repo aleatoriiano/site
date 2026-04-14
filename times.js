@@ -24,5 +24,5 @@ const TEAMS = [
   { name: "Sao Paulo", titles: 1, shield: "sao-paulo.png" },
   { name: "Benfica", titles: 1, shield: "benfica.png" },
   { name: "psg", titles: 1, shield: "psg.png" },
-  { name: "Manchester City", titles: 1, shield: "Manchester-city.png" },
+  { name: "Manchester City", titles: 1, shield: "manchester-city.png" },
 ];
