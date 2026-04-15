@@ -157,4 +157,10 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/18fd88f9bb5ceecc730755d76d3becca~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=75787407&x-expires=1776358800&x-signature=BogPNoB%2BKEtcsC2bcQwz%2FTiu6tA%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["palmeiras.png"],
   },
+   {
+    name: "JUAN 🦅",
+    level: 17,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/c9cffe43ad0393e055decb945cb448d6~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=2254eaf7&x-expires=1776448800&x-signature=2gKKy4KKo4Y8qONxvAjK8T48uLM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my3",
+    teams: ["botafogo.png"],
+  },
 ];
