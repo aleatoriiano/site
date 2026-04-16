@@ -99,9 +99,9 @@ const ARTILHEIROS = [
   },
    {
     name: "gs.",
-    level: 6,
+    level: 7,
     foto: "https://p77-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/1a142b682a34be00ffe34c10485af909~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=b0b5a959&x-expires=1776358800&x-signature=JmA5KSbzPt1RJqPwn1XDAl1Puac%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["mirassol.png","botafogo.png","fluminense.png", "real-madrid.png", "fluminense.png", "manchester-city.png"],
+    teams: ["mirassol.png","botafogo.png","fluminense.png", "real-madrid.png", "fluminense.png", "manchester-city.png", "botafogo.png"],
   },
    {
     name: "Juan Mota",
