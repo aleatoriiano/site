@@ -163,4 +163,10 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/c9cffe43ad0393e055decb945cb448d6~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=2254eaf7&x-expires=1776448800&x-signature=2gKKy4KKo4Y8qONxvAjK8T48uLM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my3",
     teams: ["botafogo.png"],
   },
+   {
+    name: "MORTEOFC☠️",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/417bc692d8e4c5c68a0d9849bf71f1c1~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=0a423deb&x-expires=1776531600&x-signature=eylHIyj7HaVB7Uhod%2FWFYU3V8mI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my3",
+    teams: ["flamengo.png"],
+  },
 ];
