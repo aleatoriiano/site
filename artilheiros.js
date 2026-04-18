@@ -137,7 +137,7 @@ const ARTILHEIROS = [
     name: "rhyanpsn18",
     level: 3,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/180841a07e22d3523b936ea1e9ad5154~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=32b50f92&x-expires=1776722400&x-signature=aDBPJ8b1FGKQxBv7rtAM96nkRrU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my3",
-    teams: ["cruzeiro.png", "cruzeiro.png", "corinthians"],
+    teams: ["cruzeiro.png", "cruzeiro.png", "corinthians.png"],
   },
     {
     name: "Eduardo.f",
