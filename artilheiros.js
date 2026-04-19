@@ -35,7 +35,7 @@ const ARTILHEIROS = [
     name: "eo_christ🥷",
     level: 3,
     foto: "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/168f4cc5bffba3ad9372df0c6c1fcc75~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=404449e1&x-expires=1776740400&x-signature=TEJjaVI8CV32XQRByq0l8eOTHyE%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my3",
-    teams: ["cruzeiro"]
+    teams: ["cruzeiro.png"]
   },
     {
     name: "jz",
