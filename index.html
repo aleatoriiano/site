@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AlehFut — Futebol & Artilheiros</title>
+  <title>Roda de Times — Futebol & Artilheiros</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -40,7 +40,7 @@
     }
 
     .hero-header {
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
 
     header.site-header {
@@ -52,67 +52,29 @@
       flex-wrap: wrap;
     }
 
-    .header-promo {
-      text-align: center;
-      font-size: clamp(0.68rem, 2vw, 0.78rem);
-      font-weight: 500;
-      color: #facc15;
-      letter-spacing: 0.03em;
-      line-height: 1.5;
-      text-shadow: 0 0 14px rgba(250, 204, 21, 0.35);
-      max-width: 28rem;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .header-promo strong {
-      font-weight: 700;
-      color: #fde047;
-    }
-
     header.site-header h1 {
       font-family: "Bebas Neue", sans-serif;
-      font-size: clamp(2.8rem, 8vw, 4.2rem);
+      font-size: clamp(2.4rem, 7vw, 3.8rem);
       letter-spacing: 0.06em;
       color: var(--text);
       text-shadow: 0 0 40px rgba(34, 197, 94, 0.35);
     }
 
     .logo-site {
-      width: clamp(64px, 14vw, 96px);
-      height: clamp(64px, 14vw, 96px);
+      width: clamp(56px, 12vw, 84px);
+      height: clamp(56px, 12vw, 84px);
       object-fit: cover;
       border-radius: 18px;
       border: 2px solid var(--border);
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
     }
 
-    .subtitle {
-      text-align: center;
-      color: var(--text-muted);
-      font-size: 0.95rem;
-      margin-top: -0.75rem;
-      margin-bottom: 2rem;
-    }
-
-    .grid-main {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.5rem;
-      align-items: start;
-    }
-
-    @media (max-width: 900px) {
-      .grid-main {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    .panel {
+    .wheel-panel {
       background: var(--bg-card);
       border: 1px solid var(--border);
       border-radius: var(--radius);
-      padding: 1.25rem;
+      padding: 1rem 0.75rem 1.5rem;
+      margin-bottom: 2rem;
     }
 
     .panel-title {
@@ -122,62 +84,100 @@
       color: var(--accent);
       margin-bottom: 1rem;
       font-weight: 600;
+      text-align: center;
     }
 
-    .rank-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.92rem;
+    .wheel-stage {
+      position: relative;
+      width: min(92vw, 720px);
+      height: min(92vw, 720px);
+      max-width: 100%;
+      margin: 0 auto;
     }
 
-    .rank-table th {
-      text-align: left;
-      color: var(--text-muted);
-      font-weight: 600;
-      font-size: 0.72rem;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      padding: 0.5rem 0.35rem;
-      border-bottom: 1px solid var(--border);
+    .wheel {
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at center, rgba(34, 197, 94, 0.08) 0%, transparent 42%),
+        radial-gradient(circle at center, transparent 38%, rgba(34, 197, 94, 0.06) 39%, transparent 55%);
     }
 
-    .rank-table td {
-      padding: 0.65rem 0.35rem;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-      vertical-align: middle;
-    }
-
-    .rank-table tr:last-child td {
-      border-bottom: none;
-    }
-
-    .pos {
-      width: 2.5rem;
-      font-weight: 700;
-      color: var(--accent);
-    }
-
-    .team-cell {
+    .wheel-center {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
       display: flex;
       align-items: center;
-      gap: 0.65rem;
+      justify-content: center;
+      width: 42%;
+      max-width: 280px;
     }
 
-    .shield-sm {
-      width: 36px;
-      height: 36px;
+    .wheel-center .scorer-card {
+      width: 100%;
+      max-width: none;
+    }
+
+    .team-slot {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: var(--slot-size, 64px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 0.15rem;
+      transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(var(--radius) * -1)) rotate(calc(var(--angle) * -1));
+      transform-origin: center center;
+      cursor: pointer;
+      z-index: 3;
+      transition: transform 0.25s ease, z-index 0s;
+    }
+
+    .team-slot:hover {
+      z-index: 10;
+      transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(var(--radius) * -1)) rotate(calc(var(--angle) * -1)) scale(1.45);
+    }
+
+    .team-titles {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.12em;
+      line-height: 1;
+      min-height: calc(var(--slot-size, 64px) * 0.38);
+      transition: transform 0.25s ease;
+    }
+
+    .titles-count {
+      font-family: "Bebas Neue", sans-serif;
+      font-size: calc(var(--slot-size, 64px) * 0.32);
+      font-weight: 400;
+      color: #facc15;
+      letter-spacing: 0.02em;
+      text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
+      transition: font-size 0.25s ease;
+    }
+
+    .trophy {
+      width: calc(var(--slot-size, 64px) * 0.36);
+      height: calc(var(--slot-size, 64px) * 0.36);
       object-fit: contain;
-      flex-shrink: 0;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+      transition: width 0.25s ease, height 0.25s ease;
     }
 
-    .titles-badge {
-      margin-left: auto;
-      background: rgba(34, 197, 94, 0.12);
-      color: var(--accent);
-      padding: 0.2rem 0.55rem;
-      border-radius: 999px;
-      font-weight: 700;
-      font-size: 0.85rem;
+    .team-shield {
+      width: var(--slot-size, 64px);
+      height: var(--slot-size, 64px);
+      object-fit: contain;
+      filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.45));
+      transition: width 0.25s ease, height 0.25s ease;
     }
 
     .scorer-card {
@@ -268,6 +268,24 @@
       border-width: 4px;
     }
 
+    .wheel-center .scorer-card.featured .profile-pic {
+      width: clamp(48px, 12vw, 80px);
+      height: clamp(48px, 12vw, 80px);
+    }
+
+    .wheel-center .scorer-card.featured .scorer-name {
+      font-size: clamp(0.85rem, 2.5vw, 1.1rem);
+    }
+
+    .wheel-center .scorer-card.featured .scorer-level {
+      font-size: clamp(0.7rem, 2vw, 0.85rem);
+    }
+
+    .wheel-center .teams-row.count-1 img {
+      width: clamp(28px, 7vw, 40px);
+      height: clamp(28px, 7vw, 40px);
+    }
+
     .scorer-name {
       font-weight: 700;
       font-size: 1.05rem;
@@ -294,7 +312,14 @@
     }
 
     .section-below {
-      margin-top: 2rem;
+      margin-top: 0;
+    }
+
+    .section-below.panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
     }
 
     .section-below .panel-title {
@@ -312,14 +337,11 @@
       .artilheiros-scroll {
         grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
       }
-    }
 
-    .featured-wrap {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 200px;
+      .wheel-stage {
+        width: min(96vw, 520px);
+        height: min(96vw, 520px);
+      }
     }
   </style>
 </head>
@@ -327,28 +349,15 @@
   <div class="wrap">
     <div class="hero-header">
       <header class="site-header">
-        <h1>AlehFut</h1>
-        <img class="logo-site" src="outros/icone.png" alt="Ícone AlehFut" width="96" height="96" />
+        <h1>Roda de Times</h1>
+        <img class="logo-site" src="outros/icone.png" alt="Ícone Roda de Times" width="96" height="96" />
       </header>
     </div>
-    <div class="grid-main">
-      <div class="panel">
-        <div class="panel-title">Rank dos times</div>
-        <table class="rank-table" id="rankTable">
-          <thead>
-            <tr>
-              <th>#</th>
-              <th>Time</th>
-              <th style="text-align: right">Títulos</th>
-            </tr>
-          </thead>
-          <tbody id="rankTableBody"></tbody>
-        </table>
-      </div>
 
-      <div class="panel">
-        <div class="panel-title">Maior artilheiro</div>
-        <div class="featured-wrap" id="featuredScorer"></div>
+    <div class="wheel-panel">
+      <div class="wheel-stage" id="wheelStage">
+        <div class="wheel" id="teamWheel"></div>
+        <div class="wheel-center" id="featuredScorer"></div>
       </div>
     </div>
 
@@ -420,41 +429,100 @@
         return div;
       }
 
-      function render() {
-        var list = TEAMS.slice().sort(function (a, b) {
-          if (b.titles !== a.titles) return b.titles - a.titles;
-          return a.name.localeCompare(b.name, "pt-BR");
+      function wheelMetrics(n, stageSize) {
+        var centerRatio = 0.42;
+        var centerHalf = (stageSize * centerRatio) / 2;
+        var padding = stageSize * 0.04;
+        var maxRadius = stageSize / 2 - padding;
+
+        if (n <= 0) {
+          return { slot: 48, radius: maxRadius * 0.72 };
+        }
+
+        var slot = Math.min(88, Math.max(28, (stageSize * 0.95) / (n * 0.42 + 2.2)));
+        var minRadius = centerHalf + slot * 0.85;
+        var byCircumference = (n * slot * 1.15) / (2 * Math.PI);
+        var radius = Math.min(maxRadius - slot * 0.55, Math.max(minRadius, byCircumference));
+
+        if (radius + slot * 0.55 > maxRadius) {
+          slot = Math.max(24, (maxRadius - minRadius + slot * 0.55) * 0.9);
+          radius = Math.min(maxRadius - slot * 0.55, Math.max(minRadius, (n * slot * 1.15) / (2 * Math.PI)));
+        }
+
+        return { slot: Math.round(slot), radius: Math.round(radius) };
+      }
+
+      function renderWheel() {
+        var wheel = document.getElementById("teamWheel");
+        var stage = document.getElementById("wheelStage");
+        var teams = TEAMS.slice();
+        var n = teams.length;
+        var size = Math.min(stage.clientWidth, stage.clientHeight) || 600;
+        var metrics = wheelMetrics(n, size);
+
+        wheel.innerHTML = "";
+        wheel.style.setProperty("--slot-size", metrics.slot + "px");
+
+        teams.forEach(function (t, i) {
+          var angle = n === 1 ? 0 : (360 / n) * i - 90;
+          var slot = document.createElement("div");
+          slot.className = "team-slot";
+          slot.style.setProperty("--angle", angle + "deg");
+          slot.style.setProperty("--radius", metrics.radius + "px");
+          slot.style.setProperty("--slot-size", metrics.slot + "px");
+          slot.title = t.name || "";
+
+          if (Number(t.titles) > 0) {
+            var titles = document.createElement("div");
+            titles.className = "team-titles";
+            var count = document.createElement("span");
+            count.className = "titles-count";
+            count.textContent = t.titles + "x";
+            var trophy = document.createElement("img");
+            trophy.className = "trophy";
+            trophy.src = "outros/trofeu.png";
+            trophy.alt = "";
+            titles.appendChild(count);
+            titles.appendChild(trophy);
+            slot.appendChild(titles);
+          }
+
+          var shield = document.createElement("img");
+          shield.className = "team-shield";
+          shield.src = "escudos/" + t.shield;
+          shield.alt = "";
+          slot.appendChild(shield);
+          wheel.appendChild(slot);
         });
-        var tbody = document.getElementById("rankTableBody");
-        tbody.innerHTML = "";
-        list.forEach(function (t, i) {
-          var tr = document.createElement("tr");
-          tr.innerHTML =
-            '<td class="pos">' +
-            (i + 1) +
-            '</td><td><div class="team-cell"><img class="shield-sm" src="escudos/' +
-            esc(t.shield) +
-            '" alt="" /><span>' +
-            esc(t.name) +
-            "</span></div></td>" +
-            '<td style="text-align:right"><span class="titles-badge">' +
-            esc(t.titles) +
-            "</span></td>";
-          tbody.appendChild(tr);
-        });
+      }
+
+      function renderScorers() {
+        var featured = document.getElementById("featuredScorer");
+        var other = document.getElementById("otherScorers");
+        featured.innerHTML = "";
+        other.innerHTML = "";
 
         var sorted = ARTILHEIROS.slice().sort(function (a, b) {
           return b.level - a.level;
         });
         if (!sorted.length) return;
-        var top = sorted[0];
-        var rest = sorted.slice(1);
-        document.getElementById("featuredScorer").appendChild(buildScorerCard(top, true));
-        var other = document.getElementById("otherScorers");
-        rest.forEach(function (a) {
+
+        featured.appendChild(buildScorerCard(sorted[0], true));
+        sorted.slice(1).forEach(function (a) {
           other.appendChild(buildScorerCard(a, false));
         });
       }
+
+      function render() {
+        renderWheel();
+        renderScorers();
+      }
+
+      var resizeTimer;
+      window.addEventListener("resize", function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(renderWheel, 120);
+      });
 
       if (document.readyState === "loading") {
         document.addEventListener("DOMContentLoaded", render);
