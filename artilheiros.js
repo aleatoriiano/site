@@ -23,5 +23,29 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/bbbde61770c424c4c0b99288f3ebefc7~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=37aaa9e3&x-expires=1784566800&x-signature=pToUpIHkUoc%2BQT0WA1mdHEWC3Vo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["portuguesa.png"],
   },
+     {
+    name: "Bruno Lemes 🇪🇪",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/bace4e2f1c4f9d5b6dc6fd22052c02a2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=a4a481c0&x-expires=1784574000&x-signature=nZYzNOgh6J%2FRPoQvvhQQENnvbsY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["flamengo.png"],
+  },
+     {
+    name: "Humor ao Cubo",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/7388694636273680389~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=a1d0445c&x-expires=1784577600&x-signature=z31tB7mtZxSLcxLqqNIZcFXqQho%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["gremio.png"],
+  },
+     {
+    name: "MC-BJJ",
+    level: 1,
+    foto: "",
+    teams: ["flamengo.png"],
+  },
+     {
+    name: "voando_alto",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/aa2de14b242dff8a4a4e2596e46613e9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=539fe965&x-expires=1784577600&x-signature=0wfv9nR8oFlTiMTvGUW04GRzrNI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["gremio.png"],
+  },
    
 ];
