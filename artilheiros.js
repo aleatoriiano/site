@@ -91,8 +91,20 @@ const ARTILHEIROS = [
   },
    {
     name: "LULA 13🎈🦁👑",
-    level: 1,
+    level: 2,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/c02bf385096568aa53ff7b21b636442b~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=0d2836b2&x-expires=1784653200&x-signature=SHVJ7Pxa9BxLr0IiahSkcMVJI2s%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["remo.png"],
+    teams: ["remo.png", "remo.png"],
   },
+    {
+    name: "mihzx",
+    level: 1,
+    foto: "",
+    teams: ["corinthians.png"],
+  },
+    {
+    name: "🇧🇼 Maicon 🇪🇪",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/27423fc70100d6383bb8b30ce27fc4f2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d1942611&x-expires=1784674800&x-signature=MBJXspY1ZzDjihkwDZSF8I0z0XI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["gremio.png"],
+
 ];
