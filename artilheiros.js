@@ -13,9 +13,9 @@
 const ARTILHEIROS = [
   {
     name: "⚡️尺ㄖᗪ尺丨Ꮆㄖ! 🪁",
-    level: 3,
+    level: 4,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/67686afeedafe671325e4109bb419390~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=b64ca228&x-expires=1784566800&x-signature=3FMaX0WbKTn4OMK%2FTgOwC4xxGu4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["corinthians.png", "botafogo.png", "corinthians.png",],
+    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png"],
   },
      {
     name: "Davi",
@@ -82,5 +82,17 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/081c7e699bd8490e4a7f2c6259691154~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=f83d7924&x-expires=1784602800&x-signature=lZx2Butfmtf1n76BYboInBL553U%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["treze.png"],
+  },
+   {
+    name: "Fernando Pereira 55",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/acc81d00b61ceccd446f1c917d57b1be~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=2bf2da69&x-expires=1784653200&x-signature=zLvPjDFZEJe0gmOsSppOneJm9A8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["gremio.png"],
+  },
+   {
+    name: "LULA 13🎈🦁👑",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/c02bf385096568aa53ff7b21b636442b~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=0d2836b2&x-expires=1784653200&x-signature=SHVJ7Pxa9BxLr0IiahSkcMVJI2s%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["remo.png"],
   },
 ];
