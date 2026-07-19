@@ -65,4 +65,22 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/d5e10eb2ff045133cc2c744af4a64bc8~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=290f997b&x-expires=1784592000&x-signature=kMi3%2F5GqoJ%2BrbY4iREWnXe%2BN4GQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["sport.png"],
   },
+    {
+    name: "BIEL FPS🤴🏻",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/217b76859002bd7c21a83fb639d4221d~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=772236d5&x-expires=1784599200&x-signature=0kQFRgovqkwtilFmshFPAfL7HCw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["corinthians.png"],
+  },
+    {
+    name: "Roma",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/933815e9e58d6a0351f13757130227a2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=84f09572&x-expires=1784599200&x-signature=VIxOlRMaGOookE%2BIuoDyPDnvl%2BY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["ceara.png"],
+  },
+    {
+    name: "TIGRINHO",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/081c7e699bd8490e4a7f2c6259691154~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=f83d7924&x-expires=1784602800&x-signature=lZx2Butfmtf1n76BYboInBL553U%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["treze.png"],
+  },
 ];
