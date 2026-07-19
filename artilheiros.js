@@ -53,4 +53,16 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/34fa1c2601bc93e7ddb03dab59204c21~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=4495588a&x-expires=1784592000&x-signature=bYAgmRYmObcmlWnrFhavVswb%2F2U%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["avai.png"],
   },
+   {
+    name: "꒰͠𝓢፝͠ᥲ͠ɲ͠ɖ֟͠͝ʏ͠꒱ 😴⃟᪰᪲",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/70df9867cc6debcf5a85e969ca589bc2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=a83d68a0&x-expires=1784592000&x-signature=8N9x77BcGuEaff2pzfrlQlkB1mg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["flamengo.png"],
+  },
+   {
+    name: "Denny Silva",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/d5e10eb2ff045133cc2c744af4a64bc8~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=290f997b&x-expires=1784592000&x-signature=kMi3%2F5GqoJ%2BrbY4iREWnXe%2BN4GQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["sport-recife.png"],
+  },
 ];
