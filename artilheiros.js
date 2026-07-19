@@ -63,6 +63,6 @@ const ARTILHEIROS = [
     name: "Denny Silva",
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/d5e10eb2ff045133cc2c744af4a64bc8~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=290f997b&x-expires=1784592000&x-signature=kMi3%2F5GqoJ%2BrbY4iREWnXe%2BN4GQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["sport-recife.png"],
+    teams: ["sport.png"],
   },
 ];
