@@ -79,9 +79,9 @@ const ARTILHEIROS = [
   },
     {
     name: "TIGRINHO",
-    level: 1,
+    level: 4,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/081c7e699bd8490e4a7f2c6259691154~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=f83d7924&x-expires=1784602800&x-signature=lZx2Butfmtf1n76BYboInBL553U%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["treze.png"],
+    teams: ["treze.png", "corinthians.png", "corinthians.png", "corinthians.png"],
   },
    {
     name: "Fernando Pereira 55",
