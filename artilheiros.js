@@ -43,9 +43,9 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 8,
+    level: 9,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/aa2de14b242dff8a4a4e2596e46613e9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=539fe965&x-expires=1784577600&x-signature=0wfv9nR8oFlTiMTvGUW04GRzrNI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png", "barcelona.png", "gremio.png", "gremio.png"],
+    teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png", "barcelona.png", "gremio.png", "gremio.png", "gremio.png"],
   },
    {
     name: "Gui_mct",
@@ -112,5 +112,17 @@ const ARTILHEIROS = [
     level: 1,
     foto: "",
     teams: ["caxias.png"],
+  },
+      {
+    name: "europeu_22_",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/f605d2857a8bd1b657e5a16f2f2ec914~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=3bfde18e&x-expires=1784757600&x-signature=yTHMRrIjCZflH1pLH9nCeaeCYJo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: [""],
+  },
+      {
+    name: "Indioffc91",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/c7ee995b34256aceb6c404618a86d443~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=11e6f593&x-expires=1784761200&x-signature=YjQFdzVYu6Y98M4uDeLSTGZpCyc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["figueirense.png"],
   },
 ];
