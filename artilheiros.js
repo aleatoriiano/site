@@ -43,9 +43,9 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 11,
+    level: 13,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/aa2de14b242dff8a4a4e2596e46613e9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=539fe965&x-expires=1784577600&x-signature=0wfv9nR8oFlTiMTvGUW04GRzrNI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png", "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
+    teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png", "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
   },
    {
     name: "Gui_mct",
@@ -124,5 +124,23 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/c7ee995b34256aceb6c404618a86d443~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=11e6f593&x-expires=1784761200&x-signature=YjQFdzVYu6Y98M4uDeLSTGZpCyc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["figueirense.png"],
+  },
+    {
+    name: "Tel Rodrigues",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/e16ceab945ddc99d921a62398fe14c21~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=654d0333&x-expires=1784775600&x-signature=%2FYy97Q0fbSyLjOX30xs5gQ6wWL8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["atletico-mg.png"],
+  },
+    {
+    name: "🍷Marcos💚",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/44ab982cd8137ca9dcf7c339d85ab816~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=0c542af0&x-expires=1784772000&x-signature=UrctogMAqAGu%2BvvLN%2BCorS04%2FBg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["palmeiras.png"],
+  },
+      {
+    name: "Vitinho Figueiredo",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/69a7499dae77d3a0587e8b3e23c98430~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ed967436&x-expires=1784775600&x-signature=YiExY4oVKLtZhmJ01qfDBiqp7fI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: [""],
   },
 ];
