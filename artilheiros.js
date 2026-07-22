@@ -43,14 +43,15 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 27,
+    level: 29,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/aa2de14b242dff8a4a4e2596e46613e9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=539fe965&x-expires=1784577600&x-signature=0wfv9nR8oFlTiMTvGUW04GRzrNI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
-    "gremio.png", "gremio.png", "gremio.png", "coritiba.png"],
+    "gremio.png", "gremio.png", "gremio.png", "coritiba.png", "criciuma.png",
+    "gremio.png"],
   },
    {
     name: "Gui_mct",
@@ -159,5 +160,17 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/e3d6833ca55f821598bb8260c43a81ee~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ebd35419&x-expires=1784912400&x-signature=X7m3tQyS4EMiJhHb7%2BDgpNDHP3Q%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["flamengo.png"],
+  },
+    {
+    name: "Japa",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/12c9f04656f2ae5dab5dc221fec34284~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=bbc9f56c&x-expires=1784926800&x-signature=DTDprMqyEMAM7p42PTm5GKch5LU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["gremio.png"],
+  },
+   {
+    name: "Scolari",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/913cea5d8a155c094be384ea27399642~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d3b8807b&x-expires=1784930400&x-signature=sv5iYEhN%2F1Aksnv3eWZ5STiv%2B6Q%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["gremio.png"],
   },
 ];
