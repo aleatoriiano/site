@@ -37,9 +37,9 @@ const ARTILHEIROS = [
   },
      {
     name: "MC-BJJ",
-    level: 1,
+    level: 2,
     foto: "",
-    teams: ["flamengo.png"],
+    teams: ["flamengo.png", "vasco.png"],
   },
      {
     name: "voando_alto",
@@ -142,14 +142,20 @@ const ARTILHEIROS = [
   },
       {
     name: "Vitinho Figueiredo",
-    level: 1,
+    level: 2,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/69a7499dae77d3a0587e8b3e23c98430~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ed967436&x-expires=1784775600&x-signature=YiExY4oVKLtZhmJ01qfDBiqp7fI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: [""],
+    teams: ["atletico-mg.png"],
   },
    {
     name: "Laísa Melo",
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/41cf28929a80d8d6cd359e98151f00e1~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=89c4e7e9&x-expires=1784836800&x-signature=PclAs0I2Er3tH4wSoPCtQrdgEhQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["bahia.png"],
+  },
+    {
+    name: "👑King of Davi🔑⚡🦁",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/e3d6833ca55f821598bb8260c43a81ee~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ebd35419&x-expires=1784912400&x-signature=X7m3tQyS4EMiJhHb7%2BDgpNDHP3Q%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["flamengo.png"],
   },
 ];
