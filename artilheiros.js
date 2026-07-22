@@ -48,7 +48,9 @@ const ARTILHEIROS = [
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
-    "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "coritiba.png"],
   },
    {
     name: "Gui_mct",
