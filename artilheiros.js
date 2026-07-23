@@ -110,9 +110,9 @@ const ARTILHEIROS = [
   },
     {
     name: "🇧🇼 Maicon 🇪🇪",
-    level: 1,
+    level: 2,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/27423fc70100d6383bb8b30ce27fc4f2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d1942611&x-expires=1784674800&x-signature=MBJXspY1ZzDjihkwDZSF8I0z0XI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["gremio.png"],
+    teams: ["gremio.png", "gremio.png"],
     },
     {
     name: "Yuri🧉",
@@ -175,15 +175,15 @@ const ARTILHEIROS = [
     teams: ["gremio.png"],
   },
    {
-    name: "",
-    level: 0,
-    foto: "",
-    teams: [""],
+    name: "reiz1995",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/4d088dfb2875362289ce453c74addad5~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=cff8f9dc&x-expires=1784952000&x-signature=O9g8xUV7yiJOah10BDYWng1G%2Fbs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["sao-paulo.png"],
   },
    {
-    name: "",
-    level: 0,
-    foto: "",
-    teams: [""],
+    name: "Maiaraverso",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/74168d10adab24cd0d1b3d9c4f100af2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=bac29ac2&x-expires=1784944800&x-signature=B8ZIa%2B6JK0zzJ0WnALY7ppPq1ds%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["flamengo.png"],
   },
 ];
