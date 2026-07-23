@@ -13,9 +13,9 @@
 const ARTILHEIROS = [
   {
     name: "⚡️尺ㄖᗪ尺丨Ꮆㄖ! 🪁",
-    level: 4,
+    level: 5,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/67686afeedafe671325e4109bb419390~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=b64ca228&x-expires=1784566800&x-signature=3FMaX0WbKTn4OMK%2FTgOwC4xxGu4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png"],
+    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png", "boca-juniors"],
   },
      {
     name: "Davi",
@@ -43,7 +43,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 34,
+    level: 36,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/aa2de14b242dff8a4a4e2596e46613e9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=539fe965&x-expires=1784577600&x-signature=0wfv9nR8oFlTiMTvGUW04GRzrNI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -52,7 +52,7 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "coritiba.png", "criciuma.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
-    "gremio.png"],
+    "gremio.png", "goianesia.png" "mazembe.png"],
   },
    {
     name: "Gui_mct",
@@ -185,5 +185,23 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/74168d10adab24cd0d1b3d9c4f100af2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=bac29ac2&x-expires=1784944800&x-signature=B8ZIa%2B6JK0zzJ0WnALY7ppPq1ds%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["flamengo.png"],
+  },
+   {
+    name: "Lucass🦅",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/81ad0734a774c6cd9c8f4d6a7376dcc0~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=edffd5bc&x-expires=1785006000&x-signature=Cb%2FdMr2ifyO2UE2kLbUrm0HMhhw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["corinthians.png"],
+  },
+    {
+    name: "Gian Winchester",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/6ecb51e9a783a317ff2f54f8627cb9d4~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=f699c333&x-expires=1785002400&x-signature=hQNyxQ74eabhwQ7KqOY6SZMlwH8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: [""],
+  },
+    {
+    name: "GUEDES oN 🕵🏻",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/f0e830d4d74b445fec352fb1bb43c616~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=badd508a&x-expires=1785002400&x-signature=R%2BpcRQwf%2F50rK9pnb4DuIXUOxfc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["vasco.png"],
   },
 ];
