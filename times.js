@@ -3,9 +3,9 @@
  * A ordem na tela é automática: mais títulos primeiro; em empate, ordem alfabética do nome.
  */
 const TEAMS = [
-  { name: "Corinthians", titles: 10, shield: "corinthians.png" },
+  { name: "Corinthians", titles: 11, shield: "corinthians.png" },
   { name: "Atlético Mineiro", titles: 2, shield: "atletico-mg.png" },
-  { name: "Vasco", titles: 1, shield: "vasco.png" },
+  { name: "Vasco", titles: 2, shield: "vasco.png" },
   { name: "Grêmio", titles: 39, shield: "gremio.png" },
   { name: "Palmeiras", titles: 2, shield: "palmeiras.png" },
   { name: "Flamengo", titles: 5, shield: "flamengo.png" },
@@ -31,4 +31,7 @@ const TEAMS = [
   { name: "Barcelona", titles: 1, shield: "barcelona.png" },
   { name: "Figueirense", titles: 1, shield: "figueirense.png" },
   { name: "Criciuma", titles: 1, shield: "criciuma.png" },
+  { name: "Goianesia", titles: 1, shield: "goianesia.png" },
+  { name: "Mazembe", titles: 1, shield: "mazembe.png" },
+  { name: "Boca Juniors", titles: 1, shield: "boca-juniors.png" }
 ];
