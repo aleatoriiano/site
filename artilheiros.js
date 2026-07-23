@@ -52,7 +52,7 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "coritiba.png", "criciuma.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
-    "gremio.png", "goianesia.png" "mazembe.png"],
+    "gremio.png", "goianesia.png", "mazembe.png"],
   },
    {
     name: "Gui_mct",
