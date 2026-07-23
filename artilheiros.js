@@ -43,7 +43,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 36,
+    level: 38,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/aa2de14b242dff8a4a4e2596e46613e9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=539fe965&x-expires=1784577600&x-signature=0wfv9nR8oFlTiMTvGUW04GRzrNI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -52,7 +52,7 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "coritiba.png", "criciuma.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
-    "gremio.png", "goianesia.png", "mazembe.png"],
+    "gremio.png", "goianesia.png", "mazembe.png", "gremio.png", "gremio.png",],
   },
    {
     name: "Gui_mct",
@@ -203,5 +203,23 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/f0e830d4d74b445fec352fb1bb43c616~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=badd508a&x-expires=1785002400&x-signature=R%2BpcRQwf%2F50rK9pnb4DuIXUOxfc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["vasco.png"],
+  },
+     {
+    name: "Antônio035",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/88df297a3f7e1713e66bc22769a17508~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=52dcf3b9&x-expires=1785009600&x-signature=6qVTdFfJHqqER%2FVHoxUuaxuoxFI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["sao-paulo.png"],
+  },
+     {
+    name: "sandim",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/f208a818ef63e93d0bcbd1c0c22055ee~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=59f055db&x-expires=1785009600&x-signature=V%2BTvtlIHQBaR%2Bnq5CWO%2BsRIc%2FRc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["vasco.png"],
+  },
+     {
+    name: "Drzin",
+    level: 1,
+    foto: "",
+    teams: ["joinville.png"],
   },
 ];
