@@ -3,11 +3,11 @@
  * A ordem na tela é automática: mais títulos primeiro; em empate, ordem alfabética do nome.
  */
 const TEAMS = [
-  { name: "Corinthians", titles: 11, shield: "corinthians.png" },
-  { name: "Atlético Mineiro", titles: 3, shield: "atletico-mg.png" },
+  { name: "Corinthians", titles: 12, shield: "corinthians.png" },
+  { name: "Atlético Mineiro", titles: 4, shield: "atletico-mg.png" },
   { name: "Vasco", titles: 4, shield: "vasco.png" },
-  { name: "Grêmio", titles: 48, shield: "gremio.png" },
-  { name: "Palmeiras", titles: 3, shield: "palmeiras.png" },
+  { name: "Grêmio", titles: 49, shield: "gremio.png" },
+  { name: "Palmeiras", titles: 1, shield: "palmeiras.png" },
   { name: "Flamengo", titles: 5, shield: "flamengo.png" },
   { name: "Santos", titles: 0, shield: "santos.png" },
   { name: "Remo", titles: 3, shield: "remo.png" },
@@ -24,7 +24,7 @@ const TEAMS = [
   { name: "Sao Paulo", titles: 2, shield: "sao-paulo.png" },
   { name: "Portuguesa", titles: 1, shield: "portuguesa.png" },
   { name: "Avai", titles: 1, shield: "avai.png" },
-  { name: "Ceara", titles: 1, shield: "ceara.png" },
+  { name: "Ceara", titles: 2, shield: "ceara.png" },
   { name: "Treze", titles: 1, shield: "treze.png" },
   { name: "Cascavel", titles: 1, shield: "cascavel.png" },
   { name: "Caxias", titles: 1, shield: "caxias.png" },
