@@ -82,9 +82,9 @@ const ARTILHEIROS = [
   },
     {
     name: "Roma",
-    level: 2,
+    level: 3,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/933815e9e58d6a0351f13757130227a2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=84f09572&x-expires=1784599200&x-signature=VIxOlRMaGOookE%2BIuoDyPDnvl%2BY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["ceara.png", "corinthians.png"],
+    teams: ["ceara.png", "corinthians.png", "corinthians.png"],
   },
     {
     name: "TIGRINHO",
@@ -136,9 +136,9 @@ const ARTILHEIROS = [
   },
     {
     name: "Tel Rodrigues",
-    level: 3,
+    level: 4,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/e16ceab945ddc99d921a62398fe14c21~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=654d0333&x-expires=1784775600&x-signature=%2FYy97Q0fbSyLjOX30xs5gQ6wWL8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["atletico-mg.png", "coritiba.png", "atletico-mg.png"],
+    teams: ["atletico-mg.png", "coritiba.png", "atletico-mg.png", "atletico-mg.png"],
   },
     {
     name: "🍷Marcos💚",
@@ -229,5 +229,23 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/9872d02bdd8c4143615c75e5118336f1~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=aecef690&x-expires=1785034800&x-signature=FaK8uW%2BObdV6Ka1af9S2nsf4hd8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["palmeiras.png"],
+  },
+    {
+    name: "Winchester 027",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/2dd0e205314816ab2b0a07d6bda0f3cd~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=0aaaf620&x-expires=1785092400&x-signature=9Ik8H5SqyJoGk2cX0BtSzE92X2g%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["palmeiras.png"],
+  },
+    {
+    name: "_fiel_4853",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/f95976f18d7e3b1380b7540b7797edb2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ea2c919a&x-expires=1785096000&x-signature=IZWXU0la42In2lJhbnae1y4SNpk%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["gremio.png"],
+  },
+    {
+    name: "Kelly",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/2cba7db1912850a33e9a7504917292ec~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=78743a60&x-expires=1785096000&x-signature=9LsxvKMBtqZD4V0GiJsCRsdaoJY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["ceara.png"],
   },
 ];
