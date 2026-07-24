@@ -138,7 +138,7 @@ const ARTILHEIROS = [
     name: "Tel Rodrigues",
     level: 3,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/e16ceab945ddc99d921a62398fe14c21~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=654d0333&x-expires=1784775600&x-signature=%2FYy97Q0fbSyLjOX30xs5gQ6wWL8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["atletico-mg.png", "coritiba.png", "atletico-mg.png],
+    teams: ["atletico-mg.png", "coritiba.png", "atletico-mg.png"],
   },
     {
     name: "🍷Marcos💚",
