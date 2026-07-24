@@ -43,7 +43,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 47,
+    level: 49,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/aa2de14b242dff8a4a4e2596e46613e9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=539fe965&x-expires=1784577600&x-signature=0wfv9nR8oFlTiMTvGUW04GRzrNI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -54,7 +54,8 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "goianesia.png", "mazembe.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "coritiba.png", "gremio.png", "mazembe.png",
-    "gremio.png", "gremio.png", "vitoria.png", "gremio.png"],
+    "gremio.png", "gremio.png", "vitoria.png", "gremio.png", "gremio.png",
+    "gremio.png"],
   },
    {
     name: "Gui_mct",
@@ -136,9 +137,9 @@ const ARTILHEIROS = [
   },
     {
     name: "Tel Rodrigues",
-    level: 4,
+    level: 5,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/e16ceab945ddc99d921a62398fe14c21~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=654d0333&x-expires=1784775600&x-signature=%2FYy97Q0fbSyLjOX30xs5gQ6wWL8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["atletico-mg.png", "coritiba.png", "atletico-mg.png", "atletico-mg.png"],
+    teams: ["atletico-mg.png", "coritiba.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png"],
   },
     {
     name: "🍷Marcos💚",
@@ -247,5 +248,11 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/2cba7db1912850a33e9a7504917292ec~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=78743a60&x-expires=1785096000&x-signature=9LsxvKMBtqZD4V0GiJsCRsdaoJY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["ceara.png"],
+  },
+    {
+    name: "cafajeste chucro😇",
+    level: 1,
+    foto: "",
+    teams: ["corinthians.png"],
   },
 ];
