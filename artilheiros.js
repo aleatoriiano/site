@@ -43,7 +43,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 42,
+    level: 44,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/aa2de14b242dff8a4a4e2596e46613e9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=539fe965&x-expires=1784577600&x-signature=0wfv9nR8oFlTiMTvGUW04GRzrNI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -53,7 +53,8 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "gremio.png", "coritiba.png", "criciuma.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "goianesia.png", "mazembe.png", "gremio.png", "gremio.png",
-     "gremio.png", "gremio.png", "coritiba.png", "gremio.png"],
+    "gremio.png", "gremio.png", "coritiba.png", "gremio.png", "mazembe.png",
+    "gremio.png"],
   },
    {
     name: "Gui_mct",
@@ -135,9 +136,9 @@ const ARTILHEIROS = [
   },
     {
     name: "Tel Rodrigues",
-    level: 1,
+    level: 3,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/e16ceab945ddc99d921a62398fe14c21~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=654d0333&x-expires=1784775600&x-signature=%2FYy97Q0fbSyLjOX30xs5gQ6wWL8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["atletico-mg.png"],
+    teams: ["atletico-mg.png", "coritiba.png", "atletico-mg.png],
   },
     {
     name: "🍷Marcos💚",
@@ -222,5 +223,11 @@ const ARTILHEIROS = [
     level: 1,
     foto: "",
     teams: ["joinville.png"],
+  },
+   {
+    name: "dani.denaka",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/9872d02bdd8c4143615c75e5118336f1~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=aecef690&x-expires=1785034800&x-signature=FaK8uW%2BObdV6Ka1af9S2nsf4hd8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["palmeiras.png"],
   },
 ];
