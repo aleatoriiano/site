@@ -263,7 +263,7 @@ const ARTILHEIROS = [
   },
     {
     name: "Lucas Barbosa",
-    level: 1,
+    level: 2,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/a4aaae5bba682e5d2964c5e8de0bc6dd~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=c51282e3&x-expires=1785114000&x-signature=hhp7S0x4hZ7UaOKFCGjpyfZabJw%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["palmeiras.png"],
   },
