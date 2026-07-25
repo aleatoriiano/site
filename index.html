@@ -224,6 +224,28 @@
       min-height: 2rem;
     }
 
+    .team-shield-wrap {
+      position: relative;
+      display: inline-flex;
+      flex-shrink: 0;
+    }
+
+    .team-stint-count {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -35%);
+      z-index: 1;
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 0.85rem;
+      font-weight: 400;
+      color: #facc15;
+      letter-spacing: 0.02em;
+      text-shadow: 0 1px 6px rgba(0, 0, 0, 0.85);
+      line-height: 1;
+      pointer-events: none;
+    }
+
     .teams-row img {
       object-fit: contain;
       border-radius: 4px;
@@ -250,6 +272,13 @@
     .teams-row.count-more img {
       width: 22px;
       height: 22px;
+    }
+
+    .teams-row.count-3 .team-stint-count,
+    .teams-row.count-4 .team-stint-count,
+    .teams-row.count-5 .team-stint-count,
+    .teams-row.count-more .team-stint-count {
+      font-size: 0.65rem;
     }
 
     .profile-pic {
@@ -394,10 +423,27 @@
         return "count-more";
       }
 
+      /** Agrupa escudos repetidos; mantém ordem da primeira aparição. */
+      function groupScorerTeams(teams) {
+        var order = [];
+        var counts = Object.create(null);
+        teams.forEach(function (t) {
+          if (!counts[t]) {
+            counts[t] = 0;
+            order.push(t);
+          }
+          counts[t]++;
+        });
+        return order.map(function (t) {
+          return { file: t, count: counts[t] };
+        });
+      }
+
       function buildScorerCard(a, featured) {
         var foto = a.foto || "";
         var cardBg = cardImageForLevel(a.level);
-        var rowClass = teamsRowClass(a.teams.length);
+        var groupedTeams = groupScorerTeams(a.teams);
+        var rowClass = teamsRowClass(groupedTeams.length);
         var div = document.createElement("div");
         div.className = "scorer-card" + (featured ? " featured" : "");
         div.style.backgroundImage = "url('" + esc(cardBg).replace(/'/g, "\\'") + "')";
@@ -405,11 +451,20 @@
         inner.className = "scorer-card-inner";
         var row = document.createElement("div");
         row.className = "teams-row " + rowClass;
-        a.teams.forEach(function (t) {
+        groupedTeams.forEach(function (item) {
+          var wrap = document.createElement("div");
+          wrap.className = "team-shield-wrap";
+          if (item.count > 1) {
+            var badge = document.createElement("span");
+            badge.className = "team-stint-count";
+            badge.textContent = item.count + "x";
+            wrap.appendChild(badge);
+          }
           var img = document.createElement("img");
-          img.src = "escudos/" + t;
+          img.src = "escudos/" + item.file;
           img.alt = "";
-          row.appendChild(img);
+          wrap.appendChild(img);
+          row.appendChild(wrap);
         });
         inner.appendChild(row);
         var profile = document.createElement("img");
