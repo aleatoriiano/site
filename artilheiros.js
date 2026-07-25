@@ -13,9 +13,9 @@
 const ARTILHEIROS = [
   {
     name: "⚡️尺ㄖᗪ尺丨Ꮆㄖ! 🪁",
-    level: 5,
+    level: 7,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/67686afeedafe671325e4109bb419390~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=b64ca228&x-expires=1784566800&x-signature=3FMaX0WbKTn4OMK%2FTgOwC4xxGu4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png", "boca-juniors"],
+    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png", "boca-juniors", "botafogo.png", "corinthians.png"],
   },
      {
     name: "Davi",
@@ -43,7 +43,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 52,
+    level: 53,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/aa2de14b242dff8a4a4e2596e46613e9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=539fe965&x-expires=1784577600&x-signature=0wfv9nR8oFlTiMTvGUW04GRzrNI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -55,7 +55,7 @@ const ARTILHEIROS = [
     "gremio.png", "goianesia.png", "mazembe.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "coritiba.png", "gremio.png", "mazembe.png",
     "gremio.png", "gremio.png", "vitoria.png", "gremio.png", "gremio.png",
-    "gremio.png", "botafogo.png", "gremio.png", "gremio.png"],
+    "gremio.png", "botafogo.png", "gremio.png", "gremio.png", "flamengo.png"],
   },
    {
     name: "Gui_mct",
@@ -272,5 +272,11 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/72fea52624d47d500a4be836368c135a~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=9c3007c9&x-expires=1785124800&x-signature=uQSi%2BDzVrgixuBPSSoLCu%2FiB%2BCU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["sao-paulo.png"],
+  },
+     {
+    name: "mylly 🐆",
+    level: 0,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/d09eb4701f0970107b45f07d8c023e15~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=52f50339&x-expires=1785171600&x-signature=duNPbaHVOR71JuYClQYjjA30YvM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: [""],
   },
 ];
