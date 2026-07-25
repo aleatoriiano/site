@@ -43,7 +43,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 53,
+    level: 73,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/aa2de14b242dff8a4a4e2596e46613e9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=539fe965&x-expires=1784577600&x-signature=0wfv9nR8oFlTiMTvGUW04GRzrNI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -55,7 +55,8 @@ const ARTILHEIROS = [
     "gremio.png", "goianesia.png", "mazembe.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "coritiba.png", "gremio.png", "mazembe.png",
     "gremio.png", "gremio.png", "vitoria.png", "gremio.png", "gremio.png",
-    "gremio.png", "botafogo.png", "gremio.png", "gremio.png", "flamengo.png"],
+    "gremio.png", "botafogo.png", "gremio.png", "gremio.png", "flamengo.png",
+    "gremio.png"],
   },
    {
     name: "Gui_mct",
@@ -278,5 +279,23 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/d09eb4701f0970107b45f07d8c023e15~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=52f50339&x-expires=1785171600&x-signature=duNPbaHVOR71JuYClQYjjA30YvM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: [""],
+  },
+     {
+    name: "Thais 🐺🤍🩵",
+    level: 11,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/3b1c3326d72a0a3e136d51ce8a53e64b~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=6897f455&x-expires=1785186000&x-signature=1haaqvLYmBPGNaAF4v7501tuPe0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["cruzeiro.png", "cruzeiro.png"],
+  },
+   {
+    name: "robsonduarte05",
+    level: 1,
+    foto: "fortaleza.png",
+    teams: ["https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/b0b0e56081efae61bfbafccd2112abf9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=669de6bd&x-expires=1785189600&x-signature=E75Slr6k6yDTt7eB3RkGIfV%2F1os%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my"],
+  },
+   {
+    name: "Falco",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/2d91fd8238c361b1c1d882d222b79a57~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=0c486bca&x-expires=1785182400&x-signature=gKxDsYxpzhDL7hgPmu0C1mAPH0s%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["remo.png"],
   },
 ];
