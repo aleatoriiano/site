@@ -275,7 +275,7 @@ const ARTILHEIROS = [
   },
      {
     name: "mylly 🐆",
-    level: 0,
+    level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/d09eb4701f0970107b45f07d8c023e15~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=52f50339&x-expires=1785171600&x-signature=duNPbaHVOR71JuYClQYjjA30YvM%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: [""],
   },
