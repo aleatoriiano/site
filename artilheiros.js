@@ -56,7 +56,7 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "coritiba.png", "gremio.png", "mazembe.png",
     "gremio.png", "gremio.png", "vitoria.png", "gremio.png", "gremio.png",
     "gremio.png", "botafogo.png", "gremio.png", "gremio.png", "flamengo.png",
-    "gremio.png"],
+    "gremio.png", "gremio.png", "gremio.png", "athletico-pr", "athletico-pr"],
   },
    {
     name: "Gui_mct",
@@ -282,9 +282,9 @@ const ARTILHEIROS = [
   },
      {
     name: "Thais 🐺🤍🩵",
-    level: 11,
+    level: 12,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/3b1c3326d72a0a3e136d51ce8a53e64b~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=6897f455&x-expires=1785186000&x-signature=1haaqvLYmBPGNaAF4v7501tuPe0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["cruzeiro.png", "cruzeiro.png"],
+    teams: ["cruzeiro.png", "cruzeiro.png",  "cruzeiro.png"],
   },
    {
     name: "robsonduarte05",
