@@ -43,7 +43,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 143,
+    level: 147,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/aa2de14b242dff8a4a4e2596e46613e9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=539fe965&x-expires=1784577600&x-signature=0wfv9nR8oFlTiMTvGUW04GRzrNI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -57,7 +57,8 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "vitoria.png", "gremio.png", "gremio.png",
     "gremio.png", "botafogo.png", "gremio.png", "gremio.png", "flamengo.png",
     "gremio.png", "gremio.png", "gremio.png", "athletico-pr.png", "athletico-pr.png",
-    "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
   },
    {
     name: "Gui_mct",
@@ -298,5 +299,17 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/2d91fd8238c361b1c1d882d222b79a57~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=0c486bca&x-expires=1785182400&x-signature=gKxDsYxpzhDL7hgPmu0C1mAPH0s%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["remo.png"],
+  },
+    {
+    name: "Víctor Kawan",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/717cd8f9e9d6e0a2347e541a71ddd85a~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=b4258339&x-expires=1785265200&x-signature=Gvd0tsFoCIbgylhSK1BNlRij42Q%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["palmeiras.png"],
+  },
+    {
+    name: "FRANCOIS",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/2afd2a280cf3d315b7155beb462b0f92~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=6f683ff8&x-expires=1785268800&x-signature=arZPL%2BLhzn2URbu%2BHeT22yxlZqY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["corinthians.png"],
   },
 ];
