@@ -6,7 +6,7 @@ const TEAMS = [
   { name: "Corinthians", titles: 14, shield: "corinthians.png" },
   { name: "Atlético Mineiro", titles: 5, shield: "atletico-mg.png" },
   { name: "Vasco", titles: 4, shield: "vasco.png" },
-  { name: "Grêmio", titles: 54, shield: "gremio.png" },
+  { name: "Grêmio", titles: 56, shield: "gremio.png" },
   { name: "Palmeiras", titles: 4, shield: "palmeiras.png" },
   { name: "Flamengo", titles: 6, shield: "flamengo.png" },
   { name: "Santos", titles: 0, shield: "santos.png" },
@@ -17,7 +17,7 @@ const TEAMS = [
   { name: "Botafogo", titles: 3, shield: "botafogo.png" },
   { name: "Mirassol", titles: 0, shield: "mirassol.png" },
   { name: "Atlético Paranaense", titles: 0, shield: "athletico-pr.png" },
-  { name: "Cruzeiro", titles: 2, shield: "cruzeiro.png" },
+  { name: "Cruzeiro", titles: 3, shield: "cruzeiro.png" },
   { name: "Fluminense", titles: 0, shield: "fluminense.png" },
   { name: "Coritiba", titles: 3, shield: "coritiba.png" },
   { name: "Chapecoense", titles: 0, shield: "chapecoense.png" },
@@ -36,5 +36,6 @@ const TEAMS = [
   { name: "Boca Juniors", titles: 1, shield: "boca-juniors.png" },
   { name: "Joinville", titles: 1, shield: "joinville.png" },
   { name: "Vitoria", titles: 1, shield: "vitoria.png" },
-  { name: "fortaleza", titles: 1, shield: "fortaleza.png" }
+  { name: "fortaleza", titles: 1, shield: "fortaleza.png" },
+  { name: "Atletico Goia", titles: 2, shield: "athletico-pr.png" }
 ];
