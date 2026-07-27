@@ -3,10 +3,10 @@
  * A ordem na tela é automática: mais títulos primeiro; em empate, ordem alfabética do nome.
  */
 const TEAMS = [
-  { name: "Corinthians", titles: 16, shield: "corinthians.png" },
+  { name: "Corinthians", titles: 17, shield: "corinthians.png" },
   { name: "Atlético Mineiro", titles: 5, shield: "atletico-mg.png" },
   { name: "Vasco", titles: 4, shield: "vasco.png" },
-  { name: "Grêmio", titles: 68, shield: "gremio.png" },
+  { name: "Grêmio", titles: 72, shield: "gremio.png" },
   { name: "Palmeiras", titles: 5, shield: "palmeiras.png" },
   { name: "Flamengo", titles: 6, shield: "flamengo.png" },
   { name: "Santos", titles: 0, shield: "santos.png" },
