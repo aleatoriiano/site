@@ -60,7 +60,7 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
-     "gremio.png", "gremio.png"],
+     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "corinthians.png"],
   },
    {
     name: "Gui_mct",
@@ -314,5 +314,10 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/2afd2a280cf3d315b7155beb462b0f92~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=6f683ff8&x-expires=1785268800&x-signature=arZPL%2BLhzn2URbu%2BHeT22yxlZqY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["corinthians.png"],
   },
-
+{
+    name: "William",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/4f45aec0689494adb3e4e826c990ab38~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=7e4bdf25&x-expires=1785344400&x-signature=6WGEoDec%2BkhpZSRjkFHlZpN1iUs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["uberlandia.png"],
+  },
 ];
