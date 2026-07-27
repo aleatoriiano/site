@@ -293,8 +293,8 @@ const ARTILHEIROS = [
    {
     name: "robsonduarte05",
     level: 2,
-    foto: "fortaleza.png", "fortaleza.png",
-    teams: ["https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/b0b0e56081efae61bfbafccd2112abf9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=669de6bd&x-expires=1785189600&x-signature=E75Slr6k6yDTt7eB3RkGIfV%2F1os%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my"],
+    foto: "https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/b0b0e56081efae61bfbafccd2112abf9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=669de6bd&x-expires=1785189600&x-signature=E75Slr6k6yDTt7eB3RkGIfV%2F1os%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["fortaleza.png", "fortaleza.png"],
   },
    {
     name: "Falco",
