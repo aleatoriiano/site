@@ -6,7 +6,7 @@ const TEAMS = [
   { name: "Corinthians", titles: 18, shield: "corinthians.png" },
   { name: "Atlético Mineiro", titles: 5, shield: "atletico-mg.png" },
   { name: "Vasco", titles: 4, shield: "vasco.png" },
-  { name: "Grêmio", titles: 84, shield: "gremio.png" },
+  { name: "Grêmio", titles: 87, shield: "gremio.png" },
   { name: "Palmeiras", titles: 5, shield: "palmeiras.png" },
   { name: "Flamengo", titles: 6, shield: "flamengo.png" },
   { name: "Santos", titles: 0, shield: "santos.png" },
