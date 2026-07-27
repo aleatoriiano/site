@@ -262,9 +262,9 @@ const ARTILHEIROS = [
   },
     {
     name: "SEP_CARLOS🇮🇹🇮🇹",
-    level: 1,
+    level: 2,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/6549155ec22e40926c9cfd1366585fd1~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=b279fcbc&x-expires=1785110400&x-signature=Wq5oOEBhH1YegnWO1KKNfzHXHao%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["palmeiras.png"],
+    teams: ["palmeiras.png", "trem.png"],
   },
     {
     name: "Lucas Barbosa",
@@ -314,10 +314,5 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/2afd2a280cf3d315b7155beb462b0f92~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=6f683ff8&x-expires=1785268800&x-signature=arZPL%2BLhzn2URbu%2BHeT22yxlZqY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["corinthians.png"],
   },
-   {
-    name: "SEP_CARLOS🇮🇹🇮🇹",
-    level: 1,
-    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/6549155ec22e40926c9cfd1366585fd1~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=580a64f0&x-expires=1785294000&x-signature=TPG9XTet2JRh9DUkrVZ5N%2BiTDD0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["trem.png"],
-  },
+
 ];
