@@ -5,8 +5,8 @@
 const TEAMS = [
   { name: "Corinthians", titles: 20, shield: "corinthians.png" },
   { name: "Atlético Mineiro", titles: 5, shield: "atletico-mg.png" },
-  { name: "Vasco", titles: 4, shield: "vasco.png" },
-  { name: "Grêmio", titles: 95, shield: "gremio.png" },
+  { name: "Vasco", titles: 5, shield: "vasco.png" },
+  { name: "Grêmio", titles: 96, shield: "gremio.png" },
   { name: "Palmeiras", titles: 6, shield: "palmeiras.png" },
   { name: "Flamengo", titles: 7, shield: "flamengo.png" },
   { name: "Santos", titles: 1, shield: "santos.png" },
@@ -24,7 +24,7 @@ const TEAMS = [
   { name: "Sao Paulo", titles: 3, shield: "sao-paulo.png" },
   { name: "Portuguesa", titles: 1, shield: "portuguesa.png" },
   { name: "Avai", titles: 1, shield: "avai.png" },
-  { name: "Ceara", titles: 2, shield: "ceara.png" },
+  { name: "Ceara", titles: 3, shield: "ceara.png" },
   { name: "Treze", titles: 1, shield: "treze.png" },
   { name: "Cascavel", titles: 1, shield: "cascavel.png" },
   { name: "Caxias", titles: 1, shield: "caxias.png" },
@@ -40,5 +40,6 @@ const TEAMS = [
   { name: "Atletico Goia", titles: 2, shield: "athletico-pr.png" },
   { name: "Trem", titles: 2, shield: "trem.png" },
   { name: "Uberlandia", titles: 1, shield: "uberlandia.png" },
-  { name: "Bragantino", titles: 1, shield: "bragantino.png" }
+  { name: "Bragantino", titles: 1, shield: "bragantino.png" },
+   { name: "Arsenal", titles: 1, shield: "arsenal.png" }
 ];
