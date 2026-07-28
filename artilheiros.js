@@ -364,9 +364,9 @@ const ARTILHEIROS = [
   },
 {
     name: "William",
-    level: 1,
+    level: 3,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/4f45aec0689494adb3e4e826c990ab38~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=7e4bdf25&x-expires=1785344400&x-signature=6WGEoDec%2BkhpZSRjkFHlZpN1iUs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["uberlandia.png"],
+    teams: ["uberlandia.png", "gama.png", "porto-velho.png"],
    guardiao: 0,
   },
    {
