@@ -60,7 +60,7 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
-     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "corinthians.png"
+     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "corinthians.png",
      "gremio.png", "corinthians.png", "flamengo.png"],
   },
    {
