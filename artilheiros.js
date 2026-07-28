@@ -61,7 +61,7 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
      "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "corinthians.png",
-     "gremio.png", "corinthians.png", "flamengo.png"],
+     "gremio.png", "corinthians.png", "flamengo.png",  "gremio.png"],
   },
    {
     name: "Gui_mct",
@@ -179,9 +179,9 @@ const ARTILHEIROS = [
   },
    {
     name: "Scolari",
-    level: 56,
+    level: 57,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/913cea5d8a155c094be384ea27399642~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d3b8807b&x-expires=1784930400&x-signature=sv5iYEhN%2F1Aksnv3eWZ5STiv%2B6Q%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
+    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "bragantino.png"],
   },
    {
     name: "reiz1995",
@@ -326,5 +326,11 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/musically-maliva-obj/1594805258216454~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=dcc04ab4&x-expires=1785369600&x-signature=Uz94jOIjzfS%2BlFslp67pnt6tRvQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["palmeiras.png"],
+  },
+      {
+    name: "✦ 🆆🅴🅽🅳🅴🅻 ✦ⒸⒶⒷⓇⒶⓁ ⓑ⓪ⓢⓢⓢ⓪⓪",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/f22b3638c5e7efb89af81f5e329ed5fe~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=6459980c&x-expires=1785376800&x-signature=XIBacTIfugRffqP%2Bn6Isf1zma%2Bo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["corinthians.png"],
   },
 ];
