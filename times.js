@@ -4,9 +4,9 @@
  */
 const TEAMS = [
   { name: "Corinthians", titles: 22, shield: "corinthians.png" },
-  { name: "Atlético Mineiro", titles: 5, shield: "atletico-mg.png" },
+  { name: "Atlético Mineiro", titles: 6, shield: "atletico-mg.png" },
   { name: "Vasco", titles: 5, shield: "vasco.png" },
-  { name: "Grêmio", titles: 99, shield: "gremio.png" },
+  { name: "Grêmio", titles: 100, shield: "gremio.png" },
   { name: "Palmeiras", titles: 6, shield: "palmeiras.png" },
   { name: "Flamengo", titles: 7, shield: "flamengo.png" },
   { name: "Santos", titles: 1, shield: "santos.png" },
@@ -41,5 +41,7 @@ const TEAMS = [
   { name: "Trem", titles: 2, shield: "trem.png" },
   { name: "Uberlandia", titles: 1, shield: "uberlandia.png" },
   { name: "Bragantino", titles: 1, shield: "bragantino.png" },
-   { name: "Arsenal", titles: 1, shield: "arsenal.png" }
+   { name: "Arsenal", titles: 1, shield: "arsenal.png" },
+  { name: "Gama", titles: 1, shield: "gama.png" },
+  { name: "Porto Velho", titles: 1, shield: "porto-velho.png" }
 ];
