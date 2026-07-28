@@ -43,7 +43,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 193,
+    level: 195,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/aa2de14b242dff8a4a4e2596e46613e9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=539fe965&x-expires=1784577600&x-signature=0wfv9nR8oFlTiMTvGUW04GRzrNI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -61,7 +61,7 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
      "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "corinthians.png",
-     "gremio.png", "corinthians.png", "flamengo.png",  "gremio.png", "gremio.png", "gremio.png", "gremio.png", "mirassol.png", "santos.png"],
+     "gremio.png", "corinthians.png", "flamengo.png",  "gremio.png", "gremio.png", "gremio.png", "gremio.png", "mirassol.png", "santos.png", "arsenal.png", "gremio.png"],
   },
    {
     name: "Gui_mct",
@@ -89,9 +89,9 @@ const ARTILHEIROS = [
   },
     {
     name: "Roma",
-    level: 3,
+    level: 4,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/933815e9e58d6a0351f13757130227a2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=84f09572&x-expires=1784599200&x-signature=VIxOlRMaGOookE%2BIuoDyPDnvl%2BY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["ceara.png", "corinthians.png", "corinthians.png"],
+    teams: ["ceara.png", "corinthians.png", "corinthians.png", "ceara.png"],
   },
     {
     name: "TIGRINHO",
@@ -332,5 +332,11 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/f22b3638c5e7efb89af81f5e329ed5fe~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=6459980c&x-expires=1785376800&x-signature=XIBacTIfugRffqP%2Bn6Isf1zma%2Bo%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["corinthians.png"],
+  },
+    {
+    name: "022_kua_bjj",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/28e2d055b444ef163b17c78f17788b11~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=61f3d765&x-expires=1785423600&x-signature=we9Kw2gbSa4ADqcbWiI40goVEXk%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["vasco.png"],
   },
 ];
