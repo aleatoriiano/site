@@ -179,9 +179,9 @@ const ARTILHEIROS = [
   },
    {
     name: "Scolari",
-    level: 53,
+    level: 56,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/913cea5d8a155c094be384ea27399642~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d3b8807b&x-expires=1784930400&x-signature=sv5iYEhN%2F1Aksnv3eWZ5STiv%2B6Q%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png"],
+    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
   },
    {
     name: "reiz1995",
@@ -320,5 +320,11 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/4f45aec0689494adb3e4e826c990ab38~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=7e4bdf25&x-expires=1785344400&x-signature=6WGEoDec%2BkhpZSRjkFHlZpN1iUs%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["uberlandia.png"],
+  },
+   {
+    name: "user2361573622258",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/musically-maliva-obj/1594805258216454~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=dcc04ab4&x-expires=1785369600&x-signature=Uz94jOIjzfS%2BlFslp67pnt6tRvQ%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["palmeiras.png"],
   },
 ];
