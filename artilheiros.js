@@ -342,7 +342,7 @@ const ARTILHEIROS = [
    {
     name: "kauazim081",
     level: 1,
-    foto: "",
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/bcb74360ee2179c204e1a6da8843cdee~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=0a298900&x-expires=1785434400&x-signature=9fBb50DXNPrWQSWisxFjdozSmB8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["corinthians.png"],
   },
 ];
