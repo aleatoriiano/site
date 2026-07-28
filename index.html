@@ -340,6 +340,18 @@
       font-size: 0.95rem;
     }
 
+    .scorer-guardiao {
+      width: 64px;
+      height: auto;
+      margin-top: 0.35rem;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.6));
+    }
+
+    .scorer-card.featured .scorer-guardiao {
+      width: 88px;
+    }
+
     .section-below {
       margin-top: 0;
     }
@@ -480,6 +492,13 @@
         lvl.className = "scorer-level";
         lvl.textContent = "Nível " + a.level;
         inner.appendChild(lvl);
+        if (Number(a.guardiao) === 1) {
+          var guardiao = document.createElement("img");
+          guardiao.className = "scorer-guardiao";
+          guardiao.src = "outros/guardiao.png";
+          guardiao.alt = "Guardião";
+          inner.appendChild(guardiao);
+        }
         div.appendChild(inner);
         return div;
       }
