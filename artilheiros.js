@@ -13,9 +13,9 @@
 const ARTILHEIROS = [
   {
     name: "⚡️尺ㄖᗪ尺丨Ꮆㄖ! 🪁",
-    level: 7,
+    level: 8,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/67686afeedafe671325e4109bb419390~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=b64ca228&x-expires=1784566800&x-signature=3FMaX0WbKTn4OMK%2FTgOwC4xxGu4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png", "boca-juniors", "botafogo.png", "corinthians.png"],
+    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png", "boca-juniors", "botafogo.png", "corinthians.png", "corinthians.png"],
   },
      {
     name: "Davi",
@@ -89,9 +89,9 @@ const ARTILHEIROS = [
   },
     {
     name: "Roma",
-    level: 4,
+    level: 5,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/933815e9e58d6a0351f13757130227a2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=84f09572&x-expires=1784599200&x-signature=VIxOlRMaGOookE%2BIuoDyPDnvl%2BY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["ceara.png", "corinthians.png", "corinthians.png", "ceara.png"],
+    teams: ["ceara.png", "corinthians.png", "corinthians.png", "ceara.png", "roma.png"],
   },
     {
     name: "TIGRINHO",
@@ -119,9 +119,9 @@ const ARTILHEIROS = [
   },
     {
     name: "🇧🇼 Maicon 🇪🇪",
-    level: 3,
+    level: 4,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/27423fc70100d6383bb8b30ce27fc4f2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d1942611&x-expires=1784674800&x-signature=MBJXspY1ZzDjihkwDZSF8I0z0XI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["gremio.png", "gremio.png", "gremio.png"],
+    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png"],
     },
     {
     name: "Yuri🧉",
@@ -338,5 +338,11 @@ const ARTILHEIROS = [
     level: 1,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/28e2d055b444ef163b17c78f17788b11~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=61f3d765&x-expires=1785423600&x-signature=we9Kw2gbSa4ADqcbWiI40goVEXk%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["vasco.png"],
+  },
+   {
+    name: "kauazim081",
+    level: 1,
+    foto: "",
+    teams: ["corinthians.png"],
   },
 ];
