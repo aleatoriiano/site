@@ -3,13 +3,13 @@
  * A ordem na tela é automática: mais títulos primeiro; em empate, ordem alfabética do nome.
  */
 const TEAMS = [
-  { name: "Corinthians", titles: 22, shield: "corinthians.png" },
+  { name: "Corinthians", titles: 26, shield: "corinthians.png" },
   { name: "Atlético Mineiro", titles: 6, shield: "atletico-mg.png" },
   { name: "Vasco", titles: 5, shield: "vasco.png" },
   { name: "Grêmio", titles: 103, shield: "gremio.png" },
   { name: "Palmeiras", titles: 6, shield: "palmeiras.png" },
   { name: "Flamengo", titles: 7, shield: "flamengo.png" },
-  { name: "Santos", titles: 1, shield: "santos.png" },
+  { name: "Santos", titles: 2, shield: "santos.png" },
   { name: "Remo", titles: 4, shield: "remo.png" },
   { name: "Bahia", titles: 0, shield: "bahia.png" },
   { name: "Internacional", titles: 0, shield: "internacional.png" },
@@ -29,7 +29,7 @@ const TEAMS = [
   { name: "Cascavel", titles: 1, shield: "cascavel.png" },
   { name: "Caxias", titles: 1, shield: "caxias.png" },
   { name: "Barcelona", titles: 1, shield: "barcelona.png" },
-  { name: "Figueirense", titles: 1, shield: "figueirense.png" },
+  { name: "Figueirense", titles: 2, shield: "figueirense.png" },
   { name: "Criciuma", titles: 3, shield: "criciuma.png" },
   { name: "Goianesia", titles: 1, shield: "goianesia.png" },
   { name: "Mazembe", titles: 1, shield: "mazembe.png" },
