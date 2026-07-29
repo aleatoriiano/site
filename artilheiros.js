@@ -102,7 +102,7 @@ const ARTILHEIROS = [
     name: "Roma",
     level: 5,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/933815e9e58d6a0351f13757130227a2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=84f09572&x-expires=1784599200&x-signature=VIxOlRMaGOookE%2BIuoDyPDnvl%2BY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["ceara.png", "corinthians.png", "corinthians.png", "ceara.png", "roma.png"],
+    teams: ["ceara.png", "corinthians.png", "corinthians.png", "ceara.png", "ceara.png"],
        guardiao: 0,
   },
     {
