@@ -43,5 +43,6 @@ const TEAMS = [
   { name: "Bragantino", titles: 1, shield: "bragantino.png" },
    { name: "Arsenal", titles: 1, shield: "arsenal.png" },
   { name: "Gama", titles: 1, shield: "gama.png" },
-  { name: "Porto Velho", titles: 1, shield: "porto-velho.png" }
+  { name: "Porto Velho", titles: 1, shield: "porto-velho.png" },
+  { name: "Botafogo da Paraiba", titles: 2, shield: "portbotafogo-pb.png" }
 ];
