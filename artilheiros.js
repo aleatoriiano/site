@@ -13,9 +13,9 @@
 const ARTILHEIROS = [
   {
     name: "⚡️尺ㄖᗪ尺丨Ꮆㄖ! 🪁",
-    level: 8,
+    level: 11,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/67686afeedafe671325e4109bb419390~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=b64ca228&x-expires=1784566800&x-signature=3FMaX0WbKTn4OMK%2FTgOwC4xxGu4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png", "boca-juniors", "botafogo.png", "corinthians.png", "corinthians.png"],
+    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png", "boca-juniors", "botafogo.png", "corinthians.png", "corinthians.png", "corinthians.png", "figueirense.png", "corinthians.png"],
     guardiao: 0,
   },
      {
@@ -411,5 +411,22 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/55e60c907c406afad5c88ce7bfed0920~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=54704d4f&x-expires=1785517200&x-signature=Ep2IEpejOMyan1fjfDyqn28EHCg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["botafogo-pb.png", "botafogo-pb.png"],
   },
- 
+    {
+    name: "thur.s2z",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/c1b74b73197a14412383fec631c34361~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=86f4aefc&x-expires=1785528000&x-signature=FFqLBmbGsSn9mVhVnskjQcWMV7E%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["santos.png"],
+  },
+    {
+    name: "Joabe Ulisses",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/95eb910ab0a09e28b753f34eee0a2a39~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=fc2c2f5a&x-expires=1785528000&x-signature=ZJcr0wNaSa9B5W0FNwmKB3eS6Nk%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["corinthians.png"],
+  },
+    {
+    name: "Gillyan Batista",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/ceabbe6e53af1e4370829683aa27a312~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=fa2a700c&x-expires=1785531600&x-signature=NrmTLRzRaM8U7%2BvS76x4mcuhOZc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["corinthians.png"],
+  },
 ];
