@@ -337,9 +337,9 @@ const ARTILHEIROS = [
   },
      {
     name: "Thais 🐺🤍🩵",
-    level: 12,
+    level: 13,
     foto: "thaisinhasouza1.jpeg",
-    teams: ["cruzeiro.png", "cruzeiro.png",  "cruzeiro.png"],
+    teams: ["cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png"],
         guardiao: 1,
   },
    {
@@ -464,5 +464,24 @@ const ARTILHEIROS = [
     level: 1,
     foto: "vivianesousa4347.jpeg",
     teams: ["remo.png"],
+  },
+    {
+    name: "Josué Rossini",
+    level: 1,
+    foto: "rossini300r.jpeg",
+    teams: ["internacional.png"],
+  },
+    {
+    name: "wesleylemes57",
+    level: 1,
+    foto: "wesleylemes57.jpeg",
+    teams: ["cruzeiro.png"],
+  },
+   
+   {
+    name: "Takuma Sato",
+    level: 1,
+    foto: "eltakumawill.jpeg",
+    teams: ["real-madrid.png"],
   },
 ];
