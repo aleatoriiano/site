@@ -430,4 +430,28 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/ceabbe6e53af1e4370829683aa27a312~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=fa2a700c&x-expires=1785531600&x-signature=NrmTLRzRaM8U7%2BvS76x4mcuhOZc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["corinthians.png"],
   },
+    {
+    name: "meurexz🧙‍♂️🧙‍♂️🧙‍♂️",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/fd86526d18564578b35eebc688d1f99e~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=af0e7b98&x-expires=1785553200&x-signature=49B47JMMwyxFnuxiB6hCgrMeRQ4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["operario-ms.png"],
+  },
+    {
+    name: "𝑱𝒂𝒄𝒌𝒔𝒐𝒏🇾🇪🇪🇦",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/446233e5004def2e3ad404e297ba3ddb~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=cc11bfc0&x-expires=1785560400&x-signature=XGJDzGRzumVPth8XVxSygNhACZ8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    teams: ["sao-paulo.png"],
+  },
+    {
+    name: "Victor Teles",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8f47a2996483d3e21d4e8e650d19375f~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=e235a212&x-expires=1785560400&x-signature=GKbEIgjB3wTjnwJwFf1GJPTaY1s%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["confianca.png"],
+  },
+    {
+    name: "𝐒𝐅𝐎𝐄𝐅𝐎𝐄𝐉𝐄9",
+    level: 1,
+    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/19a6dfeb0952728120e216e865225eb8~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=9972235a&x-expires=1785560400&x-signature=QJ5%2FlJkSbOWPLNTo8auugnvUsHI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    teams: ["confianca.png"],
+  },
 ];
