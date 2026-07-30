@@ -1,7 +1,10 @@
 /**
  * Artilheiros — níveis 1 a 20 (cards/N.png).
- * Cada item obrigatório: name, level, foto (URL TikTok ou caminho local), teams (escudos em escudos/).
-
+ * Cada item: name, level, foto, teams (escudos em escudos/), guardiao (0 ou 1).
+ *
+ * FOTO DE PERFIL — baixe a imagem, salve em fotos/ (ex: davi.jpeg) e coloque só o nome:
+ *   foto: "davi.jpeg"
+ *
    {
     name: "",
     level: 0,
