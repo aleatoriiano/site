@@ -13,10 +13,10 @@
 const ARTILHEIROS = [
   {
     name: "⚡️尺ㄖᗪ尺丨Ꮆㄖ! 🪁",
-    level: 11,
+    level: 12,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/67686afeedafe671325e4109bb419390~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=b64ca228&x-expires=1784566800&x-signature=3FMaX0WbKTn4OMK%2FTgOwC4xxGu4%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png", "boca-juniors", "botafogo.png", "corinthians.png", "corinthians.png", "corinthians.png", "figueirense.png", "corinthians.png"],
-    guardiao: 0,
+    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png", "boca-juniors", "botafogo.png", "corinthians.png", "corinthians.png", "corinthians.png", "figueirense.png", "corinthians.png", "figueirense.png"],
+    guardiao: 1,
   },
      {
     name: "Davi",
@@ -181,7 +181,7 @@ const ARTILHEIROS = [
     level: 2,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/69a7499dae77d3a0587e8b3e23c98430~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ed967436&x-expires=1784775600&x-signature=YiExY4oVKLtZhmJ01qfDBiqp7fI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["atletico-mg.png"],
-         guardiao: 0,
+         guardiao: 1,
   },
    {
     name: "Laísa Melo",
