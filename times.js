@@ -12,7 +12,7 @@ const TEAMS = [
   { name: "Santos", titles: 2, shield: "santos.png" },
   { name: "Remo", titles: 4, shield: "remo.png" },
   { name: "Bahia", titles: 0, shield: "bahia.png" },
-  { name: "Internacional", titles: 0, shield: "internacional.png" },
+  { name: "Internacional", titles: 1, shield: "internacional.png" },
   { name: "Real Madrid", titles: 0, shield: "real-madrid.png" },
   { name: "Botafogo", titles: 3, shield: "botafogo.png" },
   { name: "Mirassol", titles: 2, shield: "mirassol.png" },
@@ -21,7 +21,7 @@ const TEAMS = [
   { name: "Fluminense", titles: 0, shield: "fluminense.png" },
   { name: "Coritiba", titles: 4, shield: "coritiba.png" },
   { name: "Chapecoense", titles: 0, shield: "chapecoense.png" },
-  { name: "Sao Paulo", titles: 3, shield: "sao-paulo.png" },
+  { name: "Sao Paulo", titles: 4, shield: "sao-paulo.png" },
   { name: "Portuguesa", titles: 1, shield: "portuguesa.png" },
   { name: "Avai", titles: 1, shield: "avai.png" },
   { name: "Ceara", titles: 4, shield: "ceara.png" },
@@ -29,7 +29,7 @@ const TEAMS = [
   { name: "Cascavel", titles: 1, shield: "cascavel.png" },
   { name: "Caxias", titles: 1, shield: "caxias.png" },
   { name: "Barcelona", titles: 1, shield: "barcelona.png" },
-  { name: "Figueirense", titles: 2, shield: "figueirense.png" },
+  { name: "Figueirense", titles: 3, shield: "figueirense.png" },
   { name: "Criciuma", titles: 3, shield: "criciuma.png" },
   { name: "Goianesia", titles: 1, shield: "goianesia.png" },
   { name: "Mazembe", titles: 1, shield: "mazembe.png" },
@@ -44,5 +44,8 @@ const TEAMS = [
    { name: "Arsenal", titles: 1, shield: "arsenal.png" },
   { name: "Gama", titles: 1, shield: "gama.png" },
   { name: "Porto Velho", titles: 1, shield: "porto-velho.png" },
-  { name: "Botafogo da Paraiba", titles: 2, shield: "botafogo-pb.png" }
+  { name: "Botafogo da Paraiba", titles: 2, shield: "botafogo-pb.png" },
+  { name: "Operario ms", titles: 1, shield: "operario-ms.png" },
+  { name: "Figueirense", titles: 1, shield: "figueirense.png" },
+  { name: "Confianca", titles: 1, shield: "confianca-ms.png" }
 ];
