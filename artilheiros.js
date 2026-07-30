@@ -51,7 +51,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 207,
+    level: 210,
     foto: "voando___alto.jpeg",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -72,7 +72,8 @@ const ARTILHEIROS = [
     "gremio.png", "corinthians.png", "flamengo.png",  "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "mirassol.png", "santos.png", "arsenal.png", "gremio.png", "mirassol.png",
     "gremio.png", "gremio.png", "atletico-mg.png", "gremio.png", "gremio.png", "gremio.png",
-    "coritiba.png", "gremio.png", "flamengo.png", "gremio.png", "gremio.png", "santa-cruz.png", "gremio.png", "gremio.png"],
+    "coritiba.png", "gremio.png", "flamengo.png", "gremio.png", "gremio.png", "santa-cruz.png",
+    "gremio.png", "gremio.png", "botafogo.png", "gremio.png", "gremio.png"],
       guardiao: 1
   },
    {
@@ -448,9 +449,9 @@ const ARTILHEIROS = [
   },
     {
     name: "Victor Teles",
-    level: 1,
+    level: 2,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/8f47a2996483d3e21d4e8e650d19375f~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=e235a212&x-expires=1785560400&x-signature=GKbEIgjB3wTjnwJwFf1GJPTaY1s%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["confianca.png"],
+    teams: ["confianca.png", "confianca.png"],
   },
     {
     name: "𝐒𝐅𝐎𝐄𝐅𝐎𝐄𝐉𝐄9",
