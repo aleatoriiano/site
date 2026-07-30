@@ -458,4 +458,10 @@ const ARTILHEIROS = [
     foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/19a6dfeb0952728120e216e865225eb8~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=9972235a&x-expires=1785560400&x-signature=QJ5%2FlJkSbOWPLNTo8auugnvUsHI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
     teams: ["confianca.png"],
   },
+   {
+    name: "Viviane da cruz",
+    level: 1,
+    foto: "vivianesousa4347.jpeg",
+    teams: ["remo.png"],
+  },
 ];
