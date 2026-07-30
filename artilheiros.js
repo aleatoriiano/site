@@ -1,6 +1,7 @@
 /**
  * Artilheiros — níveis 1 a 20 (cards/N.png).
  * Cada item: name, level, foto, teams (escudos em escudos/), guardiao (0 ou 1).
+ * Guardiões (guardiao: 1) ganham animação de asas (asa1; o de maior nível usa asa2).
  *
  * FOTO DE PERFIL — baixe a imagem, salve em fotos/ (ex: davi.jpeg) e coloque só o nome:
  *   foto: "davi.jpeg"
