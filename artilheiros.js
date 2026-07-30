@@ -182,7 +182,7 @@ const ARTILHEIROS = [
       {
     name: "Vitinho Figueiredo",
     level: 2,
-    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/69a7499dae77d3a0587e8b3e23c98430~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ed967436&x-expires=1784775600&x-signature=YiExY4oVKLtZhmJ01qfDBiqp7fI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    foto: "vitinhoolf.jpeg",
     teams: ["atletico-mg.png"],
          guardiao: 1,
   },
