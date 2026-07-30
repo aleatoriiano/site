@@ -47,5 +47,5 @@ const TEAMS = [
   { name: "Botafogo da Paraiba", titles: 2, shield: "botafogo-pb.png" },
   { name: "Operario ms", titles: 1, shield: "operario-ms.png" },
   { name: "Figueirense", titles: 1, shield: "figueirense.png" },
-  { name: "Confianca", titles: 1, shield: "confianca-ms.png" }
+  { name: "Confianca", titles: 1, shield: "confianca.png" }
 ];
