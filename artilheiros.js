@@ -14,7 +14,7 @@ const ARTILHEIROS = [
   {
     name: "⚡️尺ㄖᗪ尺丨Ꮆㄖ! 🪁",
     level: 12,
-    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png", "boca-juniors", "botafogo.png", "corinthians.png", "corinthians.png", "corinthians.png", "figueirense.png", "corinthians.png", "figueirense.png"],
+    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png", "boca-juniors.png", "botafogo.png", "corinthians.png", "corinthians.png", "corinthians.png", "figueirense.png", "corinthians.png", "figueirense.png"],
     guardiao: 1,
   },
      {
