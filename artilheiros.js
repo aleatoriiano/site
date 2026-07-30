@@ -408,9 +408,9 @@ const ARTILHEIROS = [
   },
     {
     name: "Gollllllll",
-    level: 2,
+    level: 4,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/55e60c907c406afad5c88ce7bfed0920~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=54704d4f&x-expires=1785517200&x-signature=Ep2IEpejOMyan1fjfDyqn28EHCg%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["botafogo-pb.png", "botafogo-pb.png"],
+    teams: ["botafogo-pb.png", "botafogo-pb.png", "internacional.png", "ibis.png"],
   },
     {
     name: "thur.s2z",
