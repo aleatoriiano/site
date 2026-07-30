@@ -456,8 +456,15 @@
         });
       }
 
+      function fotoSrc(foto) {
+        foto = (foto || "").trim();
+        if (!foto) return "";
+        if (/^https?:\/\//i.test(foto) || foto.indexOf("fotos/") === 0) return foto;
+        return "fotos/" + foto;
+      }
+
       function buildScorerCard(a, featured) {
-        var foto = a.foto || "";
+        var foto = fotoSrc(a.foto);
         var cardBg = cardImageForLevel(a.level);
         var groupedTeams = groupScorerTeams(a.teams);
         var rowClass = teamsRowClass(groupedTeams.length);
