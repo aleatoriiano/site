@@ -67,7 +67,8 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "corinthians.png",
     "gremio.png", "corinthians.png", "flamengo.png",  "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "mirassol.png", "santos.png", "arsenal.png", "gremio.png", "mirassol.png",
-    "gremio.png", "gremio.png", "atletico-mg.png", "gremio.png", "gremio.png", "gremio.png", "coritiba.png", "gremio.png"],
+    "gremio.png", "gremio.png", "atletico-mg.png", "gremio.png", "gremio.png", "gremio.png",
+    "coritiba.png", "gremio.png", "flamengo.png", "gremio.png", "gremio.png"],
       guardiao: 1
   },
    {
