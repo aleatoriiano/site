@@ -51,7 +51,7 @@ const ARTILHEIROS = [
      {
     name: "voando_alto",
     level: 204,
-    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/aa2de14b242dff8a4a4e2596e46613e9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=539fe965&x-expires=1784577600&x-signature=0wfv9nR8oFlTiMTvGUW04GRzrNI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    foto: "voando___alto.jpeg",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -210,9 +210,9 @@ const ARTILHEIROS = [
    {
     name: "Scolari",
     level: 57,
-    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/913cea5d8a155c094be384ea27399642~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d3b8807b&x-expires=1784930400&x-signature=sv5iYEhN%2F1Aksnv3eWZ5STiv%2B6Q%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
+    foto: "scolari1993.jpeg",
     teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "bragantino.png"],
-      guardiao: 0,
+      guardiao: 1,
   },
    {
     name: "reiz1995",
@@ -336,7 +336,7 @@ const ARTILHEIROS = [
      {
     name: "Thais 🐺🤍🩵",
     level: 12,
-    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/3b1c3326d72a0a3e136d51ce8a53e64b~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=6897f455&x-expires=1785186000&x-signature=1haaqvLYmBPGNaAF4v7501tuPe0%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    foto: "thaisinhasouza1.jpeg",
     teams: ["cruzeiro.png", "cruzeiro.png",  "cruzeiro.png"],
         guardiao: 1,
   },
