@@ -51,7 +51,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 216,
+    level: 218,
     foto: "voando___alto.jpeg",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -73,7 +73,7 @@ const ARTILHEIROS = [
     "gremio.png", "mirassol.png", "santos.png", "arsenal.png", "gremio.png", "mirassol.png",
     "gremio.png", "gremio.png", "atletico-mg.png", "gremio.png", "gremio.png", "gremio.png",
     "coritiba.png", "gremio.png", "flamengo.png", "gremio.png", "gremio.png", "santa-cruz.png",
-    "gremio.png", "gremio.png", "botafogo.png", "gremio.png", "gremio.png", "sport-recife.png", "gremio.png", "gremio.png", "gremio.png", "mazembe.png"],
+    "gremio.png", "gremio.png", "botafogo.png", "gremio.png", "gremio.png", "sport-recife.png", "gremio.png", "gremio.png", "gremio.png", "mazembe.png", "gremio.png", "gremio.png"],
       guardiao: 1
   },
    {
@@ -143,7 +143,7 @@ const ARTILHEIROS = [
     name: "🇧🇼 Maicon 🇪🇪",
     level: 4,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/27423fc70100d6383bb8b30ce27fc4f2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d1942611&x-expires=1784674800&x-signature=MBJXspY1ZzDjihkwDZSF8I0z0XI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png"],
+    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.pnm"],
        guardiao: 0,
     },
     {
@@ -213,7 +213,7 @@ const ARTILHEIROS = [
     name: "Scolari",
     level: 57,
     foto: "scolari1993.jpeg",
-    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "bragantino.png", "gremio.png"],
+    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "bragantino.png", "gremio.png", "coritiba.png"],
       guardiao: 1,
   },
    {
