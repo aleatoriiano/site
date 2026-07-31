@@ -51,7 +51,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 210,
+    level: 213,
     foto: "voando___alto.jpeg",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -73,7 +73,7 @@ const ARTILHEIROS = [
     "gremio.png", "mirassol.png", "santos.png", "arsenal.png", "gremio.png", "mirassol.png",
     "gremio.png", "gremio.png", "atletico-mg.png", "gremio.png", "gremio.png", "gremio.png",
     "coritiba.png", "gremio.png", "flamengo.png", "gremio.png", "gremio.png", "santa-cruz.png",
-    "gremio.png", "gremio.png", "botafogo.png", "gremio.png", "gremio.png"],
+    "gremio.png", "gremio.png", "botafogo.png", "gremio.png", "gremio.png", "sport-recife.png", "gremio.png"],
       guardiao: 1
   },
    {
@@ -213,7 +213,7 @@ const ARTILHEIROS = [
     name: "Scolari",
     level: 57,
     foto: "scolari1993.jpeg",
-    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "bragantino.png"],
+    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "bragantino.png", "gremio.png"],
       guardiao: 1,
   },
    {
@@ -483,5 +483,17 @@ const ARTILHEIROS = [
     level: 1,
     foto: "eltakumawill.jpeg",
     teams: ["real-madrid.png"],
+  },
+    {
+    name: "souzadxs",
+    level: 1,
+    foto: "souzadxs.jpeg",
+    teams: ["vila-nova.png"],
+  },
+    {
+    name: "theus",
+    level: 1,
+    foto: "theuxzin69.jpeg",
+    teams: ["flamengo.png"],
   },
 ];
