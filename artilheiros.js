@@ -496,4 +496,18 @@ const ARTILHEIROS = [
     foto: "theuxzin69.jpeg",
     teams: ["flamengo.png"],
   },
+   
+   {
+    name: "Anderson",
+    level: 1,
+    foto: "anderson.selle.jpeg",
+    teams: ["gremio.png"],
+  },
+   
+   {
+    name: "Elberty Toledo",
+    level: 1,
+    foto: "elbertyt.jpeg",
+    teams: ["cruzeiro.png"],
+  },
 ];
