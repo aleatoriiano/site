@@ -141,7 +141,7 @@ const ARTILHEIROS = [
   },
     {
     name: "🇧🇼 Maicon 🇪🇪",
-    level: 4,
+    level: 5,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/27423fc70100d6383bb8b30ce27fc4f2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d1942611&x-expires=1784674800&x-signature=MBJXspY1ZzDjihkwDZSF8I0z0XI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
     teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.pnm"],
        guardiao: 0,
@@ -211,7 +211,7 @@ const ARTILHEIROS = [
   },
    {
     name: "Scolari",
-    level: 57,
+    level: 58,
     foto: "scolari1993.jpeg",
     teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "bragantino.png", "gremio.png", "coritiba.png"],
       guardiao: 1,
