@@ -51,7 +51,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 222,
+    level: 323,
     foto: "voando___alto.jpeg",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -74,7 +74,7 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "atletico-mg.png", "gremio.png", "gremio.png", "gremio.png",
     "coritiba.png", "gremio.png", "flamengo.png", "gremio.png", "gremio.png", "santa-cruz.png",
     "gremio.png", "gremio.png", "botafogo.png", "gremio.png", "gremio.png", "sport-recife.png",
-    "gremio.png", "gremio.png", "gremio.png", "mazembe.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "flamengo.png"],
+    "gremio.png", "gremio.png", "gremio.png", "mazembe.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "flamengo.png", "kawasakifrontale.png"],
       guardiao: 1
   },
    {
@@ -198,10 +198,10 @@ const ARTILHEIROS = [
   },
     {
     name: "👑King of Davi🔑⚡🦁",
-    level: 1,
-    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/e3d6833ca55f821598bb8260c43a81ee~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ebd35419&x-expires=1784912400&x-signature=X7m3tQyS4EMiJhHb7%2BDgpNDHP3Q%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["flamengo.png"],
-       guardiao: 0,
+    level: 101,
+    foto: "davitrajano11.jpeg",
+    teams: ["flamengo.png", "flamengo.png"],
+       guardiao: 1,
   },
     {
     name: "Japa",
