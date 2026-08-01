@@ -513,4 +513,11 @@ const ARTILHEIROS = [
     foto: "elbertyt.jpeg",
     teams: ["cruzeiro.png"],
   },
+   {
+    name: "raulzin",
+    level: 10,
+    foto: "",
+    teams: ["ceara.png"],
+    guardiao: 1,
+  },
 ];
