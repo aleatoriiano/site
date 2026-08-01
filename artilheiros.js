@@ -427,9 +427,9 @@ const ARTILHEIROS = [
   },
     {
     name: "Joabe Ulisses",
-    level: 1,
-    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/95eb910ab0a09e28b753f34eee0a2a39~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=fc2c2f5a&x-expires=1785528000&x-signature=ZJcr0wNaSa9B5W0FNwmKB3eS6Nk%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["corinthians.png"],
+    level: 2,
+    foto: "joabe_ulisses_.jpeg",
+    teams: ["corinthians.png", "corinthians.png"],
   },
     {
     name: "Gillyan Batista",
