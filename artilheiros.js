@@ -525,7 +525,7 @@ const ARTILHEIROS = [
     name: "endriu",
     level: 10,
     foto: "andriw007_.jpeg",
-    teams: ["corinhians.png"],
+    teams: ["corinthians.png"],
     guardiao: 1,
   },
 ];
