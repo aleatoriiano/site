@@ -216,7 +216,7 @@ const ARTILHEIROS = [
     name: "Scolari",
     level: 58,
     foto: "scolari1993.jpeg",
-    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "bragantino.png", "gremio.png", "coritiba.png", "coritiba.png", "gremio.png"],
+    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "bragantino.png", "gremio.png", "coritiba.png", "coritiba.png", "gremio.png", "parana.png"],
       guardiao: 1,
   },
    {
