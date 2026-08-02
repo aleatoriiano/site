@@ -6,7 +6,7 @@ const TEAMS = [
   { name: "Corinthians", titles: 30, shield: "corinthians.png" },
   { name: "Atlético Mineiro", titles: 6, shield: "atletico-mg.png" },
   { name: "Vasco", titles: 5, shield: "vasco.png" },
-  { name: "Grêmio", titles: 129, shield: "gremio.png" },
+  { name: "Grêmio", titles: 131, shield: "gremio.png" },
   { name: "Palmeiras", titles: 6, shield: "palmeiras.png" },
   { name: "Flamengo", titles: 13, shield: "flamengo.png" },
   { name: "Santos", titles: 2, shield: "santos.png" },
@@ -52,5 +52,7 @@ const TEAMS = [
   { name: "Vila nova", titles: 1, shield: "vila-nova.png" },
   { name: "Sport Recife", titles: 1, shield: "sport-recife.png" },
    { name: "Parana", titles: 1, shield: "parana.png" },
-   { name: "Kawasaki Frontale", titles: 1, shield: "kawasakifrontale.png" }
+   { name: "Kawasaki Frontale", titles: 1, shield: "kawasakifrontale.png" },
+  { name: "Paysandu", titles: 1, shield: "paysandu.png" },
+{ name: "Novorizontino", titles: 1, shield: "novorizontino.png" },
 ];
