@@ -35,7 +35,7 @@ const TEAMS = [
   { name: "Mazembe", titles: 2, shield: "mazembe.png" },
   { name: "Boca Juniors", titles: 1, shield: "boca-juniors.png" },
   { name: "Joinville", titles: 1, shield: "joinville.png" },
-  { name: "Vitoria", titles: 1, shield: "vitoria.png" },
+  { name: "Vitoria", titles: 3, shield: "vitoria.png" },
   { name: "fortaleza", titles: 2, shield: "fortaleza.png" },
   { name: "Atletico Goia", titles: 2, shield: "athletico-pr.png" },
   { name: "Trem", titles: 2, shield: "trem.png" },
@@ -55,4 +55,5 @@ const TEAMS = [
    { name: "Kawasaki Frontale", titles: 1, shield: "kawasakifrontale.png" },
   { name: "Paysandu", titles: 1, shield: "paysandu.png" },
 { name: "Novorizontino", titles: 1, shield: "novorizontino.png" },
+  { name: "Crb", titles: 1, shield: "crb.png" },
 ];
