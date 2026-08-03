@@ -51,7 +51,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 983,
+    level: 1085,
     foto: "voando___alto.jpeg",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -77,7 +77,7 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "gremio.png", "mazembe.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "flamengo.png", "kawasakifrontale.png", "gremio.png", "gremio.png",
     "criciuma.png", "coritiba.png",  "gremio.png", "coritiba.png", "gremio.png", "gremio.png", "gremio.png",
-    "gremio.png", "gremio.png", "novorizontino.png", "paysandu.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
+    "gremio.png", "gremio.png", "novorizontino.png", "paysandu.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "santos.png"],
       guardiao: 1
   },
    {
@@ -432,6 +432,7 @@ const ARTILHEIROS = [
     level: 2,
     foto: "joabe_ulisses_.jpeg",
     teams: ["corinthians.png", "corinthians.png"],
+           guardiao: 1,
   },
     {
     name: "Gillyan Batista",
