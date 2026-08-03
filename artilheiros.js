@@ -529,4 +529,16 @@ const ARTILHEIROS = [
     teams: ["corinthians.png"],
     guardiao: 1,
   },
+    {
+    name: "Marcos Penelu",
+    level: 2,
+    foto: "marcospenelu.jpeg",
+    teams: ["vitoria.png", "vitoria.png"],
+  },
+   {
+    name: "fgtwieb",
+    level: 1,
+    foto: "nsjdhsi77738w.jpeg",
+    teams: ["crb.png"],
+  },
 ];
