@@ -541,4 +541,28 @@ const ARTILHEIROS = [
     foto: "nsjdhsi77738w.jpeg",
     teams: ["crb.png"],
   },
+    {
+    name: "snts.0550",
+    level: 1,
+    foto: "snts.0550.jpeg",
+    teams: ["cruzeiro.png"],
+  },
+    {
+    name: "allan alves de aguia",
+    level: 1,
+    foto: "allan_aguiar2.jpeg",
+    teams: ["cruzeiro.png"],
+  },
+    {
+    name: "de_la_noche7",
+    level: 1,
+    foto: "de_la_noche7",
+    teams: ["internacional.png"],
+  },
+    {
+    name: "israelhorstmann",
+    level: 1,
+    foto: "israelhorstmann.jpeg",
+    teams: ["criciuma.png"],
+  },
 ];
