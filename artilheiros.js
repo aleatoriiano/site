@@ -188,9 +188,9 @@ const ARTILHEIROS = [
   },
       {
     name: "Vitinho Figueiredo",
-    level: 2,
+    level: 3,
     foto: "vitinhoolf.jpeg",
-    teams: ["atletico-mg.png"],
+    teams: ["atletico-mg.png", "atletico-mg.png"],
          guardiao: 1,
   },
    {
