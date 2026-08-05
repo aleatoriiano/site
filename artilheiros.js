@@ -533,9 +533,9 @@ const ARTILHEIROS = [
   },
     {
     name: "Marcos Penelu",
-    level: 2,
+    level: 3,
     foto: "marcospenelu.jpeg",
-    teams: ["vitoria.png", "vitoria.png"],
+    teams: ["vitoria.png", "vitoria.png", "vitoria.png"],
   },
    {
     name: "fgtwieb",
@@ -572,5 +572,23 @@ const ARTILHEIROS = [
     level: 2,
     foto: "a7ruiva.jpeg",
     teams: ["flamengo.png", "flamengo.png"],
+  },
+   {
+    name: "Bruno Dourado",
+    level: 1,
+    foto: "douradoxp.jpeg",
+    teams: ["goias.png"],
+  },
+   {
+    name: "Vitor",
+    level: 1,
+    foto: "vitortupini7.jpeg",
+    teams: ["fluminense.png"],
+  },
+   {
+    name: "Jose Roberto Dos Santos",
+    level: 1,
+    foto: "jose.roberto.dos160.jpeg",
+    teams: ["flamengo.png"],
   },
 ];
