@@ -51,7 +51,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 1148,
+    level: 1153,
     foto: "voando___alto.jpeg",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -79,7 +79,8 @@ const ARTILHEIROS = [
     "criciuma.png", "coritiba.png",  "gremio.png", "coritiba.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "novorizontino.png", "paysandu.png", "gremio.png", "gremio.png", "gremio.png",
             "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "santos.png",
-            "gremio.png", "mazembe.png", "voando___alto.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
+            "gremio.png", "mazembe.png", "voando___alto.png", "gremio.png", "gremio.png", "gremio.png",
+            "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "tunaluso.png"],
       guardiao: 1
   },
    {
@@ -175,9 +176,9 @@ const ARTILHEIROS = [
   },
     {
     name: "Tel Rodrigues",
-    level: 7,
+    level: 8,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/e16ceab945ddc99d921a62398fe14c21~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=654d0333&x-expires=1784775600&x-signature=%2FYy97Q0fbSyLjOX30xs5gQ6wWL8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["atletico-mg.png", "coritiba.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "trem.png", "cruzeiro.png"],
+    teams: ["atletico-mg.png", "coritiba.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "trem.png", "cruzeiro.png", "america-mg.png],
        guardiao: 0,
   },
     {
@@ -591,5 +592,11 @@ const ARTILHEIROS = [
     level: 1,
     foto: "jose.roberto.dos160.jpeg",
     teams: ["flamengo.png"],
+  },
+   {
+    name: "@deryvam",
+    level: 1,
+    foto: "rennasilva615.jpeg",
+    teams: ["santos.png"],
   },
 ];
