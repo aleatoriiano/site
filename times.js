@@ -57,6 +57,6 @@ const TEAMS = [
 { name: "Novorizontino", titles: 1, shield: "novorizontino.png" },
   { name: "Crb", titles: 1, shield: "crb.png" },
   { name: "scolari1993", titles: 3, shield: "scolari1993.png" },
-   { name: "Goias", titles: 53, shield: "goias.png" },
-  { name: "voando___alto", titles: 1, shield: "voando___alto.png" },
+   { name: "Goias", titles: 1, shield: "goias.png" },
+  { name: "voando___alto", titles: 54, shield: "voando___alto.png" },
 ];
