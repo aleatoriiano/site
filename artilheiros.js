@@ -51,7 +51,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 1158,
+    level: 1159,
     foto: "voando___alto.jpeg",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -80,7 +80,7 @@ const ARTILHEIROS = [
     "gremio.png", "gremio.png", "novorizontino.png", "paysandu.png", "gremio.png", "gremio.png", "gremio.png",
             "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "santos.png",
             "gremio.png", "mazembe.png", "voando___alto.png", "gremio.png", "gremio.png", "gremio.png",
-            "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "tunaluso.png","gremio.png", "gremio.png"],
+            "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "tunaluso.png","gremio.png", "gremio.png", "gremio.png"],
       guardiao: 1
   },
    {
@@ -148,9 +148,9 @@ const ARTILHEIROS = [
   },
     {
     name: "🇧🇼 Maicon 🇪🇪",
-    level: 5,
+    level: 8,
     foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/27423fc70100d6383bb8b30ce27fc4f2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d1942611&x-expires=1784674800&x-signature=MBJXspY1ZzDjihkwDZSF8I0z0XI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.pnm"],
+    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.pnm", "gremio.png", "gremio.png", "gremio.png"],
        guardiao: 0,
     },
     {
@@ -218,10 +218,10 @@ const ARTILHEIROS = [
   },
    {
     name: "Scolari",
-    level: 73,
+    level: 76,
     foto: "scolari1993.jpeg",
     teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "bragantino.png", "gremio.png", "coritiba.png",
-            "coritiba.png", "gremio.png", "parana.png", "gremio.png", "scolari1993.png", "paysandu.png"],
+            "coritiba.png", "gremio.png", "parana.png", "gremio.png", "scolari1993.png", "paysandu.png", "gremio.png", "gremio.png", "gremio.png"],
       guardiao: 1,
   },
    {
@@ -345,9 +345,9 @@ const ARTILHEIROS = [
   },
      {
     name: "Thais 🐺🤍🩵",
-    level: 13,
+    level: 20,
     foto: "thaisinhasouza1.jpeg",
-    teams: ["cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png"],
+    teams: ["cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png"],
         guardiao: 1,
   },
    {
