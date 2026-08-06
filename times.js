@@ -60,4 +60,5 @@ const TEAMS = [
    { name: "Goias", titles: 1, shield: "goias.png" },
   { name: "voando___alto", titles: 57, shield: "voando___alto.png" },
   { name: "Tuna Luso", titles: 1, shield: "tunaluso.png" },
+  { name: "Nautico", titles: 1, shield: "nautico.png" },
 ];
