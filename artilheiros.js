@@ -440,9 +440,9 @@ const ARTILHEIROS = [
   },
     {
     name: "Gillyan Batista",
-    level: 1,
-    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/ceabbe6e53af1e4370829683aa27a312~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=fa2a700c&x-expires=1785531600&x-signature=NrmTLRzRaM8U7%2BvS76x4mcuhOZc%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["corinthians.png"],
+    level: 2,
+    foto: "gillyan.batista.jpeg",
+    teams: ["corinthians.png", "vasco.png"],
   },
     {
     name: "meurexz🧙‍♂️🧙‍♂️🧙‍♂️",
@@ -604,5 +604,11 @@ const ARTILHEIROS = [
     level: 3,
     foto: ".vitorgama.jpeg",
     teams: ["atletico-mg.png", "atletico-mg.png", "atletico-mg.png"],
+  },
+    {
+    name: "🙏pereira🙏",
+    level: 1,
+    foto: "almeidaficial90.jpeg",
+    teams: ["chapecoense.png"],
   },
 ];
