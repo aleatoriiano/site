@@ -613,4 +613,22 @@ const ARTILHEIROS = [
     foto: "almeidaficial90.jpeg",
     teams: ["chapecoense.png"],
   },
+    {
+    name: "𝑹𝑵⚡️9️⃣",
+    level: 1,
+    foto: "silvasz.r9.jpeg",
+    teams: ["atletico-mg.png"],
+  },
+    {
+    name: "Carlos Kayque de Oli",
+    level: 1,
+    foto: "carloskayquedeoli.jpeg",
+    teams: ["sao-paulo.png"],
+  },
+    {
+    name: "Carlos Anderson",
+    level: 3,
+    foto: "carlosanderson37.jpeg",
+    teams: ["corinthians.png", "corinthians.png", "corinthians.png"],
+  },
 ];
