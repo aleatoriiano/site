@@ -51,7 +51,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 1173,
+    level: 1175,
     foto: "voando___alto.jpeg",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -82,7 +82,8 @@ const ARTILHEIROS = [
             "gremio.png", "mazembe.png", "voando___alto.png", "gremio.png", "gremio.png", "gremio.png",
             "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
             "tunaluso.png","gremio.png", "gremio.png", "gremio.png", "criciuma.png", "gremio.png", "bahia.png",
-            "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "vasco.png", "gremio.png""gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
+            "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+            "gremio.png", "vasco.png", "gremio.png""gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "criciuma.png", "paysandu.png"],
       guardiao: 1
   },
    {
@@ -591,9 +592,9 @@ const ARTILHEIROS = [
   },
    {
     name: "Jose Roberto Dos Santos",
-    level: 2,
+    level: 3,
     foto: "jose.roberto.dos160.jpeg",
-    teams: ["flamengo.png"],
+    teams: ["flamengo.png", "flamengo.png"],
   },
    {
     name: "@deryvam",
@@ -630,5 +631,17 @@ const ARTILHEIROS = [
     level: 3,
     foto: "carlosanderson37.jpeg",
     teams: ["corinthians.png", "corinthians.png", "corinthians.png"],
+  },
+    {
+    name: "Nathan Júnio🧨",
+    level: 1,
+    foto: "nathan_da_bmw.jpeg",
+    teams: ["atletico-mg.png"],
+  },
+    {
+    name: "Ygor Alves 🪖",
+    level: 1,
+    foto: "ygoralvescantor.jpeg",
+    teams: ["confianca.png"],
   },
 ];
