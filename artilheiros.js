@@ -51,7 +51,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 1167,
+    level: 1173,
     foto: "voando___alto.jpeg",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -82,7 +82,7 @@ const ARTILHEIROS = [
             "gremio.png", "mazembe.png", "voando___alto.png", "gremio.png", "gremio.png", "gremio.png",
             "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
             "tunaluso.png","gremio.png", "gremio.png", "gremio.png", "criciuma.png", "gremio.png", "bahia.png",
-            "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
+            "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "vasco.png", "gremio.png""gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
       guardiao: 1
   },
    {
