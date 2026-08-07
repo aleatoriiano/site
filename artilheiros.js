@@ -334,7 +334,7 @@ const ARTILHEIROS = [
    {
     name: "Marcos Reis",
     level: 3,
-    foto: "https://p16-common-sign.tiktokcdn.com/tos-alisg-avt-0068/72fea52624d47d500a4be836368c135a~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=9c3007c9&x-expires=1785124800&x-signature=uQSi%2BDzVrgixuBPSSoLCu%2FiB%2BCU%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
+    foto: "marcos.reis2166.jpeg",
     teams: ["sao-paulo.png", "sao-paulo.png", "sao-paulo.png"],
       guardiao: 0,
   },
