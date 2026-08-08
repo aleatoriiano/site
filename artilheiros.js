@@ -104,7 +104,8 @@ const ARTILHEIROS = [
            "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
            "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
            "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
-           "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png"],
+           "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
+           "corinthians.png"],
       guardiao: 1
   },
    {
@@ -678,7 +679,7 @@ const ARTILHEIROS = [
     name: "Ygor Alves 🪖",
     level: 1,
     foto: "ygoralvescantor.jpeg",
-    teams: ["confianca.png"],
+    teams: ["uberlandia.png", "uberlandia.png"],
   },
    {
     name: "Armando Andrade",
@@ -710,4 +711,17 @@ const ARTILHEIROS = [
     foto: "joao.marcos216.jpeg",
     teams: ["vasco.png"],
   },
+    {
+    name: "Lagoa Santa Goiás",
+    level: 1,
+    foto: "josericardoaranha.jpeg",
+    teams: ["palmeiras.png"],
+  },
+    {
+    name: "TAPANÃ CITY🌴🦁👑",
+    level: 1,
+    foto: "juninho_ff777.jpeg",
+    teams: ["remo.png"],
+  },
 ];
+
