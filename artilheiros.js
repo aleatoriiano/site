@@ -51,7 +51,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 1275,
+    level: 1278,
     foto: "voando___alto.jpeg",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -105,7 +105,7 @@ const ARTILHEIROS = [
            "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
            "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
            "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
-           "corinthians.png"],
+           "corinthians.png" ,"gremio.png", "gremio.png", "gremio.png"],
       guardiao: 1
   },
    {
@@ -173,9 +173,9 @@ const ARTILHEIROS = [
   },
     {
     name: "🇧🇼 Maicon 🇪🇪",
-    level: 10,
-    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/27423fc70100d6383bb8b30ce27fc4f2~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=d1942611&x-expires=1784674800&x-signature=MBJXspY1ZzDjihkwDZSF8I0z0XI%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.pnm", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
+    level: 20,
+    foto: "",
+    teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.pnm", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
        guardiao: 0,
     },
     {
