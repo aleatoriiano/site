@@ -3,14 +3,14 @@
  * A ordem na tela é automática: mais títulos primeiro; em empate, ordem alfabética do nome.
  */
 const TEAMS = [
-  { name: "Corinthians", titles: 33, shield: "corinthians.png" },
+  { name: "Corinthians", titles: 34, shield: "corinthians.png" },
   { name: "Atlético Mineiro", titles: 33, shield: "atletico-mg.png" },
   { name: "Vasco", titles: 8, shield: "vasco.png" },
   { name: "Grêmio", titles: 376, shield: "gremio.png" },
-  { name: "Palmeiras", titles: 8, shield: "palmeiras.png" },
+  { name: "Palmeiras", titles: 9, shield: "palmeiras.png" },
   { name: "Flamengo", titles: 18, shield: "flamengo.png" },
   { name: "Santos", titles: 4, shield: "santos.png" },
-  { name: "Remo", titles: 5, shield: "remo.png" },
+  { name: "Remo", titles: 6, shield: "remo.png" },
   { name: "Bahia", titles: 1, shield: "bahia.png" },
   { name: "Internacional", titles: 4, shield: "internacional.png" },
   { name: "Real Madrid", titles: 1, shield: "real-madrid.png" },
@@ -39,7 +39,7 @@ const TEAMS = [
   { name: "fortaleza", titles: 3, shield: "fortaleza.png" },
   { name: "Atletico Goia", titles: 2, shield: "athletico-pr.png" },
   { name: "Trem", titles: 2, shield: "trem.png" },
-  { name: "Uberlandia", titles: 1, shield: "uberlandia.png" },
+  { name: "Uberlandia", titles: 2, shield: "uberlandia.png" },
   { name: "Bragantino", titles: 1, shield: "bragantino.png" },
    { name: "Arsenal", titles: 1, shield: "arsenal.png" },
   { name: "Gama", titles: 1, shield: "gama.png" },
