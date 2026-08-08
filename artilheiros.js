@@ -306,9 +306,9 @@ const ARTILHEIROS = [
   },
    {
     name: "dani.denaka",
-    level: 1,
-    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/9872d02bdd8c4143615c75e5118336f1~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=aecef690&x-expires=1785034800&x-signature=FaK8uW%2BObdV6Ka1af9S2nsf4hd8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["palmeiras.png"],
+    level: 2,
+    foto: "dani.denaka.jpeg",
+    teams: ["palmeiras.png", "palmeiras.png"],
       guardiao: 0,
   },
     {
@@ -388,9 +388,9 @@ const ARTILHEIROS = [
   },
    {
     name: "robsonduarte05",
-    level: 2,
-    foto: "https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/b0b0e56081efae61bfbafccd2112abf9~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=669de6bd&x-expires=1785189600&x-signature=E75Slr6k6yDTt7eB3RkGIfV%2F1os%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: ["fortaleza.png", "fortaleza.png"],
+    level: 4,
+    foto: "robsonduarte05.jpeg",
+    teams: ["fortaleza.png", "fortaleza.png", "fortaleza.png"],
       guardiao: 0,
   },
    {
@@ -613,9 +613,9 @@ const ARTILHEIROS = [
   },
    {
     name: "Bruno Dourado",
-    level: 1,
+    level: 2,
     foto: "douradoxp.jpeg",
-    teams: ["goias.png"],
+    teams: ["goias.png", "goias.png"],
   },
    {
     name: "Vitor",
@@ -697,5 +697,17 @@ const ARTILHEIROS = [
     level: 2,
     foto: "hachihonmastu.jpeg",
     teams: ["cruzeiro.png", "cruzeiro.png"],
+  },
+   {
+    name: "SegalaX",
+    level: 1,
+    foto: "segalax1.jpeg",
+    teams: ["internacional.png"],
+  },
+   {
+    name: "Joao Marcos",
+    level: 1,
+    foto: "joao.marcos216.jpeg",
+    teams: ["vasco.png"],
   },
 ];
