@@ -174,7 +174,7 @@ const ARTILHEIROS = [
     {
     name: "🇧🇼 Maicon 🇪🇪",
     level: 20,
-    foto: "",
+    foto: "maicon.cansi.jpeg",
     teams: ["gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.pnm", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
        guardiao: 0,
     },
