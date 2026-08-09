@@ -107,11 +107,11 @@ const ARTILHEIROS = [
            "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
            "corinthians.png" ,"gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "coritiba.png", "gremio.png"
            "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
-    "gremio.png", "gremio.png", "gremio.png", "gremio.png""gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
-    "gremio.png", "gremio.png", "gremio.png", "gremio.png""gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
-    "gremio.png", "gremio.png", "gremio.png", "gremio.png""gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
-    "gremio.png", "gremio.png", "gremio.png", "gremio.png""gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
-    "gremio.png", "gremio.png", "gremio.png", "gremio.png""gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png","gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png","gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png","gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png","gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png","gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
     "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
       guardiao: 1
   },
