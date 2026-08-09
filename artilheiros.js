@@ -51,7 +51,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 1278,
+    level: 1285,
     foto: "voando___alto.jpeg",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -105,7 +105,7 @@ const ARTILHEIROS = [
            "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
            "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
            "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
-           "corinthians.png" ,"gremio.png", "gremio.png", "gremio.png"],
+           "corinthians.png" ,"gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
       guardiao: 1
   },
    {
@@ -742,6 +742,12 @@ const ARTILHEIROS = [
     level: 2,
     foto: "sandrocabeleireiro1.jpeg",
     teams: ["corinthians.png", "corinthians.png],
+  },
+    {
+    name: "pedropantoja",
+    level: 2,
+    foto: "pedroptja.jpeg",
+    teams: ["remo.png", "remo.png"],
   },
 ];
 
