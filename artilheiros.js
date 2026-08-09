@@ -643,7 +643,7 @@ const ARTILHEIROS = [
     teams: ["atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png",
            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png",
-            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png", "atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
            "atletico-mg.png", "paysandu.png"],
       guardiao: 1,
   },
