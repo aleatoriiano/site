@@ -210,7 +210,7 @@ const ARTILHEIROS = [
     name: "Tel Rodrigues",
     level: 10,
     foto: "telrodrigues0.jpeg",
-    teams: ["atletico-mg.png", "coritiba.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "trem.png", "cruzeiro.png", "america-mg.png", "nautico.png", "cruzeiro.png],
+    teams: ["atletico-mg.png", "coritiba.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "trem.png", "cruzeiro.png", "america-mg.png", "nautico.png", "cruzeiro.png"],
        guardiao: 0,
   },
     {
@@ -652,8 +652,6 @@ const ARTILHEIROS = [
            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
            "atletico-mg.png", "paysandu.png","atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
-            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png,
-            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png",
@@ -670,7 +668,9 @@ const ARTILHEIROS = [
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
-            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png""],
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png",
+            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"],
       guardiao: 1,
   },
     {
