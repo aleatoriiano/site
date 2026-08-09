@@ -638,12 +638,14 @@ const ARTILHEIROS = [
   },
    {
     name: "Vitor",
-    level: 23,
+    level: 27,
     foto: ".vitorgama.jpeg",
     teams: ["atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png",
            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png",
-            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png"],
+            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png", "atletico-mg.png", "atletico-mg.png"
+           "atletico-mg.png", "paysandu.png"],
+      guardiao: 1,
   },
     {
     name: "🙏pereira🙏",
@@ -722,6 +724,12 @@ const ARTILHEIROS = [
     level: 1,
     foto: "juninho_ff777.jpeg",
     teams: ["remo.png"],
+  },
+    {
+    name: "👹 Saiko 🍄",
+    level: 1,
+    foto: "slanunesz.jpeg",
+    teams: ["caxias.png"],
   },
 ];
 
