@@ -17,9 +17,9 @@
 const ARTILHEIROS = [
   {
     name: "⚡️尺ㄖᗪ尺丨Ꮆㄖ! 🪁",
-    level: 12,
+    level: 22,
     foto: "digokamikaze.jpeg",
-    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png", "boca-juniors.png", "botafogo.png", "corinthians.png", "corinthians.png", "corinthians.png", "figueirense.png", "corinthians.png", "figueirense.png", "corinthians.png", "ccorinthians.png"],
+    teams: ["corinthians.png", "botafogo.png", "corinthians.png","remo.png", "boca-juniors.png", "botafogo.png", "corinthians.png", "corinthians.png", "corinthians.png", "figueirense.png", "corinthians.png", "figueirense.png", "corinthians.png", "ccorinthians.png", "remo.png"],
     guardiao: 1,
   },
      {
@@ -51,7 +51,7 @@ const ARTILHEIROS = [
   },
      {
     name: "voando_alto",
-    level: 1285,
+    level: 1785,
     foto: "voando___alto.jpeg",
     teams: ["gremio.png", "cascavel.png", "gremio.png", "gremio.png", "gremio.png",
     "barcelona.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
@@ -105,7 +105,14 @@ const ARTILHEIROS = [
            "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
            "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
            "cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png","cruzeiro.png", "cruzeiro.png",  "cruzeiro.png", "cruzeiro.png", "cruzeiro.png",
-           "corinthians.png" ,"gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
+           "corinthians.png" ,"gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "coritiba.png", "gremio.png"
+           "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png""gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png""gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png""gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png""gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png""gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png", "gremio.png",
+    "gremio.png", "gremio.png", "gremio.png", "gremio.png"],
       guardiao: 1
   },
    {
@@ -201,9 +208,9 @@ const ARTILHEIROS = [
   },
     {
     name: "Tel Rodrigues",
-    level: 9,
-    foto: "https://p16-common-sign.tiktokcdn.com/tos-maliva-avt-0068/e16ceab945ddc99d921a62398fe14c21~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=654d0333&x-expires=1784775600&x-signature=%2FYy97Q0fbSyLjOX30xs5gQ6wWL8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my2",
-    teams: ["atletico-mg.png", "coritiba.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "trem.png", "cruzeiro.png", "america-mg.png", "nautico.png"],
+    level: 10,
+    foto: "telrodrigues0.jpeg",
+    teams: ["atletico-mg.png", "coritiba.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "trem.png", "cruzeiro.png", "america-mg.png", "nautico.png", "cruzeiro.png],
        guardiao: 0,
   },
     {
@@ -638,13 +645,32 @@ const ARTILHEIROS = [
   },
    {
     name: "Vitor",
-    level: 27,
+    level: 127,
     foto: ".vitorgama.jpeg",
     teams: ["atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png",
            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
-           "atletico-mg.png", "paysandu.png"],
+           "atletico-mg.png", "paysandu.png""atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png
+            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png""],
       guardiao: 1,
   },
     {
@@ -748,6 +774,12 @@ const ARTILHEIROS = [
     level: 2,
     foto: "pedroptja.jpeg",
     teams: ["remo.png", "remo.png"],
+  },
+   {
+    name: "Arthur_🥷",
+    level: 1,
+    foto: "spadettss.jpeg",
+    teams: ["internacional.png"],
   },
 ];
 
