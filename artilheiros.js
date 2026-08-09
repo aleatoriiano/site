@@ -652,23 +652,23 @@ const ARTILHEIROS = [
            "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
            "atletico-mg.png", "paysandu.png","atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
-            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png,
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
-            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
-            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
-            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
-            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
-            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
-            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
-            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
-            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png""],
       guardiao: 1,
