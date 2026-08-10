@@ -645,7 +645,7 @@ const ARTILHEIROS = [
   },
    {
     name: "Vitor",
-    level: 127,
+    level: 132,
     foto: ".vitorgama.jpeg",
     teams: ["atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png", "atletico-mg.png","atletico-mg.png",
@@ -670,7 +670,7 @@ const ARTILHEIROS = [
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png",
             "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png",
-            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png"],
+            "atletico-mg.png","atletico-mg.png","atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png", "atletico-mg.png"],
       guardiao: 1,
   },
     {
