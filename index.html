@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Roda de Times — Futebol & Artilheiros</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a0f0d;
+      --bg-card: #121a16;
+      --accent: #22c55e;
+      --text: #ecfdf5;
+      --text-muted: #94a3b8;
+      --border: rgba(34, 197, 94, 0.25);
+      --radius: 14px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Outfit", system-ui, sans-serif;
+      background: radial-gradient(ellipse 120% 80% at 50% -20%, #14532d 0%, transparent 55%),
+        var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.5;
+    }
+
+    .wrap {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1.5rem 1.25rem 3rem;
+    }
+
+    .hero-header {
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header.site-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 0;
+      flex-wrap: wrap;
+    }
+
+    .hero-header .search-topbar {
+      margin-top: 0.65rem;
+    }
+
+    header.site-header h1 {
+      font-family: "Bebas Neue", sans-serif;
+      font-size: clamp(2.4rem, 7vw, 3.8rem);
+      letter-spacing: 0.06em;
+      color: var(--text);
+      text-shadow: 0 0 40px rgba(34, 197, 94, 0.35);
+    }
+
+    .logo-site {
+      width: clamp(56px, 12vw, 84px);
+      height: clamp(56px, 12vw, 84px);
+      object-fit: cover;
+      border-radius: 18px;
+      border: 2px solid var(--border);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.45);
+    }
+
+    .wheel-panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1rem 0.75rem 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .panel-title {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .wheel-stage {
+      position: relative;
+      width: min(92vw, 720px);
+      height: min(92vw, 720px);
+      max-width: 100%;
+      margin: 0 auto;
+    }
+
+    .wheel {
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      background:
+        radial-gradient(circle at center, rgba(34, 197, 94, 0.08) 0%, transparent 42%),
+        radial-gradient(circle at center, transparent 38%, rgba(34, 197, 94, 0.06) 39%, transparent 55%);
+    }
+
+    .wheel-center {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 42%;
+      max-width: 280px;
+    }
+
+    .wheel-center .scorer-card {
+      width: 100%;
+      max-width: none;
+    }
+
+    .team-slot {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width: var(--slot-size, 64px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 0.15rem;
+      transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(var(--radius) * -1)) rotate(calc(var(--angle) * -1));
+      transform-origin: center center;
+      cursor: pointer;
+      z-index: 3;
+      transition: transform 0.25s ease, z-index 0s;
+    }
+
+    .team-slot:hover {
+      z-index: 10;
+      transform: translate(-50%, -50%) rotate(var(--angle)) translateY(calc(var(--radius) * -1)) rotate(calc(var(--angle) * -1)) scale(1.45);
+    }
+
+    .team-titles {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.12em;
+      line-height: 1;
+      min-height: calc(var(--slot-size, 64px) * 0.38);
+      transition: transform 0.25s ease;
+    }
+
+    .titles-count {
+      font-family: "Bebas Neue", sans-serif;
+      font-size: calc(var(--slot-size, 64px) * 0.32);
+      font-weight: 400;
+      color: #facc15;
+      letter-spacing: 0.02em;
+      text-shadow: 0 1px 6px rgba(0, 0, 0, 0.7);
+      transition: font-size 0.25s ease;
+    }
+
+    .trophy {
+      width: calc(var(--slot-size, 64px) * 0.36);
+      height: calc(var(--slot-size, 64px) * 0.36);
+      object-fit: contain;
+      filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+      transition: width 0.25s ease, height 0.25s ease;
+    }
+
+    .team-shield {
+      width: var(--slot-size, 64px);
+      height: var(--slot-size, 64px);
+      object-fit: contain;
+      filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.45));
+      transition: width 0.25s ease, height 0.25s ease;
+    }
+
+    .scorer-card {
+      position: relative;
+      width: 100%;
+      max-width: 280px;
+      margin: 0 auto;
+      aspect-ratio: 3 / 4.2;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .scorer-card.featured {
+      max-width: 340px;
+      aspect-ratio: 3 / 4.1;
+    }
+
+    .scorer-card-inner {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 12% 10% 14%;
+      text-align: center;
+    }
+
+    .scorer-card.featured .scorer-card-inner {
+      padding: 11% 9% 13%;
+    }
+
+    .teams-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 0.35rem;
+      margin-bottom: 0.5rem;
+      min-height: 2rem;
+    }
+
+    .team-shield-wrap {
+      position: relative;
+      display: inline-flex;
+      flex-shrink: 0;
+    }
+
+    .team-stint-count {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translate(-50%, -35%);
+      z-index: 1;
+      font-family: "Bebas Neue", sans-serif;
+      font-size: 0.85rem;
+      font-weight: 400;
+      color: #facc15;
+      letter-spacing: 0.02em;
+      text-shadow: 0 1px 6px rgba(0, 0, 0, 0.85);
+      line-height: 1;
+      pointer-events: none;
+    }
+
+    .teams-row img {
+      object-fit: contain;
+      border-radius: 4px;
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .teams-row.count-1 img {
+      width: 44px;
+      height: 44px;
+    }
+
+    .teams-row.count-2 img {
+      width: 36px;
+      height: 36px;
+    }
+
+    .teams-row.count-3 img,
+    .teams-row.count-4 img {
+      width: 28px;
+      height: 28px;
+    }
+
+    .teams-row.count-5 img,
+    .teams-row.count-more img {
+      width: 22px;
+      height: 22px;
+    }
+
+    .teams-row.count-3 .team-stint-count,
+    .teams-row.count-4 .team-stint-count,
+    .teams-row.count-5 .team-stint-count,
+    .teams-row.count-more .team-stint-count {
+      font-size: 0.65rem;
+    }
+
+    .profile-pic {
+      position: relative;
+      z-index: 2;
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid rgba(255, 255, 255, 0.85);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+      margin-bottom: 0.5rem;
+    }
+
+    .scorer-card.featured .profile-pic {
+      width: 96px;
+      height: 96px;
+      border-width: 4px;
+    }
+
+    .wheel-center .scorer-card.featured .profile-pic {
+      width: clamp(48px, 12vw, 80px);
+      height: clamp(48px, 12vw, 80px);
+    }
+
+    .wheel-center .scorer-card.featured .scorer-name {
+      font-size: clamp(0.85rem, 2.5vw, 1.1rem);
+    }
+
+    .wheel-center .scorer-card.featured .scorer-level {
+      font-size: clamp(0.7rem, 2vw, 0.85rem);
+    }
+
+    .wheel-center .teams-row.count-1 img {
+      width: clamp(28px, 7vw, 40px);
+      height: clamp(28px, 7vw, 40px);
+    }
+
+    .scorer-name {
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: #fff;
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.75);
+      line-height: 1.2;
+      margin-bottom: 0.35rem;
+    }
+
+    .scorer-card.featured .scorer-name {
+      font-size: 1.25rem;
+    }
+
+    .scorer-level {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: #fef08a;
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+      letter-spacing: 0.04em;
+    }
+
+    .scorer-card.featured .scorer-level {
+      font-size: 0.95rem;
+    }
+
+    .scorer-asa {
+      position: absolute;
+      left: 50%;
+      top: 48%;
+      transform: translate(-50%, -50%);
+      width: 130%;
+      height: auto;
+      object-fit: contain;
+      pointer-events: none;
+      z-index: 1;
+      filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+    }
+
+    .scorer-card.featured .scorer-asa {
+      width: 145%;
+      top: 47%;
+    }
+
+    .section-below {
+      margin-top: 0;
+    }
+
+    .section-below.panel {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+    }
+
+    .section-below .panel-title {
+      margin-bottom: 1rem;
+    }
+
+    .artilheiros-scroll {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 1.25rem;
+      justify-items: center;
+    }
+
+    @media (max-width: 600px) {
+      .artilheiros-scroll {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      }
+
+      .wheel-stage {
+        width: min(96vw, 520px);
+        height: min(96vw, 520px);
+      }
+    }
+
+    .search-topbar {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 0;
+      width: 100%;
+    }
+
+    .search-topbar input {
+      width: min(280px, 72vw);
+      padding: 0.45rem 0.65rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.75rem;
+    }
+
+    .search-topbar input:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.2);
+    }
+
+    .search-topbar button {
+      padding: 0.35rem 0.6rem;
+      border-radius: 6px;
+      border: none;
+      background: var(--accent);
+      color: #052e16;
+      font-family: inherit;
+      font-size: 0.7rem;
+      font-weight: 700;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: filter 0.2s;
+    }
+
+    .search-topbar button:hover {
+      filter: brightness(1.1);
+    }
+
+    .search-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 200;
+      background: rgba(0, 0, 0, 0.72);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.25rem;
+    }
+
+    .search-overlay[hidden] {
+      display: none;
+    }
+
+    .search-modal {
+      position: relative;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      max-width: 900px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+      box-shadow: 0 24px 64px rgba(0, 0, 0, 0.55);
+    }
+
+    .search-modal-close {
+      position: absolute;
+      top: 0.65rem;
+      right: 0.65rem;
+      width: 2rem;
+      height: 2rem;
+      border: none;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text);
+      font-size: 1.35rem;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s;
+    }
+
+    .search-modal-close:hover {
+      background: rgba(255, 255, 255, 0.16);
+    }
+
+    .search-result {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      align-items: start;
+      padding-top: 0.5rem;
+    }
+
+    .search-result-info {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .info-row {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .info-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .info-value {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .info-shields {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .info-shields img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.4));
+    }
+
+    .info-shields .team-shield-wrap img {
+      width: 48px;
+      height: 48px;
+    }
+
+    .search-result-card {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .search-not-found {
+      color: #f87171;
+      font-weight: 600;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    @media (max-width: 768px) {
+      .search-result {
+        grid-template-columns: 1fr;
+      }
+
+      .search-result-card {
+        order: -1;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="search-overlay" id="searchOverlay" hidden>
+    <div class="search-modal">
+      <button type="button" class="search-modal-close" id="searchModalClose" aria-label="Fechar">&times;</button>
+      <div class="search-not-found" id="searchNotFound" hidden>Artilheiro não encontrado.</div>
+      <div class="search-result" id="searchResult" hidden>
+        <div class="search-result-info" id="searchResultInfo"></div>
+        <div class="search-result-card" id="searchResultCard"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="hero-header">
+      <header class="site-header">
+        <h1>AlehFut</h1>
+        <img class="logo-site" src="outros/icone.png" alt="Ícone Roda de Times" width="96" height="96" />
+      </header>
+      <div class="search-topbar">
+        <input type="text" id="scorerSearchInput" placeholder="Nome do artilheiro..." autocomplete="off" />
+        <button type="button" id="scorerSearchBtn">Buscar Artilheiro</button>
+      </div>
+    </div>
+
+    <div class="wheel-panel">
+      <div class="wheel-stage" id="wheelStage">
+        <div class="wheel" id="teamWheel"></div>
+        <div class="wheel-center" id="featuredScorer"></div>
+      </div>
+    </div>
+
+    <div class="section-below panel">
+      <div class="panel-title">Demais artilheiros</div>
+      <div class="artilheiros-scroll" id="otherScorers"></div>
+    </div>
+  </div>
+
+  <script src="times.js"></script>
+  <script src="artilheiros.js"></script>
+  <script>
+    (function () {
+      function esc(s) {
+        return String(s)
+          .replace(/&/g, "&amp;")
+          .replace(/</g, "&lt;")
+          .replace(/"/g, "&quot;");
+      }
+
+      /** Nível 1–20: um card por nível (cards/1.png … cards/20.png). Valores fora do intervalo viram 1 ou 20. */
+      function cardImageForLevel(level) {
+        var n = Math.floor(Number(level));
+        if (!isFinite(n) || n < 1) n = 1;
+        if (n > 20) n = 20;
+        return "cards/" + n + ".png";
+      }
+
+      function teamsRowClass(count) {
+        if (count <= 1) return "count-1";
+        if (count === 2) return "count-2";
+        if (count <= 4) return "count-" + count;
+        if (count === 5) return "count-5";
+        return "count-more";
+      }
+
+      /** Agrupa escudos; aceita objeto { escudo: qtd } ou array legado. */
+      function groupScorerTeams(teams) {
+        if (Array.isArray(teams)) {
+          var order = [];
+          var counts = Object.create(null);
+          teams.forEach(function (t) {
+            if (!t) return;
+            if (!counts[t]) {
+              counts[t] = 0;
+              order.push(t);
+            }
+            counts[t]++;
+          });
+          return order.map(function (t) {
+            return { file: t, count: counts[t] };
+          });
+        }
+        return Object.keys(teams || {})
+          .filter(function (k) {
+            return k && teams[k] > 0;
+          })
+          .map(function (k) {
+            return { file: k, count: teams[k] };
+          });
+      }
+
+      function getTeamTitleCount(teams, shield) {
+        if (Array.isArray(teams)) {
+          var n = 0;
+          teams.forEach(function (t) {
+            if (t === shield) n++;
+          });
+          return n;
+        }
+        return teams[shield] || 0;
+      }
+
+      function getTopTeamByTitles(teams) {
+        var grouped = groupScorerTeams(teams);
+        if (!grouped.length) return null;
+        return grouped.reduce(function (best, cur) {
+          return cur.count > best.count ? cur : best;
+        }, grouped[0]);
+      }
+
+      function getTeamNameByShield(shield) {
+        for (var i = 0; i < TEAMS.length; i++) {
+          if (TEAMS[i].shield === shield) return TEAMS[i].name;
+        }
+        return shield.replace(".png", "");
+      }
+
+      function getGlobalRank(scorer) {
+        var sorted = ARTILHEIROS.slice().sort(function (a, b) {
+          return b.level - a.level;
+        });
+        for (var i = 0; i < sorted.length; i++) {
+          if (isSameScorer(sorted[i], scorer)) return i + 1;
+        }
+        return null;
+      }
+
+      function getTeamRank(scorer, shield) {
+        var players = ARTILHEIROS.filter(function (s) {
+          return getTeamTitleCount(s.teams, shield) > 0;
+        });
+        players.sort(function (a, b) {
+          return getTeamTitleCount(b.teams, shield) - getTeamTitleCount(a.teams, shield);
+        });
+        for (var i = 0; i < players.length; i++) {
+          if (isSameScorer(players[i], scorer)) return i + 1;
+        }
+        return null;
+      }
+
+      function findScorerByName(query) {
+        query = query.trim().toLowerCase();
+        if (!query) return null;
+        var exact = null;
+        var partial = null;
+        ARTILHEIROS.forEach(function (a) {
+          var name = a.name.toLowerCase();
+          if (name === query) exact = a;
+          else if (!partial && name.indexOf(query) !== -1) partial = a;
+        });
+        return exact || partial;
+      }
+
+      function formatDateBR(iso) {
+        if (!iso) return "Não registrado";
+        var parts = iso.split("-");
+        if (parts.length === 3) return parts[2] + "/" + parts[1] + "/" + parts[0];
+        return iso;
+      }
+
+      function buildInfoRow(label, valueEl) {
+        var row = document.createElement("div");
+        row.className = "info-row";
+        var lbl = document.createElement("div");
+        lbl.className = "info-label";
+        lbl.textContent = label;
+        row.appendChild(lbl);
+        if (typeof valueEl === "string") {
+          var val = document.createElement("div");
+          val.className = "info-value";
+          val.textContent = valueEl;
+          row.appendChild(val);
+        } else {
+          row.appendChild(valueEl);
+        }
+        return row;
+      }
+
+      function buildShieldEl(file, count) {
+        var wrap = document.createElement("div");
+        wrap.className = "team-shield-wrap";
+        if (count > 1) {
+          var badge = document.createElement("span");
+          badge.className = "team-stint-count";
+          badge.textContent = count + "x";
+          wrap.appendChild(badge);
+        }
+        var img = document.createElement("img");
+        img.src = "escudos/" + file;
+        img.alt = getTeamNameByShield(file);
+        wrap.appendChild(img);
+        return wrap;
+      }
+
+      function openSearchModal() {
+        document.getElementById("searchOverlay").hidden = false;
+        document.body.style.overflow = "hidden";
+      }
+
+      function closeSearchModal() {
+        document.getElementById("searchOverlay").hidden = true;
+        document.getElementById("searchResult").hidden = true;
+        document.getElementById("searchNotFound").hidden = true;
+        document.body.style.overflow = "";
+      }
+
+      function renderScorerSearch(scorer) {
+        var resultEl = document.getElementById("searchResult");
+        var notFoundEl = document.getElementById("searchNotFound");
+        var infoEl = document.getElementById("searchResultInfo");
+        var cardEl = document.getElementById("searchResultCard");
+
+        notFoundEl.hidden = true;
+        resultEl.hidden = false;
+        infoEl.innerHTML = "";
+        cardEl.innerHTML = "";
+
+        var topTeam = getTopTeamByTitles(scorer.teams);
+        var topShield = topTeam ? topTeam.file : null;
+        var topTeamName = topShield ? getTeamNameByShield(topShield) : "—";
+        var globalRank = getGlobalRank(scorer);
+        var teamRank = topShield ? getTeamRank(scorer, topShield) : null;
+        var grouped = groupScorerTeams(scorer.teams);
+
+        infoEl.appendChild(buildInfoRow("Nome", scorer.name));
+        infoEl.appendChild(buildInfoRow("Nível", "Nível " + scorer.level));
+
+        var passionEl = document.createElement("div");
+        passionEl.className = "info-shields";
+        if (topShield) {
+          passionEl.appendChild(buildShieldEl(topShield, topTeam.count));
+        } else {
+          passionEl.textContent = "—";
+        }
+        infoEl.appendChild(buildInfoRow("Maior paixão", passionEl));
+
+        infoEl.appendChild(buildInfoRow("Assinou contrato quando", formatDateBR(scorer.since)));
+
+        var clubsEl = document.createElement("div");
+        clubsEl.className = "info-shields";
+        if (grouped.length) {
+          grouped.forEach(function (item) {
+            clubsEl.appendChild(buildShieldEl(item.file, item.count));
+          });
+        } else {
+          clubsEl.textContent = "—";
+        }
+        infoEl.appendChild(buildInfoRow("Jogou por quais Clubes", clubsEl));
+
+        infoEl.appendChild(buildInfoRow("Rank global", globalRank ? "#" + globalRank : "—"));
+
+        var teamRankLabel = topShield ? "Rank do " + topTeamName : "Rank do time";
+        var teamRankText = teamRank ? "#" + teamRank + " (" + (topTeam ? topTeam.count : 0) + " títulos)" : "—";
+        infoEl.appendChild(buildInfoRow(teamRankLabel, teamRankText));
+
+        var isGuardian = Number(scorer.guardiao) === 1;
+        infoEl.appendChild(buildInfoRow("Guardião", isGuardian ? "Sim" : "Não"));
+
+        var topGuardian = getTopGuardian(ARTILHEIROS);
+        cardEl.appendChild(buildScorerCard(scorer, true, topGuardian));
+        openSearchModal();
+      }
+
+      function handleScorerSearch() {
+        var input = document.getElementById("scorerSearchInput");
+        var resultEl = document.getElementById("searchResult");
+        var notFoundEl = document.getElementById("searchNotFound");
+        var query = input.value.trim();
+
+        resultEl.hidden = true;
+        notFoundEl.hidden = true;
+
+        if (!query) return;
+
+        var scorer = findScorerByName(query);
+        if (!scorer) {
+          notFoundEl.hidden = false;
+          openSearchModal();
+          return;
+        }
+
+        renderScorerSearch(scorer);
+      }
+
+      function fotoSrc(foto) {
+        foto = (foto || "").trim();
+        if (!foto) return "";
+        if (/^https?:\/\//i.test(foto) || foto.indexOf("fotos/") === 0) return foto;
+        return "fotos/" + foto;
+      }
+
+      var WING_FRAME_START = 1000;
+      var WING_FRAME_END = 1119;
+      var WING_FRAME_COUNT = WING_FRAME_END - WING_FRAME_START + 1;
+      var wingAnimators = [];
+      var wingFrameIndex = 0;
+      var wingAnimTimer = null;
+
+      function wingFramePath(folder, frameIndex) {
+        return folder + "/" + (WING_FRAME_START + frameIndex) + ".gif";
+      }
+
+      function resetWingAnim() {
+        if (wingAnimTimer) {
+          clearInterval(wingAnimTimer);
+          wingAnimTimer = null;
+        }
+        wingAnimators = [];
+        wingFrameIndex = 0;
+      }
+
+      function registerWingAnim(img, folder) {
+        img.src = wingFramePath(folder, 0);
+        wingAnimators.push({ img: img, folder: folder });
+        if (!wingAnimTimer) {
+          wingAnimTimer = setInterval(function () {
+            wingFrameIndex = (wingFrameIndex + 1) % WING_FRAME_COUNT;
+            var frame = WING_FRAME_START + wingFrameIndex;
+            wingAnimators.forEach(function (w) {
+              w.img.src = w.folder + "/" + frame + ".gif";
+            });
+          }, 45);
+        }
+      }
+
+      function getTopGuardian(scorers) {
+        var top = null;
+        scorers.forEach(function (a) {
+          if (Number(a.guardiao) !== 1) return;
+          if (!top || a.level > top.level) top = a;
+        });
+        return top;
+      }
+
+      function isSameScorer(a, b) {
+        return a && b && a.name === b.name && a.level === b.level;
+      }
+
+      function buildScorerCard(a, featured, topGuardian) {
+        var foto = fotoSrc(a.foto);
+        var cardBg = cardImageForLevel(a.level);
+        var groupedTeams = groupScorerTeams(a.teams);
+        var rowClass = teamsRowClass(groupedTeams.length);
+        var div = document.createElement("div");
+        div.className = "scorer-card" + (featured ? " featured" : "");
+        div.style.backgroundImage = "url('" + esc(cardBg).replace(/'/g, "\\'") + "')";
+        var inner = document.createElement("div");
+        inner.className = "scorer-card-inner";
+        var row = document.createElement("div");
+        row.className = "teams-row " + rowClass;
+        groupedTeams.forEach(function (item) {
+          var wrap = document.createElement("div");
+          wrap.className = "team-shield-wrap";
+          if (item.count > 1) {
+            var badge = document.createElement("span");
+            badge.className = "team-stint-count";
+            badge.textContent = item.count + "x";
+            wrap.appendChild(badge);
+          }
+          var img = document.createElement("img");
+          img.src = "escudos/" + item.file;
+          img.alt = "";
+          wrap.appendChild(img);
+          row.appendChild(wrap);
+        });
+        inner.appendChild(row);
+        if (Number(a.guardiao) === 1) {
+          var asaFolder = isSameScorer(a, topGuardian) ? "asa2" : "asa1";
+          var asa = document.createElement("img");
+          asa.className = "scorer-asa";
+          asa.alt = "";
+          registerWingAnim(asa, asaFolder);
+          inner.appendChild(asa);
+        }
+        var profile = document.createElement("img");
+        profile.className = "profile-pic";
+        profile.src = foto;
+        profile.alt = a.name;
+        inner.appendChild(profile);
+        var nameEl = document.createElement("div");
+        nameEl.className = "scorer-name";
+        nameEl.textContent = a.name;
+        inner.appendChild(nameEl);
+        var lvl = document.createElement("div");
+        lvl.className = "scorer-level";
+        lvl.textContent = "Nível " + a.level;
+        inner.appendChild(lvl);
+        div.appendChild(inner);
+        return div;
+      }
+
+      function wheelMetrics(n, stageSize) {
+        var centerRatio = 0.42;
+        var centerHalf = (stageSize * centerRatio) / 2;
+        var padding = stageSize * 0.04;
+        var maxRadius = stageSize / 2 - padding;
+
+        if (n <= 0) {
+          return { slot: 48, radius: maxRadius * 0.72 };
+        }
+
+        var slot = Math.min(88, Math.max(28, (stageSize * 0.95) / (n * 0.42 + 2.2)));
+        var minRadius = centerHalf + slot * 0.85;
+        var byCircumference = (n * slot * 1.15) / (2 * Math.PI);
+        var radius = Math.min(maxRadius - slot * 0.55, Math.max(minRadius, byCircumference));
+
+        if (radius + slot * 0.55 > maxRadius) {
+          slot = Math.max(24, (maxRadius - minRadius + slot * 0.55) * 0.9);
+          radius = Math.min(maxRadius - slot * 0.55, Math.max(minRadius, (n * slot * 1.15) / (2 * Math.PI)));
+        }
+
+        return { slot: Math.round(slot), radius: Math.round(radius) };
+      }
+
+      function renderWheel() {
+        var wheel = document.getElementById("teamWheel");
+        var stage = document.getElementById("wheelStage");
+        var teams = TEAMS.slice();
+        var n = teams.length;
+        var size = Math.min(stage.clientWidth, stage.clientHeight) || 600;
+        var metrics = wheelMetrics(n, size);
+
+        wheel.innerHTML = "";
+        wheel.style.setProperty("--slot-size", metrics.slot + "px");
+
+        teams.forEach(function (t, i) {
+          var angle = n === 1 ? 0 : (360 / n) * i - 90;
+          var slot = document.createElement("div");
+          slot.className = "team-slot";
+          slot.style.setProperty("--angle", angle + "deg");
+          slot.style.setProperty("--radius", metrics.radius + "px");
+          slot.style.setProperty("--slot-size", metrics.slot + "px");
+          slot.title = t.name || "";
+
+          if (Number(t.titles) > 0) {
+            var titles = document.createElement("div");
+            titles.className = "team-titles";
+            var count = document.createElement("span");
+            count.className = "titles-count";
+            count.textContent = t.titles + "x";
+            var trophy = document.createElement("img");
+            trophy.className = "trophy";
+            trophy.src = "outros/trofeu.png";
+            trophy.alt = "";
+            titles.appendChild(count);
+            titles.appendChild(trophy);
+            slot.appendChild(titles);
+          }
+
+          var shield = document.createElement("img");
+          shield.className = "team-shield";
+          shield.src = "escudos/" + t.shield;
+          shield.alt = "";
+          slot.appendChild(shield);
+          wheel.appendChild(slot);
+        });
+      }
+
+      function renderScorers() {
+        var featured = document.getElementById("featuredScorer");
+        var other = document.getElementById("otherScorers");
+        resetWingAnim();
+        featured.innerHTML = "";
+        other.innerHTML = "";
+
+        var sorted = ARTILHEIROS.slice().sort(function (a, b) {
+          return b.level - a.level;
+        });
+        if (!sorted.length) return;
+
+        var topGuardian = getTopGuardian(ARTILHEIROS);
+        featured.appendChild(buildScorerCard(sorted[0], true, topGuardian));
+        sorted.slice(1).forEach(function (a) {
+          other.appendChild(buildScorerCard(a, false, topGuardian));
+        });
+      }
+
+      function render() {
+        renderWheel();
+        renderScorers();
+      }
+
+      var resizeTimer;
+      window.addEventListener("resize", function () {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(renderWheel, 120);
+      });
+
+      if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", render);
+      } else {
+        render();
+      }
+
+      document.getElementById("scorerSearchBtn").addEventListener("click", handleScorerSearch);
+      document.getElementById("scorerSearchInput").addEventListener("keydown", function (e) {
+        if (e.key === "Enter") handleScorerSearch();
+      });
+      document.getElementById("searchModalClose").addEventListener("click", closeSearchModal);
+      document.getElementById("searchOverlay").addEventListener("click", function (e) {
+        if (e.target === e.currentTarget) closeSearchModal();
+      });
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && !document.getElementById("searchOverlay").hidden) closeSearchModal();
+      });
+    })();
+  </script>
+</body>
+</html>
