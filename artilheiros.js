@@ -11,6 +11,7 @@
  *
  * SINCE — data em que o artilheiro entrou no site (YYYY-MM-DD):
  *   since: "2025-06-15"
+ 
  */
 const ARTILHEIROS = [
   {
@@ -252,9 +253,9 @@ const ARTILHEIROS = [
   },
   {
     name: "dani.denaka",
-    level: 2,
+    level: 3,
     foto: "dani.denaka.jpeg",
-    teams: {"palmeiras.png":2},
+    teams: {"palmeiras.png":3},
     guardiao: 0,
   },
   {
@@ -543,9 +544,9 @@ const ARTILHEIROS = [
   },
   {
     name: "Bruno Dourado",
-    level: 2,
+    level: 3,
     foto: "douradoxp.jpeg",
-    teams: {"goias.png":2},
+    teams: {"goias.png":3},
   },
   {
     name: "Vitor",
@@ -673,5 +674,11 @@ const ARTILHEIROS = [
     level: 1,
     foto: "spadettss.jpeg",
     teams: {"internacional.png":1},
+  },
+  {
+    name: "Francisco Lima",
+    level: 2,
+    foto: "franciscolima95.jpeg",
+    teams: {"flamengo.png":2},
   },
 ];
