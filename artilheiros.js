@@ -701,4 +701,16 @@ const ARTILHEIROS = [
     foto: "kaua_silva_xd.jpeg",
     teams: {"gremio.png":1},
   },
+  {
+    name: "Victor Augusto",
+    level: 1,
+    foto: "victoraugustodona0.jpeg",
+    teams: {"corinthians.png":1},
+  },
+   {
+    name: "Livinhacrf",
+    level: 1,
+    foto: "livinhaacrf.jpeg",
+    teams: {"fortaleza.png":1},
+  },
 ];
