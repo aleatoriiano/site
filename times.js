@@ -65,4 +65,5 @@ const TEAMS = [
   { name: "Caxias", titles: 1, shield: "caxias.png" },
   { name: "Al Nassr", titles: 1, shield: "alnassr.png" },
   { name: "São Jose", titles: 1, shield: "sao-jose.png" },
+  { name: "Juventude", titles: 1, shield: "juventude.png" },
 ];
