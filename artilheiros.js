@@ -16,9 +16,9 @@
 const ARTILHEIROS = [
   {
     name: "⚡️尺ㄖᗪ尺丨Ꮆㄖ! 🪁",
-    level: 22,
+    level: 23,
     foto: "digokamikaze.jpeg",
-    teams: {"corinthians.png":7,"botafogo.png":2,"remo.png":2,"boca-juniors.png":1,"figueirense.png":2,"corinthians.png":1},
+    teams: {"corinthians.png":7,"botafogo.png":2,"remo.png":2,"boca-juniors.png":1,"figueirense.png":2,"corinthians.png":2},
     guardiao: 1,
   },
   {
@@ -50,7 +50,7 @@ const ARTILHEIROS = [
   },
   {
     name: "voando_alto",
-    level: 1788,
+    level: 1789,
     foto: "voando___alto.jpeg",
     teams: {"gremio.png":216,"cascavel.png":1,
             "barcelona.png":1,"coritiba.png":6,
@@ -65,7 +65,7 @@ const ARTILHEIROS = [
             "kawasakifrontale.png":1,"novorizontino.png":1,
             "paysandu.png":2,"voando___alto.png":63,
             "tunaluso.png":1,"bahia.png":1,"vasco.png":1,
-            "cruzeiro.png":200, "alnassr.png":1, "juventude":1},
+            "cruzeiro.png":200, "alnassr.png":1, "juventude.png":1, "vitoria.png":1},
     guardiao: 1,
   },
   {
@@ -135,7 +135,7 @@ const ARTILHEIROS = [
     name: "🇧🇼 Maicon 🇪🇪",
     level: 21,
     foto: "maicon.cansi.jpeg",
-    teams: {"gremio.png":14, "sao-jose.png":1},
+    teams: {"gremio.png":14, "sao-jose.png":1, "coritiba.png":1},
     guardiao: 0,
   },
   {
