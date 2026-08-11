@@ -3,7 +3,7 @@
  * A ordem na tela é automática: mais títulos primeiro; em empate, ordem alfabética do nome.
  */
 const TEAMS = [
-  { name: "Corinthians", titles: 35, shield: "corinthians.png" },
+  { name: "Corinthians", titles: 36, shield: "corinthians.png" },
   { name: "Atlético Mineiro", titles: 141, shield: "atletico-mg.png" },
   { name: "Vasco", titles: 8, shield: "vasco.png" },
   { name: "Grêmio", titles: 441, shield: "gremio.png" },
@@ -17,9 +17,9 @@ const TEAMS = [
   { name: "Botafogo", titles: 4, shield: "botafogo.png" },
   { name: "Mirassol", titles: 2, shield: "mirassol.png" },
   { name: "Atlético Paranaense", titles: 0, shield: "athletico-pr.png" },
-  { name: "Cruzeiro", titles: 113, shield: "cruzeiro.png" },
+  { name: "Cruzeiro", titles: 114, shield: "cruzeiro.png" },
   { name: "Fluminense", titles: 1, shield: "fluminense.png" },
-  { name: "Coritiba", titles: 8, shield: "coritiba.png" },
+  { name: "Coritiba", titles: 9, shield: "coritiba.png" },
   { name: "Chapecoense", titles: 1, shield: "chapecoense.png" },
   { name: "Sao Paulo", titles: 7, shield: "sao-paulo.png" },
   { name: "Portuguesa", titles: 1, shield: "portuguesa.png" },
@@ -35,7 +35,7 @@ const TEAMS = [
   { name: "Mazembe", titles: 3, shield: "mazembe.png" },
   { name: "Boca Juniors", titles: 1, shield: "boca-juniors.png" },
   { name: "Joinville", titles: 1, shield: "joinville.png" },
-  { name: "Vitoria", titles: 4, shield: "vitoria.png" },
+  { name: "Vitoria", titles: 5, shield: "vitoria.png" },
   { name: "fortaleza", titles: 4, shield: "fortaleza.png" },
   { name: "Atletico Goia", titles: 2, shield: "athletico-pr.png" },
   { name: "Trem", titles: 2, shield: "trem.png" },
