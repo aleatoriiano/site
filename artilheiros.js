@@ -401,7 +401,7 @@ const ARTILHEIROS = [
     name: "Jana",
     level: 3,
     foto: "n.jpeg",
-    teams: {"criciuma.png":3},
+    teams: {"criciuma.jpeg":3},
   },
   {
     name: "Gollllllll",
