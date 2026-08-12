@@ -400,8 +400,8 @@ const ARTILHEIROS = [
   {
     name: "Jana",
     level: 3,
-    foto: "n.jpeg",
-    teams: {"criciuma.jpeg":3},
+    foto: "janaiiinadm.jpeg",
+    teams: {"criciuma.png":3},
   },
   {
     name: "Gollllllll",
