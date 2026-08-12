@@ -50,13 +50,13 @@ const ARTILHEIROS = [
   },
   {
     name: "voando_alto",
-    level: 1793,
+    level: 1798,
     foto: "voando___alto.jpeg",
     teams: {"gremio.png":219,"cascavel.png":1,
             "barcelona.png":1,"coritiba.png":6,
             "criciuma.png":4,"goianesia.png":1,
             "mazembe.png":4,"vitoria.png":1,
-            "botafogo.png":2,"flamengo.png":4,
+            "botafogo.png":2,"flamengo.png":5,
             "athletico-pr.png":2,
             "corinthians.png":3,
             "mirassol.png":2,"santos.png":2,
@@ -66,7 +66,8 @@ const ARTILHEIROS = [
             "paysandu.png":2,"voando___alto.png":63,
             "tunaluso.png":1,"bahia.png":1,"vasco.png":1,
             "cruzeiro.png":200, "alnassr.png":1,
-            "juventude.png":1, "vitoria.png":1},
+            "juventude.png":1, "vitoria.png":1,  "palmeiras.png": 1},
+            
     guardiao: 1,
   },
   {
