@@ -399,9 +399,9 @@ const ARTILHEIROS = [
   },
   {
     name: "Jana",
-    level: 2,
-    foto: "https://p19-common-sign.tiktokcdn.com/tos-alisg-avt-0068/7dc468483b21ef3631e867a97608af96~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=a4a8295c&x-expires=1785463200&x-signature=uxqW4Ii8aQBPmYm9cWUIxOIsMAY%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=my",
-    teams: {"criciuma.png":2},
+    level: 3,
+    foto: "n.jpeg",
+    teams: {"criciuma.png":3},
   },
   {
     name: "Gollllllll",
