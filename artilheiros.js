@@ -50,9 +50,9 @@ const ARTILHEIROS = [
   },
   {
     name: "voando_alto",
-    level: 1798,
+    level: 1799,
     foto: "voando___alto.jpeg",
-    teams: {"gremio.png":219,"cascavel.png":1,
+    teams: {"gremio.png":220,"cascavel.png":1,
             "barcelona.png":1,"coritiba.png":6,
             "criciuma.png":4,"goianesia.png":1,
             "mazembe.png":4,"vitoria.png":1,
@@ -135,9 +135,9 @@ const ARTILHEIROS = [
   },
   {
     name: "🇧🇼 Maicon 🇪🇪",
-    level: 21,
+    level: 22,
     foto: "maicon.cansi.jpeg",
-    teams: {"gremio.png":14, "sao-jose.png":1, "coritiba.png":1},
+    teams: {"gremio.png":15, "sao-jose.png":1, "coritiba.png":1},
     guardiao: 0,
   },
   {
@@ -205,9 +205,9 @@ const ARTILHEIROS = [
   },
   {
     name: "Scolari",
-    level: 76,
+    level: 127,
     foto: "scolari1993.jpeg",
-    teams: {"gremio.png":13,"bragantino.png":1,"coritiba.png":2,"parana.png":1,"scolari1993.png":1,"paysandu.png":1},
+    teams: {"gremio.png":14,"bragantino.png":1,"coritiba.png":2,"parana.png":1,"scolari1993.png":1,"paysandu.png":1},
     guardiao: 1,
   },
   {
@@ -491,9 +491,9 @@ const ARTILHEIROS = [
   },
   {
     name: "Anderson",
-    level: 1,
+    level: 51,
     foto: "anderson.selle.jpeg",
-    teams: {"gremio.png":1},
+    teams: {"gremio.png":3},
   },
   {
     name: "Elberty Toledo",
@@ -718,6 +718,12 @@ const ARTILHEIROS = [
     name: "Ronam Tielly",
     level: 1,
     foto: "ronamtielly.jpeg",
+    teams: {"cruzeiro.png":1},
+  },
+  {
+    name: "Luiz Carlos",
+    level: 1,
+    foto: "luizcarlos5cma.jpeg",
     teams: {"cruzeiro.png":1},
   },
 ];
