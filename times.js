@@ -13,7 +13,7 @@ const TEAMS = [
   { name: "Remo", titles: 8, shield: "remo.png" },
   { name: "Bahia", titles: 1, shield: "bahia.png" },
   { name: "Internacional", titles: 6, shield: "internacional.png" },
-  { name: "Real Madrid", titles: 1, shield: "real-madrid.png" },
+  { name: "Real Madrid", titles: 2, shield: "real-madrid.png" },
   { name: "Botafogo", titles: 4, shield: "botafogo.png" },
   { name: "Mirassol", titles: 2, shield: "mirassol.png" },
   { name: "Atlético Paranaense", titles: 0, shield: "athletico-pr.png" },
@@ -30,7 +30,7 @@ const TEAMS = [
   { name: "Caxias", titles: 1, shield: "caxias.png" },
   { name: "Barcelona", titles: 1, shield: "barcelona.png" },
   { name: "Figueirense", titles: 3, shield: "figueirense.png" },
-  { name: "Criciuma", titles: 8, shield: "criciuma.png" },
+  { name: "Criciuma", titles: 10, shield: "criciuma.png" },
   { name: "Goianesia", titles: 1, shield: "goianesia.png" },
   { name: "Mazembe", titles: 3, shield: "mazembe.png" },
   { name: "Boca Juniors", titles: 1, shield: "boca-juniors.png" },
@@ -66,4 +66,5 @@ const TEAMS = [
   { name: "Al Nassr", titles: 1, shield: "alnassr.png" },
   { name: "São Jose", titles: 1, shield: "sao-jose.png" },
   { name: "Juventude", titles: 1, shield: "juventude.png" },
+  { name: "Chelsea", titles: 2, shield: "chelsea.png" },
 ];
