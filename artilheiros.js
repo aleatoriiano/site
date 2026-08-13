@@ -596,9 +596,9 @@ const ARTILHEIROS = [
   },
   {
     name: "𝑹𝑵⚡️9️⃣",
-    level: 1,
+    level: 4,
     foto: "silvasz.r9.jpeg",
-    teams: {"atletico-mg.png":1},
+    teams: {"atletico-mg.png":1, "real-madrid.png":1, "chelsea.png":2},
   },
   {
     name: "Carlos Kayque de Oli",
@@ -725,5 +725,11 @@ const ARTILHEIROS = [
     level: 1,
     foto: "luizcarlos5cma.jpeg",
     teams: {"cruzeiro.png":1},
+  },
+ {
+    name: "Renan Fogaça Bitencourt",
+    level: 1,
+    foto: "renan.fogaca.bitencourt.jpeg",
+    teams: {"criciuma.png":1},
   },
 ];
