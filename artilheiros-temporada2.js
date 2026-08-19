@@ -12,4 +12,12 @@
  *   since: "2025-06-15"
  */
 window.ARTILHEIROS_BY_SEASON = window.ARTILHEIROS_BY_SEASON || {};
-window.ARTILHEIROS_BY_SEASON[2] = [];
+window.ARTILHEIROS_BY_SEASON[2] = [
+  {
+    name: "voando_alto",
+    level: 1799,
+    foto: "voando___alto.jpeg",
+    teams: {"gremio.png":220,},
+    guardiao: 1,
+  },
+];
