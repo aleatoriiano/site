@@ -1,8 +1,10 @@
 /**
- * Rank de times — edite este array para alterar nomes, títulos e arquivo do escudo (pasta escudos/).
+ * Temporada 1 — rank de times.
+ * Edite este array para alterar nomes, títulos e arquivo do escudo (pasta escudos/).
  * A ordem na tela é automática: mais títulos primeiro; em empate, ordem alfabética do nome.
  */
-const TEAMS = [
+window.TEAMS_BY_SEASON = window.TEAMS_BY_SEASON || {};
+window.TEAMS_BY_SEASON[1] = [
   { name: "Corinthians", titles: 36, shield: "corinthians.png" },
   { name: "Atlético Mineiro", titles: 141, shield: "atletico-mg.png" },
   { name: "Vasco", titles: 8, shield: "vasco.png" },

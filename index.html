@@ -400,6 +400,44 @@
       }
     }
 
+    .season-select-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .season-select-wrap select {
+      padding: 0.45rem 0.65rem;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--bg-card);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-transform: none;
+      letter-spacing: 0;
+      cursor: pointer;
+    }
+
+    .season-select-wrap select:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.2);
+    }
+
+    .empty-season {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      padding: 1.5rem 1rem;
+    }
+
     .search-topbar {
       display: flex;
       gap: 0.5rem;
@@ -592,6 +630,13 @@
         <img class="logo-site" src="outros/icone.png" alt="Ícone Roda de Times" width="96" height="96" />
       </header>
       <div class="search-topbar">
+        <label class="season-select-wrap" for="seasonSelect">
+          Temporada
+          <select id="seasonSelect">
+            <option value="2" selected>Temporada 2</option>
+            <option value="1">Temporada 1</option>
+          </select>
+        </label>
         <input type="text" id="scorerSearchInput" placeholder="Nome do artilheiro..." autocomplete="off" />
         <button type="button" id="scorerSearchBtn">Buscar Artilheiro</button>
       </div>
@@ -612,8 +657,25 @@
 
   <script src="times.js"></script>
   <script src="artilheiros.js"></script>
+  <script src="times-temporada2.js"></script>
+  <script src="artilheiros-temporada2.js"></script>
   <script>
     (function () {
+      var DEFAULT_SEASON = 2;
+      var currentSeason = DEFAULT_SEASON;
+      var TEAMS = [];
+      var ARTILHEIROS = [];
+
+      function applySeason(season) {
+        currentSeason = Number(season) || DEFAULT_SEASON;
+        TEAMS = (window.TEAMS_BY_SEASON && window.TEAMS_BY_SEASON[currentSeason]) || [];
+        ARTILHEIROS = (window.ARTILHEIROS_BY_SEASON && window.ARTILHEIROS_BY_SEASON[currentSeason]) || [];
+        var select = document.getElementById("seasonSelect");
+        if (select && String(select.value) !== String(currentSeason)) {
+          select.value = String(currentSeason);
+        }
+      }
+
       function esc(s) {
         return String(s)
           .replace(/&/g, "&amp;")
@@ -1040,7 +1102,10 @@
         var sorted = ARTILHEIROS.slice().sort(function (a, b) {
           return b.level - a.level;
         });
-        if (!sorted.length) return;
+        if (!sorted.length) {
+          other.innerHTML = '<p class="empty-season">Temporada nova — ainda sem artilheiros.</p>';
+          return;
+        }
 
         var topGuardian = getTopGuardian(ARTILHEIROS);
         featured.appendChild(buildScorerCard(sorted[0], true, topGuardian));
@@ -1060,11 +1125,18 @@
         resizeTimer = setTimeout(renderWheel, 120);
       });
 
+      applySeason(DEFAULT_SEASON);
       if (document.readyState === "loading") {
         document.addEventListener("DOMContentLoaded", render);
       } else {
         render();
       }
+
+      document.getElementById("seasonSelect").addEventListener("change", function () {
+        applySeason(this.value);
+        closeSearchModal();
+        render();
+      });
 
       document.getElementById("scorerSearchBtn").addEventListener("click", handleScorerSearch);
       document.getElementById("scorerSearchInput").addEventListener("keydown", function (e) {

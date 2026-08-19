@@ -11,9 +11,11 @@
  *
  * SINCE — data em que o artilheiro entrou no site (YYYY-MM-DD):
  *   since: "2025-06-15"
- 
+ *
+ * Este arquivo é a Temporada 1. A Temporada 2 está em artilheiros-temporada2.js.
  */
-const ARTILHEIROS = [
+window.ARTILHEIROS_BY_SEASON = window.ARTILHEIROS_BY_SEASON || {};
+window.ARTILHEIROS_BY_SEASON[1] = [
   {
     name: "⚡️尺ㄖᗪ尺丨Ꮆㄖ! 🪁",
     level: 23,
