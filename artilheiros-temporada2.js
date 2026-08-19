@@ -15,7 +15,7 @@ window.ARTILHEIROS_BY_SEASON = window.ARTILHEIROS_BY_SEASON || {};
 window.ARTILHEIROS_BY_SEASON[2] = [
   {
     name: "voando_alto",
-    level: 11,
+    level: 14,
     foto: "voando___alto.jpeg",
     teams: {"gremio.png":11,},
     guardiao: 1,
