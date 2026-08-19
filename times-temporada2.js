@@ -5,4 +5,5 @@
 window.TEAMS_BY_SEASON = window.TEAMS_BY_SEASON || {};
 window.TEAMS_BY_SEASON[2] = [
   { name: "Gremio", titles: 17, shield: "gremio.png" },
+  { name: "Vitoria", titles: 1, shield: "vitoria.png" },
 ];
