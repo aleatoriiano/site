@@ -20,4 +20,11 @@ window.ARTILHEIROS_BY_SEASON[2] = [
     teams: {"gremio.png":17, "vitoria.png":1},
     guardiao: 1,
   },
+  {
+    name: "Kevin Nunes da Silva",
+    level: 1,
+    foto: "kevinnunesdasi556.jpeg",
+    teams: {"mirassol.png":1},
+    guardiao: 0,
+  },
 ];
