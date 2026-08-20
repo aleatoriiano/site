@@ -12,6 +12,6 @@ window.TEAMS_BY_SEASON[2] = [
   { name: "Flamengo", titles: 1, shield: "flamengo.png" },
   { name: "Ibis", titles: 1, shield: "ibis.png" },
   { name: "Fluminense", titles: 0, shield: "fluminense.png" },
-  { name: "Botafogo", titles: 0, shield: "botafogo.png" },
+  { name: "Botafogo", titles: 1, shield: "botafogo.png" },
   { name: "Bahia", titles: 0, shield: "bahia.png" },
 ];
