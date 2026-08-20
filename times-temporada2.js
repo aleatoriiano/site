@@ -4,9 +4,14 @@
  */
 window.TEAMS_BY_SEASON = window.TEAMS_BY_SEASON || {};
 window.TEAMS_BY_SEASON[2] = [
-  { name: "Gremio", titles: 17, shield: "gremio.png" },
+  { name: "Gremio", titles: 20, shield: "gremio.png" },
   { name: "Vitoria", titles: 1, shield: "vitoria.png" },
    { name: "Mirassol", titles: 1, shield: "mirassol.png" },
-  { name: "remo", titles: 0, shield: "remo.png" },
-  { name: "corinthians", titles: 0, shield: "corinthians.png" },
+  { name: "Remo", titles: 0, shield: "remo.png" },
+  { name: "Corinthians", titles: 0, shield: "corinthians.png" },
+  { name: "Flamengo", titles: 1, shield: "flamengo.png" },
+  { name: "Ibis", titles: 1, shield: "ibis.png" },
+  { name: "Fluminense", titles: 0, shield: "fluminense.png" },
+  { name: "Botafogo", titles: 0, shield: "botafogo.png" },
+  { name: "Bahia", titles: 0, shield: "bahia.png" },
 ];
