@@ -41,4 +41,11 @@ window.ARTILHEIROS_BY_SEASON[2] = [
     teams: {"flamengo.png":1},
     guardiao: 0,
   },
+   {
+    name: "🦋Gleicy Araujo✨",
+    level: 2,
+    foto: "gleicyaraujo_.jpeg",
+    teams: {"corinthians.png":2},
+    guardiao: 0,
+  },
 ];
