@@ -48,4 +48,11 @@ window.ARTILHEIROS_BY_SEASON[2] = [
     teams: {"corinthians.png":2},
     guardiao: 0,
   },
+   {
+    name: "darlã",
+    level: 1,
+    foto: "darloliveira2.jpeg",
+    teams: {"botafogo.png":1},
+    guardiao: 0,
+  },
 ];
