@@ -27,4 +27,18 @@ window.ARTILHEIROS_BY_SEASON[2] = [
     teams: {"mirassol.png":1},
     guardiao: 0,
   },
+   {
+    name: "Universo Links shop",
+    level: 4,
+    foto: "universo_links_shop.jpeg",
+    teams: {"gremio.png":3, "ibis.png":1,},
+    guardiao: 0,
+  },
+   {
+    name: "Luã Santtos",
+    level: 1,
+    foto: "eucariocarj.jpeg",
+    teams: {"flamengo.png":1},
+    guardiao: 0,
+  },
 ];
