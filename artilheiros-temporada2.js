@@ -84,13 +84,6 @@ window.ARTILHEIROS_BY_SEASON[2] = [
     guardiao: 0,
   },
   {
-    name: "Matheus",
-    level: 3,
-    foto: "matheus.malta.mar.jpeg",
-    teams: {"crb.png":1},
-    guardiao: 0,
-  },
-  {
     name: "tiringuinha_imitador",
     level: 1,
     foto: "tiringuinha_imitador.jpeg",
