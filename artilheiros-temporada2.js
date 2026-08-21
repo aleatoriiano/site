@@ -15,9 +15,9 @@ window.ARTILHEIROS_BY_SEASON = window.ARTILHEIROS_BY_SEASON || {};
 window.ARTILHEIROS_BY_SEASON[2] = [
   {
     name: "voando_alto",
-    level: 24,
+    level: 31,
     foto: "voando___alto.jpeg",
-    teams: {"gremio.png":23, "vitoria.png":1},
+    teams: {"gremio.png":30, "vitoria.png":1},
     guardiao: 1,
   },
   {
@@ -73,6 +73,41 @@ window.ARTILHEIROS_BY_SEASON[2] = [
     name: "WeslleY JR💕🐝",
     level: 1,
     foto: "wescashmoney.jpeg",
+    teams: {"flamengo.png":1},
+    guardiao: 0,
+  },
+  {
+    name: "Matheus",
+    level: 3,
+    foto: "matheus.malta.mar.jpeg",
+    teams: {"crb.png":1},
+    guardiao: 0,
+  },
+  {
+    name: "Matheus",
+    level: 3,
+    foto: "matheus.malta.mar.jpeg",
+    teams: {"crb.png":1},
+    guardiao: 0,
+  },
+  {
+    name: "tiringuinha_imitador",
+    level: 1,
+    foto: "tiringuinha_imitador.jpeg",
+    teams: {"santos.png":1},
+    guardiao: 0,
+  },
+  {
+    name: "fabianomarques9466",
+    level: 1,
+    foto: "fabianomarques9466.jpeg",
+    teams: {"cruzeiro.png":1},
+    guardiao: 0,
+  },
+  {
+    name: "ronaldsilvaofc_",
+    level: 1,
+    foto: "ronaldsilvaofc_.jpeg",
     teams: {"flamengo.png":1},
     guardiao: 0,
   },
