@@ -62,4 +62,18 @@ window.ARTILHEIROS_BY_SEASON[2] = [
     teams: {"vitoria.png":1, "brasil-de-pelotas.png": 1},
     guardiao: 0,
   },
+   {
+    name: "KN ADVOGADO",
+    level: 2,
+    foto: "4kargentina.jpeg",
+    teams: {"brasil-de-pelotas.png":1},
+    guardiao: 0,
+  },
+   {
+    name: "WeslleY JR💕🐝",
+    level: 1,
+    foto: "wescashmoney.jpeg",
+    teams: {"flamengo.png":1},
+    guardiao: 0,
+  },
 ];
