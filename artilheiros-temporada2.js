@@ -57,9 +57,9 @@ window.ARTILHEIROS_BY_SEASON[2] = [
   },
   {
     name: "bruno",
-    level: 1,
+    level: 2,
     foto: "bruno.geb.jpeg",
-    teams: {"vitoria.png":1},
+    teams: {"vitoria.png":1, "brasil-de-pelotas.png": 1},
     guardiao: 0,
   },
 ];
