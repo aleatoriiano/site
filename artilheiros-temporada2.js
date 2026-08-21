@@ -66,7 +66,7 @@ window.ARTILHEIROS_BY_SEASON[2] = [
     name: "KN ADVOGADO",
     level: 2,
     foto: "4kargentina.jpeg",
-    teams: {"brasil-de-pelotas.png" 2},
+    teams: {"brasil-de-pelotas.png": 2},
     guardiao: 0,
   },
    {
