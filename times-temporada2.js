@@ -4,11 +4,11 @@
  */
 window.TEAMS_BY_SEASON = window.TEAMS_BY_SEASON || {};
 window.TEAMS_BY_SEASON[2] = [
-  { name: "Gremio", titles: 32, shield: "gremio.png" },
-  { name: "Vitoria", titles: 2, shield: "vitoria.png" },
+  { name: "Gremio", titles: 33, shield: "gremio.png" },
+  { name: "Vitoria", titles: 3, shield: "vitoria.png" },
    { name: "Mirassol", titles: 1, shield: "mirassol.png" },
   { name: "Remo", titles: 0, shield: "remo.png" },
-  { name: "Corinthians", titles: 2, shield: "corinthians.png" },
+  { name: "Corinthians", titles: 4, shield: "corinthians.png" },
   { name: "Flamengo", titles: 3, shield: "flamengo.png" },
   { name: "Ibis", titles: 1, shield: "ibis.png" },
   { name: "Fluminense", titles: 0, shield: "fluminense.png" },
@@ -18,5 +18,5 @@ window.TEAMS_BY_SEASON[2] = [
   { name: "Brasil de Pelotas", titles: 1, shield: "brasil-de-pelotas.png" },
   { name: "CRB", titles: 3, shield: "crb.png" },
   { name: "Santos", titles: 1, shield: "santos.png" },
-  { name: "Cruzeiro", titles: 1, shield: "cruzeiro.png" }
+  { name: "Paysandu", titles: 1, shield: "paysandu.png" }
 ];
