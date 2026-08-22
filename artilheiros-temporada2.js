@@ -15,9 +15,9 @@ window.ARTILHEIROS_BY_SEASON = window.ARTILHEIROS_BY_SEASON || {};
 window.ARTILHEIROS_BY_SEASON[2] = [
   {
     name: "voando_alto",
-    level: 31,
+    level: 32,
     foto: "voando___alto.jpeg",
-    teams: {"gremio.png":30, "vitoria.png":1},
+    teams: {"gremio.png":31, "vitoria.png":1},
     guardiao: 1,
   },
   {
@@ -102,6 +102,27 @@ window.ARTILHEIROS_BY_SEASON[2] = [
     level: 1,
     foto: "ronaldsilvaofc_.jpeg",
     teams: {"flamengo.png":1},
+    guardiao: 0,
+  },
+   {
+    name: "⚡️尺ㄖᗪ尺丨Ꮆㄖ! 🪁",
+    level: 2,
+    foto: "digokamikaze.jpeg",
+    teams: {"corinthians.png":2},
+    guardiao: 0,
+  },
+     {
+    name: "MK",
+    level: 1,
+    foto: "mkdaslives.jpeg",
+    teams: {"vitoria.png":1},
+    guardiao: 0,
+  },
+     {
+    name: "꧁ঔৣ☬✞ Elton ✞☬ঔৣ꧂",
+    level: 1,
+    foto: "eltonpatric145.jpeg",
+    teams: {"paysandu.png":1},
     guardiao: 0,
   },
 ];
