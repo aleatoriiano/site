@@ -15,9 +15,9 @@ window.ARTILHEIROS_BY_SEASON = window.ARTILHEIROS_BY_SEASON || {};
 window.ARTILHEIROS_BY_SEASON[2] = [
   {
     name: "voando_alto",
-    level: 32,
+    level: 33,
     foto: "voando___alto.jpeg",
-    teams: {"gremio.png":31, "vitoria.png":1},
+    teams: {"gremio.png":32, "vitoria.png":1, "vasco.png":1},
     guardiao: 1,
   },
   {
@@ -123,6 +123,34 @@ window.ARTILHEIROS_BY_SEASON[2] = [
     level: 1,
     foto: "eltonpatric145.jpeg",
     teams: {"paysandu.png":1},
+    guardiao: 0,
+  },
+   {
+    name: "Marcos Penelu",
+    level: 1,
+    foto: "marcospenelu.jpeg",
+    teams: {"vitoria.png":1},
+    guardiao: 0,
+  },
+   {
+    name: "Marco",
+    level: 1,
+    foto: "marco_lopes05.jpeg",
+    teams: {"gremio.png":1},
+    guardiao: 0,
+  },
+   {
+    name: "Roma",
+    level: 1,
+    foto: "roma63803.jpeg",
+    teams: {"ceara.png":1},
+    guardiao: 0,
+  },
+   {
+    name: "manuella",
+    level: 1,
+    foto: "alice.rosa.vasco.jpeg",
+    teams: {"vasco.png":1},
     guardiao: 0,
   },
 ];
