@@ -19,7 +19,7 @@ window.TEAMS_BY_SEASON[2] = [
   { name: "CRB", titles: 3, shield: "crb.png" },
   { name: "Santos", titles: 1, shield: "santos.png" },
   { name: "Paysandu", titles: 1, shield: "paysandu.png" },
-  { name: "vasco", titles: 4, shield: "vasco.png" },
+  { name: "vasco", titles: 5, shield: "vasco.png" },
   { name: "ceara", titles: 2, shield: "ceara.png" },
   { name: "Amazonas", titles: 2, shield: "amazonas.png" },
 ];
