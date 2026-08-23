@@ -15,9 +15,9 @@ window.ARTILHEIROS_BY_SEASON = window.ARTILHEIROS_BY_SEASON || {};
 window.ARTILHEIROS_BY_SEASON[2] = [
   {
     name: "voando_alto",
-    level: 33,
+    level: 35,
     foto: "voando___alto.jpeg",
-    teams: {"gremio.png":32, "vitoria.png":1, "vasco.png":1},
+    teams: {"gremio.png":32, "vitoria.png":1, "vasco.png":2},
     guardiao: 1,
   },
   {
@@ -151,6 +151,20 @@ window.ARTILHEIROS_BY_SEASON[2] = [
     level: 1,
     foto: "alice.rosa.vasco.jpeg",
     teams: {"vasco.png":1},
+    guardiao: 0,
+  },
+   {
+    name: "💢🖤🤍vidinhadaloh8🖤🤍💢",
+    level: 1,
+    foto: "vidinhadaloh8.jpeg",
+    teams: {"vasco.png":1},
+    guardiao: 0,
+  },
+   {
+    name: "DosAnjos 🎭",
+    level: 1,
+    foto: "dosanjosgg.vasco.jpeg",
+    teams: {"amazonas.png":1},
     guardiao: 0,
   },
 ];
