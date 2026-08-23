@@ -174,4 +174,18 @@ window.ARTILHEIROS_BY_SEASON[2] = [
     teams: {"botafogo.png":2},
     guardiao: 0,
   },
+  {
+    name: "Pedro Tavares",
+    level: 9,
+    foto: "pedrinho1308pt.jpeg",
+    teams: {"gremio.png":9},
+    guardiao: 0,
+  },
+  {
+    name: "tropa",
+    level: 1,
+    foto: "branco158.jpeg",
+    teams: {"vasco.png":1},
+    guardiao: 0,
+  },
 ];
