@@ -163,7 +163,7 @@ window.ARTILHEIROS_BY_SEASON[2] = [
    {
     name: "DosAnjos 🎭",
     level: 1,
-    foto: "dosanjosgg.vasco.jpeg",
+    foto: "dosanjosgg.jpeg",
     teams: {"amazonas.png":1},
     guardiao: 0,
   },
