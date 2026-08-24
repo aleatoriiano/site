@@ -15,9 +15,9 @@ window.ARTILHEIROS_BY_SEASON = window.ARTILHEIROS_BY_SEASON || {};
 window.ARTILHEIROS_BY_SEASON[2] = [
   {
     name: "voando_alto",
-    level: 37,
+    level: 46,
     foto: "voando___alto.jpeg",
-    teams: {"gremio.png":34, "vitoria.png":1, "vasco.png":2},
+    teams: {"gremio.png":36, "vitoria.png":1, "vasco.png":2, "remo.png":2},
     guardiao: 1,
   },
   {
@@ -182,9 +182,16 @@ window.ARTILHEIROS_BY_SEASON[2] = [
     guardiao: 0,
   },
   {
-    name: "tropa",
+    name: "Gollllllll",
     level: 1,
-    foto: "branco158.jpeg",
+    foto: "goooooolllll3.jpeg",
+    teams: {"palmeiras.png":1},
+    guardiao: 0,
+  },
+    {
+    name: "el baiby",
+    level: 1,
+    foto: "elbaiby.4.jpeg",
     teams: {"vasco.png":1},
     guardiao: 0,
   },
